@@ -1,0 +1,26 @@
+modality:
+  screenImg:
+    max_freq: 1
+    freq_bands: 6
+    freq_base: 2
+    additional_dim: 384
+    modality_latent_len: 16
+    modelity_weight: 0.9
+  screenWireframeImg:
+    max_freq: 1
+    freq_bands: 6
+    freq_base: 2
+    additional_dim: 384
+    modality_latent_len: 16
+    modelity_weight: 0.1
+
+network_type: MultimodalTransformerWF
+
+network:
+  hidden_size: 64
+  latent_length: 32
+  n_heads: 8
+  n_blocks: 4
+  dropout_rate: 0.1
+  pred_dim: 20
+  mlp_ratio: 4

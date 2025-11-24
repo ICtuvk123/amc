@@ -1,0 +1,39 @@
+modality:
+  code_x:
+    max_freq: 1
+    freq_bands: 3
+    freq_base: 2
+    additional_dim: 768
+    modality_latent_len: 128
+    modelity_weight: 1
+    token_fusion_topk_ratio: 0.1
+  note_x:
+    max_freq: 1
+    freq_bands: 3
+    freq_base: 2
+    additional_dim: 768
+    modality_latent_len: 128
+    modelity_weight: 1
+    token_fusion_topk_ratio: 0.1
+  lab_x:
+    max_freq: 1
+    freq_bands: 3
+    freq_base: 2
+    additional_dim: 790
+    modality_latent_len: 128
+    modelity_weight: 1
+    token_fusion_topk_ratio: 0.1
+
+network_type: MultimodalTransformerUniTokenFusionV4
+
+network:
+  hidden_size: 64
+  latent_length: 64
+  n_heads: 8
+  n_blocks: 2
+  dropout_rate: 0.
+  pred_dim: 2
+  mlp_ratio: 4
+  fusion_type: max
+  num_experts: 8
+  topk: 2
