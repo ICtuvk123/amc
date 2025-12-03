@@ -1,0 +1,652 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "iconClass": "home",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.deviantart.android.damobile:id/discovery_button",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        2224,
+        288,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "favorite",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.deviantart.android.damobile:id/watchlist_button",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        288,
+        2224,
+        576,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "chat",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.deviantart.android.damobile:id/notifications_button",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        864,
+        2224,
+        1152,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        412,
+        1646,
+        588,
+        1822
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "resource-id": "com.deviantart.android.damobile:id/home_tabs",
+      "ancestors": [
+        "com.deviantart.android.damobile.view.viewpageindicator.DATabIndicator",
+        "com.deviantart.android.damobile.view.viewpageindicator.CustomizableTabPageIndicator",
+        "android.widget.HorizontalScrollView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.deviantart.android.damobile.view.viewpageindicator.DATextTabIndicator",
+      "bounds": [
+        0,
+        280,
+        1440,
+        448
+      ],
+      "componentLabel": "Pager Indicator"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.deviantart.android.damobile:id/submit_button_image",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        576,
+        2224,
+        864,
+        2392
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1152,
+        2224,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        634,
+        1199,
+        856,
+        1421
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "visibility",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        872,
+        1479,
+        1048,
+        1655
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Icon"
+    },
+    {
+      "resource-id": "com.deviantart.android.damobile:id/home_toolbar",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            56,
+            153,
+            678,
+            211
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "search",
+          "resource-id": "com.deviantart.android.damobile:id/action_search",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1076,
+            98,
+            1244,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.SimpleDraweeView",
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1294,
+            134,
+            1389,
+            229
+          ],
+          "clickable": false,
+          "class": "com.deviantart.android.damobile.view.UserAvatar",
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "iconClass": "star",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.deviantart.android.damobile:id/fave_button_image",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        296,
+        1133,
+        534,
+        1371
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "resource-id": "com.deviantart.android.damobile:id/fave_view",
+      "children": [
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.deviantart.android.damobile:id/drawee_view",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            10,
+            280,
+            710,
+            524
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.deviantart.android.damobile.view.DAFaveView",
+      "bounds": [
+        10,
+        280,
+        710,
+        524
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.deviantart.android.damobile:id/fave_view",
+      "children": [
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.deviantart.android.damobile:id/drawee_view",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            730,
+            280,
+            1430,
+            524
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.deviantart.android.damobile.view.DAFaveView",
+      "bounds": [
+        730,
+        280,
+        1430,
+        524
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.deviantart.android.damobile:id/fave_view",
+      "children": [
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.deviantart.android.damobile:id/drawee_view",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            10,
+            544,
+            674,
+            1012
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.deviantart.android.damobile.view.DAFaveView",
+      "bounds": [
+        10,
+        544,
+        674,
+        1012
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.deviantart.android.damobile:id/fave_view",
+      "children": [
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.deviantart.android.damobile:id/drawee_view",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            694,
+            544,
+            1430,
+            1012
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.deviantart.android.damobile.view.DAFaveView",
+      "bounds": [
+        694,
+        544,
+        1430,
+        1012
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.deviantart.android.damobile:id/fave_view",
+      "children": [
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.deviantart.android.damobile:id/drawee_view",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            10,
+            1032,
+            674,
+            1464
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.deviantart.android.damobile.view.DAFaveView",
+      "bounds": [
+        10,
+        1032,
+        674,
+        1464
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.deviantart.android.damobile:id/fave_view",
+      "children": [
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.deviantart.android.damobile:id/drawee_view",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            694,
+            1032,
+            1430,
+            1464
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.deviantart.android.damobile.view.DAFaveView",
+      "bounds": [
+        694,
+        1032,
+        1430,
+        1464
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.deviantart.android.damobile:id/fave_view",
+      "children": [
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.deviantart.android.damobile:id/drawee_view",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            10,
+            1484,
+            854,
+            2132
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.deviantart.android.damobile.view.DAFaveView",
+      "bounds": [
+        10,
+        1484,
+        854,
+        2132
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.deviantart.android.damobile:id/fave_view",
+      "children": [
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.deviantart.android.damobile:id/drawee_view",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            874,
+            1484,
+            1430,
+            2132
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.deviantart.android.damobile.view.DAFaveView",
+      "bounds": [
+        874,
+        1484,
+        1430,
+        2132
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.deviantart.android.damobile:id/fave_view",
+      "children": [
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.deviantart.android.damobile:id/drawee_view",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            10,
+            2152,
+            422,
+            2392
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.deviantart.android.damobile.view.DAFaveView",
+      "bounds": [
+        10,
+        2152,
+        422,
+        2392
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.deviantart.android.damobile:id/fave_view",
+      "children": [
+        {
+          "ancestors": [
+            "com.facebook.drawee.view.GenericDraweeView",
+            "com.facebook.drawee.view.DraweeView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.deviantart.android.damobile:id/drawee_view",
+          "clickable": false,
+          "class": "com.facebook.drawee.view.SimpleDraweeView",
+          "bounds": [
+            442,
+            2152,
+            1430,
+            2392
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.deviantart.android.damobile.view.DAFaveView",
+      "bounds": [
+        442,
+        2152,
+        1430,
+        2392
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

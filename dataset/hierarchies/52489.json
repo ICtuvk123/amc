@@ -1,0 +1,398 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "iconClass": "avatar",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.briox.riversip.android.general.israel:id/enter_comment_avatar",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        28,
+        2238,
+        140,
+        2350
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "",
+      "resource-id": "com.briox.riversip.android.general.israel:id/enter_comment",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        168,
+        2196,
+        1266,
+        2392
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "iconClass": "send",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.briox.riversip.android.general.israel:id/send_comment",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1266,
+        2207,
+        1440,
+        2381
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        84,
+        1440,
+        1403
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "The Times Of Israel  •  11h",
+          "resource-id": "com.briox.riversip.android.general.israel:id/metadata",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            0,
+            84,
+            765,
+            149
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Get notified about this topic?",
+          "resource-id": "com.briox.riversip.android.general.israel:id/get_notified",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            609,
+            555,
+            662
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Police, fire department open investigation into blaze that killed 64-year-old resident of Kfar Yafia",
+          "resource-id": "com.briox.riversip.android.general.israel:id/textViewArticleDesc",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.newsfusion.font.TextViewPlus",
+          "bounds": [
+            56,
+            149,
+            1384,
+            300
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "globe",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.briox.riversip.android.general.israel:id/imageViewWebviewIcon",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            56,
+            412,
+            141,
+            497
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Read on  The Times Of Israel",
+          "resource-id": "com.briox.riversip.android.general.israel:id/textViewReadOnSite",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.newsfusion.font.TextViewPlus",
+          "bounds": [
+            141,
+            421,
+            841,
+            487
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Nazareth",
+          "resource-id": "com.briox.riversip.android.general.israel:id/text",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            680,
+            311,
+            774
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.briox.riversip.android.general.israel:id/image",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            315,
+            685,
+            399,
+            769
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Your opinion on this article?",
+          "resource-id": "com.briox.riversip.android.general.israel:id/tags_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            0,
+            858,
+            1440,
+            1007
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "resource-id": "com.briox.riversip.android.general.israel:id/tag1",
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.newsfusion.views.TagView",
+          "bounds": [
+            177,
+            1007,
+            492,
+            1168
+          ],
+          "componentLabel": "Text Button",
+          "text": "0"
+        },
+        {
+          "resource-id": "com.briox.riversip.android.general.israel:id/tag2",
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.newsfusion.views.TagView",
+          "bounds": [
+            562,
+            1007,
+            877,
+            1168
+          ],
+          "componentLabel": "Text Button",
+          "text": "1"
+        },
+        {
+          "resource-id": "com.briox.riversip.android.general.israel:id/tag3",
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.newsfusion.views.TagView",
+          "bounds": [
+            947,
+            1007,
+            1262,
+            1168
+          ],
+          "componentLabel": "Text Button",
+          "text": "0"
+        },
+        {
+          "resource-id": "com.briox.riversip.android.general.israel:id/tag4",
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.newsfusion.views.TagView",
+          "bounds": [
+            370,
+            1168,
+            685,
+            1329
+          ],
+          "componentLabel": "Text Button",
+          "text": "0"
+        },
+        {
+          "resource-id": "com.briox.riversip.android.general.israel:id/tag5",
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.newsfusion.views.TagView",
+          "bounds": [
+            755,
+            1168,
+            1070,
+            1329
+          ],
+          "componentLabel": "Text Button",
+          "text": "0"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.briox.riversip.android.general.israel:id/ad_card",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            28,
+            1517,
+            609,
+            2098
+          ],
+          "clickable": true,
+          "class": "com.facebook.ads.internal.i.p",
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            637,
+            1517,
+            1218,
+            2098
+          ],
+          "clickable": true,
+          "class": "com.facebook.ads.internal.i.p",
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "notifications",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1246,
+            1517,
+            1440,
+            2098
+          ],
+          "clickable": true,
+          "class": "com.facebook.ads.internal.i.p",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.CardView",
+      "bounds": [
+        0,
+        1403,
+        1440,
+        2196
+      ],
+      "componentLabel": "Card"
+    }
+  ]
+}

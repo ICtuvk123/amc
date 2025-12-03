@@ -1,0 +1,379 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.opera.browser.beta:id/action_bar",
+      "children": [
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.opera.browser.beta:id/action_menu",
+          "clickable": true,
+          "class": "com.opera.android.custom_views.StylingImageView",
+          "bounds": [
+            1282,
+            112,
+            1440,
+            252
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "",
+          "resource-id": "com.opera.browser.beta:id/url_field",
+          "ancestors": [
+            "czv",
+            "com.opera.android.custom_views.OperaEditText",
+            "acf",
+            "android.widget.EditText",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.opera.android.custom_views.PrivateEditText",
+          "bounds": [
+            56,
+            119,
+            1282,
+            245
+          ],
+          "componentLabel": "Input"
+        }
+      ],
+      "ancestors": [
+        "y",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.opera.android.bar.ActionBar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "iconClass": "arrow_backward",
+      "ancestors": [
+        "com.opera.android.custom_views.StylingImageButton",
+        "com.opera.android.custom_views.StylingImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.opera.browser.beta:id/bottom_navigation_bar_back_button",
+      "clickable": true,
+      "class": "com.opera.android.custom_views.OrientationButton",
+      "bounds": [
+        0,
+        2234,
+        252,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "resource-id": "com.opera.browser.beta:id/bottom_navigation_bar_forward_reload_button",
+      "children": [
+        {
+          "iconClass": "refresh",
+          "ancestors": [
+            "com.opera.android.custom_views.StylingImageButton",
+            "com.opera.android.custom_views.StylingImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.opera.browser.beta:id/bottom_navigation_bar_reload_button",
+          "clickable": true,
+          "class": "com.opera.android.custom_views.OrientationButton",
+          "bounds": [
+            297,
+            2234,
+            549,
+            2392
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.ViewSwitcher",
+        "android.widget.ViewAnimator",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageSwitcher",
+      "bounds": [
+        297,
+        2234,
+        549,
+        2392
+      ],
+      "componentLabel": "On/Off Switch"
+    },
+    {
+      "iconClass": "home",
+      "ancestors": [
+        "com.opera.android.custom_views.StylingImageButton",
+        "com.opera.android.custom_views.StylingImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.opera.browser.beta:id/bottom_navigation_bar_home_button",
+      "clickable": true,
+      "class": "com.opera.android.custom_views.OrientationButton",
+      "bounds": [
+        594,
+        2234,
+        846,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "avatar",
+      "ancestors": [
+        "com.opera.android.custom_views.StylingImageButton",
+        "com.opera.android.custom_views.StylingImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.opera.browser.beta:id/bottom_navigation_bar_profile_page_button",
+      "clickable": true,
+      "class": "com.opera.android.custom_views.OrientationButton",
+      "bounds": [
+        1188,
+        2234,
+        1440,
+        2392
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "add",
+      "ancestors": [
+        "com.opera.android.custom_views.StylingImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.opera.browser.beta:id/subscribe_more",
+      "clickable": true,
+      "class": "com.opera.android.custom_views.StylingImageButton",
+      "bounds": [
+        1300,
+        280,
+        1440,
+        385
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "com.opera.android.custom_views.OrientationButton",
+        "com.opera.android.custom_views.StylingImageButton",
+        "com.opera.android.custom_views.StylingImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.opera.browser.beta:id/bottom_navigation_bar_tab_count_button",
+      "clickable": true,
+      "class": "com.opera.android.custom_views.TabCountButton",
+      "bounds": [
+        891,
+        2234,
+        1143,
+        2392
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Feed",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        299,
+        106,
+        365
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Social Buzz",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        221,
+        299,
+        478,
+        365
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Friends",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        565,
+        299,
+        727,
+        365
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Politics",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        815,
+        299,
+        980,
+        365
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Sports",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        1077,
+        299,
+        1222,
+        365
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.opera.android.custom_views.LayoutDirectionLinearLayout",
+      "bounds": [
+        0,
+        385,
+        1440,
+        1226
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.opera.browser.beta:id/image",
+          "clickable": false,
+          "class": "aci",
+          "bounds": [
+            0,
+            385,
+            1440,
+            833
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Sign in to Twitter to see content you care about",
+          "resource-id": "com.opera.browser.beta:id/message",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            861,
+            1384,
+            942
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Sign in",
+          "resource-id": "com.opera.browser.beta:id/login",
+          "ancestors": [
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "abw",
+          "bounds": [
+            0,
+            1030,
+            1440,
+            1198
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "login"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

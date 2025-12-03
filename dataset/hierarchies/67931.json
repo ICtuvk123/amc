@@ -1,0 +1,127 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "net.familo.android:id/toolbar",
+      "children": [
+        {
+          "text": "Create your first group now",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.aa",
+          "bounds": [
+            252,
+            135,
+            1102,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.o",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "send",
+          "resource-id": "net.familo.android:id/menu_next",
+          "ancestors": [
+            "android.support.v7.widget.aa",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.familo.android:id/circle_avatar",
+      "clickable": true,
+      "class": "net.familo.android.ui.widget.imageview.RoundImageView",
+      "bounds": [
+        545,
+        336,
+        895,
+        686
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Friends",
+      "resource-id": "net.familo.android:id/edt_circle_name",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.n",
+      "bounds": [
+        84,
+        780,
+        1356,
+        948
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

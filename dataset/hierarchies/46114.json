@@ -1,0 +1,180 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.thirdrock.fivemiles:id/logo",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        196,
+        598,
+        1244,
+        742
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        56,
+        1590,
+        1384,
+        1615
+      ],
+      "clickable": false,
+      "componentLabel": "Pager Indicator"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.thirdrock.fivemiles:id/img_guide",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2392
+      ],
+      "componentLabel": "Background Image"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        56,
+        1727,
+        1384,
+        1923
+      ],
+      "clickable": true,
+      "componentLabel": "Text Button",
+      "textButtonClass": "facebook"
+    },
+    {
+      "text": "Register",
+      "resource-id": "com.thirdrock.fivemiles:id/sign_up",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        70,
+        2147,
+        699,
+        2294
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "register"
+    },
+    {
+      "text": "Sign In",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        741,
+        2147,
+        1370,
+        2294
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "login"
+    },
+    {
+      "text": "Continue with Google",
+      "resource-id": "com.thirdrock.fivemiles:id/btn_google_login",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        56,
+        1923,
+        1384,
+        2119
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "continue"
+    },
+    {
+      "text": "The What:",
+      "resource-id": "com.thirdrock.fivemiles:id/guide_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        196,
+        791,
+        1244,
+        862
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Shop, sell, search preloved goods, services, housing, and jobs.",
+      "resource-id": "com.thirdrock.fivemiles:id/guide_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        196,
+        876,
+        1244,
+        1016
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

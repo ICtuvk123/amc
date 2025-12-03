@@ -1,0 +1,183 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.yatra.base:id/toolbar_actionbar",
+      "children": [
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Offers & Discounts",
+          "resource-id": "com.yatra.base:id/app_header_textview",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            231,
+            139,
+            754,
+            224
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "com.yatra.base:id/card_view_offer_item",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            28,
+            301,
+            1412,
+            1065
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "book"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.CardView",
+      "bounds": [
+        28,
+        301,
+        1412,
+        1065
+      ],
+      "componentLabel": "Card"
+    },
+    {
+      "resource-id": "com.yatra.base:id/card_view_offer_item",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            28,
+            1093,
+            1412,
+            1857
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "book"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.CardView",
+      "bounds": [
+        28,
+        1093,
+        1412,
+        1857
+      ],
+      "componentLabel": "Card"
+    },
+    {
+      "resource-id": "com.yatra.base:id/card_view_offer_item",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            28,
+            1885,
+            1412,
+            2392
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "book"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.CardView",
+      "bounds": [
+        28,
+        1885,
+        1412,
+        2392
+      ],
+      "componentLabel": "Card"
+    }
+  ]
+}

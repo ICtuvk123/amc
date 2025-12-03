@@ -1,0 +1,486 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.waveline.nabd:id/sliding_menu_toolbar",
+      "children": [
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.waveline.nabd:id/menu_btn",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1265,
+            84,
+            1440,
+            280
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "settings",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.waveline.nabd:id/sources_btn",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            84,
+            175,
+            280
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "book",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.waveline.nabd:id/magazines_btn",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            175,
+            84,
+            350,
+            280
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "search",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.waveline.nabd:id/search_btn",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            350,
+            84,
+            525,
+            280
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "أخبار عاجلة",
+          "resource-id": "com.waveline.nabd:id/articles_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.waveline.nabd.support.FontFitTextView",
+          "bounds": [
+            986,
+            130,
+            1265,
+            233
+          ],
+          "componentLabel": "Text Button"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "الأكثر قراءة",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.aa",
+      "bounds": [
+        115,
+        313,
+        365,
+        401
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "عاجل",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.aa",
+      "bounds": [
+        663,
+        313,
+        777,
+        401
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "آخر الأخبار",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.aa",
+      "bounds": [
+        1090,
+        313,
+        1309,
+        401
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "resource-id": "com.waveline.nabd:id/article_card_view",
+      "children": [
+        {
+          "text": "عاجل : هيئة الكهرباء والمياه تنوه عن إجراء الصيانة الدورية لمحطة التحلية بولاية صحار #جريدة_الرؤية ",
+          "resource-id": "com.waveline.nabd:id/article_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.aa",
+          "bounds": [
+            77,
+            645,
+            1363,
+            835
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "عاجل",
+          "resource-id": "com.waveline.nabd:id/breaking_label",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.aa",
+          "bounds": [
+            77,
+            512,
+            305,
+            617
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.waveline.nabd:id/source_logo",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1268,
+            509,
+            1363,
+            604
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "صحيفة الرؤية العمانية",
+          "resource-id": "com.waveline.nabd:id/source_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.aa",
+          "bounds": [
+            358,
+            487,
+            1250,
+            565
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "منذ يوم",
+          "resource-id": "com.waveline.nabd:id/article_time_breaking",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.aa",
+          "bounds": [
+            358,
+            559,
+            1250,
+            627
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "share",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.waveline.nabd:id/sharing_image",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1240,
+            870,
+            1363,
+            993
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.CardView",
+      "bounds": [
+        42,
+        476,
+        1398,
+        1011
+      ],
+      "componentLabel": "Card"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        1053,
+        1440,
+        1928
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.google.android.gms.ads.internal.webview.n",
+          "bounds": [
+            195,
+            1053,
+            1245,
+            1928
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.webkit.WebView",
+                "android.widget.AbsoluteLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "bounds": [
+                195,
+                1053,
+                1245,
+                1928
+              ],
+              "clickable": true,
+              "class": "com.google.android.gms.ads.internal.webview.o",
+              "componentLabel": "Web View"
+            }
+          ],
+          "componentLabel": "Web View"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.waveline.nabd:id/article_card_view",
+      "children": [
+        {
+          "text": "عاجل- الاخبار تنتشر- غادة بشور ترتبط مجدداً بفنان أصغر منها بكثير!! وأول تعليق له... ",
+          "resource-id": "com.waveline.nabd:id/article_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.aa",
+          "bounds": [
+            77,
+            2139,
+            1363,
+            2329
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "عاجل",
+          "resource-id": "com.waveline.nabd:id/breaking_label",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.aa",
+          "bounds": [
+            77,
+            2006,
+            305,
+            2111
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.waveline.nabd:id/source_logo",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1268,
+            2003,
+            1363,
+            2098
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.waveline.nabd:id/article_image",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            77,
+            2365,
+            1363,
+            2392
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "مجلة لها",
+          "resource-id": "com.waveline.nabd:id/source_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.aa",
+          "bounds": [
+            358,
+            1981,
+            1250,
+            2059
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "منذ يوم",
+          "resource-id": "com.waveline.nabd:id/article_time_breaking",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.aa",
+          "bounds": [
+            358,
+            2053,
+            1250,
+            2121
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.CardView",
+      "bounds": [
+        42,
+        1970,
+        1398,
+        2392
+      ],
+      "componentLabel": "Card"
+    }
+  ]
+}

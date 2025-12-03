@@ -1,0 +1,316 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "I'm connected to Smart Plug's Wi-Fi",
+      "resource-id": "com.tplink.kasa_android:id/button_connected",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.tplink.hellotp.ui.ButtonPlus",
+      "bounds": [
+        168,
+        1984,
+        1271,
+        2166
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "iconClass": "close",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tplink.kasa_android:id/dialog_exit_image_view",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        196,
+        345,
+        280,
+        429
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Manual Connection",
+      "resource-id": "com.tplink.kasa_android:id/manual_connection_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tplink.hellotp.ui.TextViewPlus",
+      "bounds": [
+        168,
+        429,
+        1271,
+        541
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Please follow the following steps.",
+      "resource-id": "com.tplink.kasa_android:id/manual_connection_desc",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tplink.hellotp.ui.TextViewPlus",
+      "bounds": [
+        168,
+        576,
+        1271,
+        651
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "info",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tplink.kasa_android:id/bullet_1",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        249,
+        805,
+        375,
+        931
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "network_wifi",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tplink.kasa_android:id/wifi_icon",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        438,
+        805,
+        613,
+        980
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Go to Wi-Fi Settings",
+      "resource-id": "com.tplink.kasa_android:id/tip_title_1",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tplink.hellotp.ui.TextViewPlus",
+      "bounds": [
+        648,
+        805,
+        1201,
+        880
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Go to your Android's Wi-Fi settings.",
+      "resource-id": "com.tplink.kasa_android:id/tip_title_desc_1",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tplink.hellotp.ui.TextViewPlus",
+      "bounds": [
+        648,
+        887,
+        1201,
+        1010
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tplink.kasa_android:id/bullet_2",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        249,
+        1150,
+        375,
+        1276
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Change Wi-Fi network",
+      "resource-id": "com.tplink.kasa_android:id/tip_title_2",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tplink.hellotp.ui.TextViewPlus",
+      "bounds": [
+        438,
+        1150,
+        1201,
+        1225
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Select the Smart Plug network in your Wi-Fi setting.",
+      "resource-id": "com.tplink.kasa_android:id/tip_title_desc_2",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tplink.hellotp.ui.TextViewPlus",
+      "bounds": [
+        438,
+        1232,
+        1201,
+        1355
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "network_wifi",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tplink.kasa_android:id/icon_wifi",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        438,
+        1460,
+        515,
+        1523
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "TP-LINK_Smart Plug_XXXX",
+      "resource-id": "com.tplink.kasa_android:id/wifi_ssid",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tplink.hellotp.ui.TextViewPlus",
+      "bounds": [
+        550,
+        1460,
+        1236,
+        1535
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tplink.kasa_android:id/bullet_3",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        249,
+        1663,
+        375,
+        1789
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "home",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tplink.kasa_android:id/icon_kasa_app",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        438,
+        1663,
+        613,
+        1838
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Come back to Kasa",
+      "resource-id": "com.tplink.kasa_android:id/tip_title_3",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tplink.hellotp.ui.TextViewPlus",
+      "bounds": [
+        648,
+        1663,
+        1201,
+        1738
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Come back to continue  with setup.",
+      "resource-id": "com.tplink.kasa_android:id/tip_title_desc_3",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tplink.hellotp.ui.TextViewPlus",
+      "bounds": [
+        648,
+        1745,
+        1201,
+        1868
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

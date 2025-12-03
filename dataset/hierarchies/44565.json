@@ -1,0 +1,106 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.pof.android:id/logo",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        484,
+        381,
+        956,
+        565
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.pof.android:id/pager_indicator",
+      "clickable": false,
+      "class": "com.viewpagerindicator.CirclePageIndicator",
+      "bounds": [
+        600,
+        1621,
+        839,
+        1776
+      ],
+      "componentLabel": "Pager Indicator"
+    },
+    {
+      "text": "Sign Up Now!",
+      "resource-id": "com.pof.android:id/sign_up_button",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        282,
+        1776,
+        1157,
+        1944
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "resource-id": "com.pof.android:id/login",
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        282,
+        1944,
+        1157,
+        2168
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "login"
+    },
+    {
+      "text": "60,000 singles join every week!",
+      "resource-id": "com.pof.android:id/text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        160,
+        754,
+        1280,
+        1017
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

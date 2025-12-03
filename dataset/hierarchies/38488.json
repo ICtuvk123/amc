@@ -1,0 +1,341 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        334,
+        39,
+        863,
+        568
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        552,
+        1467,
+        797,
+        1712
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        580,
+        1471,
+        887,
+        1778
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1235,
+        447,
+        1440,
+        976
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        255,
+        603,
+        562,
+        910
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1315,
+        1693,
+        1440,
+        2222
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        725,
+        2141,
+        970,
+        2386
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        166,
+        413,
+        562,
+        809
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1069,
+        1705,
+        1314,
+        1950
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        513,
+        907,
+        758,
+        1152
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        68,
+        2346,
+        597,
+        2392
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1138,
+        1203,
+        1440,
+        1510
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Cancel",
+      "resource-id": "com.smsrobot.photox:id/button_cancel",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        14,
+        2210,
+        713,
+        2378
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "back"
+    },
+    {
+      "text": "Hide",
+      "resource-id": "com.smsrobot.photox:id/button_ok",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        727,
+        2210,
+        1426,
+        2378
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "hide"
+    },
+    {
+      "text": "0 Items",
+      "resource-id": "com.smsrobot.photox:id/select_info",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        238,
+        28,
+        623,
+        189
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "All",
+      "resource-id": "com.smsrobot.photox:id/button_select_all",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        1133,
+        28,
+        1412,
+        189
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "all"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        196,
+        480,
+        581
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.smsrobot.photox:id/ivFolderImage",
+          "clickable": false,
+          "class": "com.smsrobot.photodeskimport.view.GridContentItemView",
+          "bounds": [
+            82,
+            231,
+            397,
+            511
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Download",
+          "resource-id": "com.smsrobot.photox:id/tvName",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            119,
+            524,
+            307,
+            581
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "(1)",
+          "resource-id": "com.smsrobot.photox:id/tvCount",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            307,
+            524,
+            361,
+            581
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

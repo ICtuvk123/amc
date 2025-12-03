@@ -1,0 +1,163 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.fourtechnologies.mynetdiary.ad:id/toolbar",
+      "children": [
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.m",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Capture Your Progress",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.z",
+          "bounds": [
+            252,
+            135,
+            961,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "com.fourtechnologies.mynetdiary.ad:id/menu_help",
+          "ancestors": [
+            "android.support.v7.widget.z",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Before",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.z",
+      "bounds": [
+        222,
+        315,
+        498,
+        391
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "After",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.z",
+      "bounds": [
+        962,
+        315,
+        1197,
+        391
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "com.mynetdiary.ui.components.g",
+        "android.support.v7.widget.o",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.fourtechnologies.mynetdiary.ad:id/beforeImageView",
+      "clickable": true,
+      "class": "com.mynetdiary.ui.components.PhotoImageView",
+      "bounds": [
+        111,
+        426,
+        608,
+        1063
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "com.mynetdiary.ui.components.g",
+        "android.support.v7.widget.o",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.fourtechnologies.mynetdiary.ad:id/afterImageView",
+      "clickable": true,
+      "class": "com.mynetdiary.ui.components.PhotoImageView",
+      "bounds": [
+        831,
+        426,
+        1328,
+        1063
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

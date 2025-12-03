@@ -1,0 +1,127 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "Step 1 : ENABLE ★ Bobble Keyboard ★",
+      "resource-id": "com.touchtalent.bobbleapp:id/enable_step_1",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        70,
+        1888,
+        1370,
+        2056
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Step 2 : SELECT ★ Bobble Keyboard ★",
+      "resource-id": "com.touchtalent.bobbleapp:id/enable_step_2",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        70,
+        2084,
+        1370,
+        2252
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Skip",
+      "resource-id": "com.touchtalent.bobbleapp:id/skip",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        1209,
+        133,
+        1440,
+        217
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "skip"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.touchtalent.bobbleapp:id/indicatorEnableKeyboard",
+      "clickable": false,
+      "class": "com.viewpagerindicator.CirclePageIndicator",
+      "bounds": [
+        0,
+        1823,
+        1440,
+        1860
+      ],
+      "componentLabel": "Pager Indicator"
+    },
+    {
+      "text": "Convert your text into stickers instantly",
+      "resource-id": "com.touchtalent.bobbleapp:id/textMessage1",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.touchtalent.bobbleapp.custom.AutoResizeTextView",
+      "bounds": [
+        186,
+        1647,
+        1254,
+        1805
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.touchtalent.bobbleapp:id/enableKeyboard",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        53,
+        270,
+        1387,
+        1576
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

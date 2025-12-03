@@ -1,0 +1,366 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.jackthreads.android:id/toolbar",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.jackthreads.android:id/toolbarLogo",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            633,
+            132,
+            808,
+            231
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "search",
+          "resource-id": "com.jackthreads.android:id/actionbar_search",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1096,
+            98,
+            1268,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "shop",
+          "resource-id": "com.jackthreads.android:id/actionbar_cart",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1268,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.support.design.widget.TabLayout$g",
+      "bounds": [
+        480,
+        280,
+        960,
+        448
+      ],
+      "clickable": true,
+      "componentLabel": "Text Button",
+      "textButtonClass": "categories"
+    },
+    {
+      "text": "FEATURED",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        121,
+        331,
+        359,
+        397
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "SALE",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        1141,
+        331,
+        1259,
+        397
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "resource-id": "com.jackthreads.android:id/saleContainer",
+      "children": [
+        {
+          "resource-id": "com.jackthreads.android:id/saleCardView",
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.jackthreads.android:id/image",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                28,
+                448,
+                1412,
+                874
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Outerwear From $29.99",
+              "resource-id": "com.jackthreads.android:id/txtSaleName",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.jackthreads.android.views.CustomTextView",
+              "bounds": [
+                84,
+                750,
+                1356,
+                818
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            21,
+            448,
+            1419,
+            885
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        448,
+        1440,
+        885
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.jackthreads.android:id/saleContainer",
+      "children": [
+        {
+          "resource-id": "com.jackthreads.android:id/saleCardView",
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.jackthreads.android:id/image",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                28,
+                917,
+                1412,
+                1753
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Boots From $89.99",
+              "resource-id": "com.jackthreads.android:id/txtSaleName",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.jackthreads.android.views.CustomTextView",
+              "bounds": [
+                84,
+                1629,
+                1356,
+                1697
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            21,
+            906,
+            1419,
+            1764
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        906,
+        1440,
+        1764
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.jackthreads.android:id/saleContainer",
+      "children": [
+        {
+          "resource-id": "com.jackthreads.android:id/saleCardView",
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.jackthreads.android:id/image",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                28,
+                1796,
+                1412,
+                2392
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            21,
+            1785,
+            1419,
+            2392
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1785,
+        1440,
+        2392
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

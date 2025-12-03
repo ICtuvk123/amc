@@ -1,0 +1,345 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.bharatmatrimony:id/toolbar",
+      "children": [
+        {
+          "text": "REGISTRATION",
+          "resource-id": "com.bharatmatrimony:id/toolbar_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.bharatmatrimony.common.TypefacedTextView",
+          "bounds": [
+            196,
+            147,
+            614,
+            217
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "FIND YOUR SPECIAL SOMEONE. REGISTER NOW!",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        114,
+        349,
+        1326,
+        410
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "SignUp with Facebook",
+      "resource-id": "com.bharatmatrimony:id/regEtFbSignup",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        348,
+        479,
+        1092,
+        691
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        46,
+        773,
+        1394,
+        847
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "text": "PROFILE CREATED FOR",
+      "resource-id": "com.bharatmatrimony:id/text1",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        82,
+        929,
+        615,
+        985
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Friend",
+      "resource-id": "com.bharatmatrimony:id/regEtProfilefor",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        82,
+        1008,
+        1358,
+        1165
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "NAME",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        82,
+        1211,
+        224,
+        1267
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "John Smith",
+      "resource-id": "com.bharatmatrimony:id/regEtName",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        82,
+        1290,
+        1358,
+        1447
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "GENDER",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        82,
+        1493,
+        283,
+        1549
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "DATE OF BIRTH",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        82,
+        1813,
+        434,
+        1869
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "17 Years / 23-Dec-1998",
+      "resource-id": "com.bharatmatrimony:id/regEtDob",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        82,
+        1892,
+        1358,
+        2049
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "RELIGION",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        82,
+        2174,
+        304,
+        2230
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Christian",
+      "resource-id": "com.bharatmatrimony:id/regEtReligion",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        82,
+        2253,
+        1358,
+        2392
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Male",
+      "resource-id": "com.bharatmatrimony:id/regGenderMale",
+      "ancestors": [
+        "android.widget.RadioButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatRadioButton",
+      "bounds": [
+        82,
+        1585,
+        633,
+        1767
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "text": "Female",
+      "resource-id": "com.bharatmatrimony:id/regGenderFemale",
+      "ancestors": [
+        "android.widget.RadioButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatRadioButton",
+      "bounds": [
+        753,
+        1585,
+        1358,
+        1767
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "text": "Male - you must be 21 years or above to register",
+      "resource-id": "com.bharatmatrimony:id/errDobTxt",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        286,
+        2072,
+        1348,
+        2128
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

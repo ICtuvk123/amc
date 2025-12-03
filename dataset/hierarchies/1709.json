@@ -1,0 +1,807 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.fivemobile.thescore:id/toolbar",
+      "children": [
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "TOP NEWS",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            252,
+            135,
+            597,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "list",
+          "resource-id": "com.fivemobile.thescore:id/menu_item_article_layout",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1104,
+            98,
+            1272,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "search",
+          "resource-id": "com.fivemobile.thescore:id/menu_search",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "iconClass": "star",
+      "ancestors": [
+        "android.support.design.widget.FloatingActionButton",
+        "android.support.design.widget.VisibilityAwareImageButton",
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.fivemobile.thescore:id/follow_action_button",
+      "clickable": true,
+      "class": "com.fivemobile.thescore.follow.FollowFab",
+      "bounds": [
+        1188,
+        2140,
+        1384,
+        2336
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "resource-id": "com.fivemobile.thescore:id/indicator",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "text": "NBA",
+          "bounds": [
+            0,
+            280,
+            167,
+            458
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "text": "MLB",
+          "bounds": [
+            167,
+            280,
+            352,
+            458
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "text": "NCAAF",
+          "bounds": [
+            352,
+            280,
+            596,
+            458
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "text": "NCAAB",
+          "bounds": [
+            596,
+            280,
+            844,
+            458
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "text": "NCAABBL",
+          "bounds": [
+            844,
+            280,
+            1150,
+            458
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "text": "NHL",
+          "bounds": [
+            1150,
+            280,
+            1331,
+            458
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "text": "NASCAR",
+          "bounds": [
+            1331,
+            280,
+            1440,
+            458
+          ],
+          "clickable": true,
+          "class": "android.widget.TextView",
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "com.thescore.view.SlidingTabLayout",
+        "android.widget.HorizontalScrollView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.fivemobile.thescore.view.ScoreSlidingTabLayout",
+      "bounds": [
+        0,
+        280,
+        1440,
+        458
+      ],
+      "componentLabel": "Multi-Tab"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        458,
+        1440,
+        846
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            28,
+            486,
+            1412,
+            846
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.fivemobile.thescore:id/item_row_top_news_feature_image",
+              "clickable": false,
+              "class": "com.fivemobile.thescore.view.FeatureImageView",
+              "bounds": [
+                28,
+                486,
+                508,
+                846
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "No. 7 North Carolina rallies to edge Tennessee ",
+              "resource-id": "com.fivemobile.thescore:id/item_row_top_news_article_title",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                564,
+                542,
+                1356,
+                665
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "1d ago",
+              "resource-id": "com.fivemobile.thescore:id/share_timestamp",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                564,
+                738,
+                693,
+                795
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "iconClass": "share",
+              "ancestors": [
+                "android.widget.ImageButton",
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.fivemobile.thescore:id/item_share_other",
+              "clickable": true,
+              "class": "android.support.v7.widget.AppCompatImageButton",
+              "bounds": [
+                1254,
+                697,
+                1394,
+                837
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        846,
+        1440,
+        1234
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            28,
+            874,
+            1412,
+            1234
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.fivemobile.thescore:id/item_row_top_news_feature_image",
+              "clickable": false,
+              "class": "com.fivemobile.thescore.view.FeatureImageView",
+              "bounds": [
+                28,
+                874,
+                508,
+                1234
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Northwestern's Falzon undergoes season-ending knee surgery",
+              "resource-id": "com.fivemobile.thescore:id/item_row_top_news_article_title",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                564,
+                930,
+                1356,
+                1053
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "1d ago",
+              "resource-id": "com.fivemobile.thescore:id/share_timestamp",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                564,
+                1126,
+                693,
+                1183
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "iconClass": "share",
+              "ancestors": [
+                "android.widget.ImageButton",
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.fivemobile.thescore:id/item_share_other",
+              "clickable": true,
+              "class": "android.support.v7.widget.AppCompatImageButton",
+              "bounds": [
+                1254,
+                1085,
+                1394,
+                1225
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1234,
+        1440,
+        1622
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            28,
+            1262,
+            1412,
+            1622
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.fivemobile.thescore:id/item_row_top_news_feature_image",
+              "clickable": false,
+              "class": "com.fivemobile.thescore.view.FeatureImageView",
+              "bounds": [
+                28,
+                1262,
+                508,
+                1622
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Florida State upends No. 21 Florida behind Bacon's 24 points ",
+              "resource-id": "com.fivemobile.thescore:id/item_row_top_news_article_title",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                564,
+                1318,
+                1356,
+                1441
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "1d ago",
+              "resource-id": "com.fivemobile.thescore:id/share_timestamp",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                564,
+                1514,
+                693,
+                1571
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "iconClass": "share",
+              "ancestors": [
+                "android.widget.ImageButton",
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.fivemobile.thescore:id/item_share_other",
+              "clickable": true,
+              "class": "android.support.v7.widget.AppCompatImageButton",
+              "bounds": [
+                1254,
+                1473,
+                1394,
+                1613
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1622,
+        1440,
+        2010
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            28,
+            1650,
+            1412,
+            2010
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.fivemobile.thescore:id/item_row_top_news_feature_image",
+              "clickable": false,
+              "class": "com.fivemobile.thescore.view.FeatureImageView",
+              "bounds": [
+                28,
+                1650,
+                508,
+                2010
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Calipari's son copies Drake with 'crush everyday' warmup shirt",
+              "resource-id": "com.fivemobile.thescore:id/item_row_top_news_article_title",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                564,
+                1706,
+                1356,
+                1829
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "1d ago",
+              "resource-id": "com.fivemobile.thescore:id/share_timestamp",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                564,
+                1902,
+                693,
+                1959
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "iconClass": "share",
+              "ancestors": [
+                "android.widget.ImageButton",
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.fivemobile.thescore:id/item_share_other",
+              "clickable": true,
+              "class": "android.support.v7.widget.AppCompatImageButton",
+              "bounds": [
+                1254,
+                1861,
+                1394,
+                2001
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2010,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            28,
+            2038,
+            1412,
+            2392
+          ],
+          "clickable": true,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.fivemobile.thescore:id/item_row_top_news_feature_image",
+              "clickable": false,
+              "class": "com.fivemobile.thescore.view.FeatureImageView",
+              "bounds": [
+                28,
+                2038,
+                508,
+                2392
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "text": "Report: SMU's Harry Froling to transfer out of program",
+              "resource-id": "com.fivemobile.thescore:id/item_row_top_news_article_title",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                564,
+                2094,
+                1356,
+                2217
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "1d ago",
+              "resource-id": "com.fivemobile.thescore:id/share_timestamp",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                564,
+                2290,
+                693,
+                2347
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "ancestors": [
+                "android.widget.ImageButton",
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.fivemobile.thescore:id/item_share_other",
+              "clickable": true,
+              "class": "android.support.v7.widget.AppCompatImageButton",
+              "bounds": [
+                1254,
+                2249,
+                1394,
+                2389
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.quizlet.quizletandroid:id/intro_bg",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2392
+      ],
+      "componentLabel": "Background Image"
+    },
+    {
+      "resource-id": "com.quizlet.quizletandroid:id/view_pager_indicator",
+      "ancestors": [
+        "android.widget.RadioGroup",
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.quizlet.quizletandroid.views.ViewPagerIndicator",
+      "bounds": [
+        622,
+        1800,
+        818,
+        1828
+      ],
+      "componentLabel": "Pager Indicator"
+    },
+    {
+      "text": "Sign up for free",
+      "resource-id": "com.quizlet.quizletandroid:id/account_signup_button",
+      "ancestors": [
+        "android.support.v7.widget.AppCompatButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.quizlet.quizletandroid.views.QButton",
+      "bounds": [
+        56,
+        1884,
+        1384,
+        2129
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Or log in",
+      "resource-id": "com.quizlet.quizletandroid:id/account_login_button",
+      "ancestors": [
+        "android.support.v7.widget.AppCompatButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.quizlet.quizletandroid.views.QButton",
+      "bounds": [
+        56,
+        2129,
+        1384,
+        2336
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Simple tools that let you learn\nanything — for free.",
+      "resource-id": "com.quizlet.quizletandroid:id/itemText",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.quizlet.quizletandroid.views.QTextView",
+      "bounds": [
+        279,
+        653,
+        1160,
+        810
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        291,
+        443,
+        1148,
+        569
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Image"
+    }
+  ]
+}

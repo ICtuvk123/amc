@@ -1,0 +1,1056 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.hilton.android.hhonors:id/toolbar",
+      "children": [
+        {
+          "text": "Choose a Room",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            135,
+            706,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "filter",
+          "resource-id": "com.hilton.android.hhonors:id/action_filter",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "iconClass": "call",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.hilton.android.hhonors:id/btnPhone",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        936,
+        280,
+        1104,
+        440
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "location",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.hilton.android.hhonors:id/btnMap",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        1188,
+        280,
+        1356,
+        440
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        502,
+        1440,
+        772
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.hilton.android.hhonors:id/imgRoomImage",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            502,
+            266,
+            768
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "2 DOUBLE BEDS",
+          "resource-id": "com.hilton.android.hhonors:id/tvRoomTypeName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            266,
+            502,
+            1087,
+            601
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "From",
+          "resource-id": "com.hilton.android.hhonors:id/tvPriceFrom",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1271,
+            516,
+            1384,
+            573
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "per night (USD)",
+          "resource-id": "com.hilton.android.hhonors:id/tvPerNight",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1101,
+            688,
+            1384,
+            737
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "$",
+          "resource-id": "com.hilton.android.hhonors:id/tvPriceUnit",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1187,
+            594,
+            1222,
+            667
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "185",
+          "resource-id": "com.hilton.android.hhonors:id/tvPrice",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1222,
+            573,
+            1384,
+            688
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        772,
+        1440,
+        1042
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.hilton.android.hhonors:id/imgRoomImage",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            772,
+            266,
+            1038
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "1 KING BED",
+          "resource-id": "com.hilton.android.hhonors:id/tvRoomTypeName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            266,
+            772,
+            1087,
+            871
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "From",
+          "resource-id": "com.hilton.android.hhonors:id/tvPriceFrom",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1271,
+            786,
+            1384,
+            843
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "per night (USD)",
+          "resource-id": "com.hilton.android.hhonors:id/tvPerNight",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1101,
+            958,
+            1384,
+            1007
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "$",
+          "resource-id": "com.hilton.android.hhonors:id/tvPriceUnit",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1187,
+            864,
+            1222,
+            937
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "185",
+          "resource-id": "com.hilton.android.hhonors:id/tvPrice",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1222,
+            843,
+            1384,
+            958
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1042,
+        1440,
+        1312
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.hilton.android.hhonors:id/imgRoomImage",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            1042,
+            266,
+            1308
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "1 DOUBLE BED",
+          "resource-id": "com.hilton.android.hhonors:id/tvRoomTypeName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            266,
+            1042,
+            1087,
+            1141
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "From",
+          "resource-id": "com.hilton.android.hhonors:id/tvPriceFrom",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1271,
+            1056,
+            1384,
+            1113
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "per night (USD)",
+          "resource-id": "com.hilton.android.hhonors:id/tvPerNight",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1101,
+            1228,
+            1384,
+            1277
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "$",
+          "resource-id": "com.hilton.android.hhonors:id/tvPriceUnit",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1187,
+            1134,
+            1222,
+            1207
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "155",
+          "resource-id": "com.hilton.android.hhonors:id/tvPrice",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1222,
+            1113,
+            1384,
+            1228
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1312,
+        1440,
+        1582
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.hilton.android.hhonors:id/imgRoomImage",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            1312,
+            266,
+            1578
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "2 DOUBLE BEDS PREMIUM FLOOR CITY VIEW",
+          "resource-id": "com.hilton.android.hhonors:id/tvRoomTypeName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            266,
+            1312,
+            1087,
+            1484
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "From",
+          "resource-id": "com.hilton.android.hhonors:id/tvPriceFrom",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1271,
+            1326,
+            1384,
+            1383
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "per night (USD)",
+          "resource-id": "com.hilton.android.hhonors:id/tvPerNight",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1101,
+            1498,
+            1384,
+            1547
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "$",
+          "resource-id": "com.hilton.android.hhonors:id/tvPriceUnit",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1187,
+            1404,
+            1222,
+            1477
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "214",
+          "resource-id": "com.hilton.android.hhonors:id/tvPrice",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1222,
+            1383,
+            1384,
+            1498
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1582,
+        1440,
+        1852
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.hilton.android.hhonors:id/imgRoomImage",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            1582,
+            266,
+            1848
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "2 DOUBLE BEDS BAYVIEW",
+          "resource-id": "com.hilton.android.hhonors:id/tvRoomTypeName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            266,
+            1582,
+            1087,
+            1681
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "From",
+          "resource-id": "com.hilton.android.hhonors:id/tvPriceFrom",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1271,
+            1596,
+            1384,
+            1653
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "per night (USD)",
+          "resource-id": "com.hilton.android.hhonors:id/tvPerNight",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1101,
+            1768,
+            1384,
+            1817
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "$",
+          "resource-id": "com.hilton.android.hhonors:id/tvPriceUnit",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1187,
+            1674,
+            1222,
+            1747
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "214",
+          "resource-id": "com.hilton.android.hhonors:id/tvPrice",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1222,
+            1653,
+            1384,
+            1768
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1852,
+        1440,
+        2122
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.hilton.android.hhonors:id/imgRoomImage",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            1852,
+            266,
+            2118
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "2 DOUBLE BEDS PREMIUM FLOOR BAYVIEW",
+          "resource-id": "com.hilton.android.hhonors:id/tvRoomTypeName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            266,
+            1852,
+            1087,
+            2024
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "From",
+          "resource-id": "com.hilton.android.hhonors:id/tvPriceFrom",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1271,
+            1866,
+            1384,
+            1923
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "per night (USD)",
+          "resource-id": "com.hilton.android.hhonors:id/tvPerNight",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1101,
+            2038,
+            1384,
+            2087
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "$",
+          "resource-id": "com.hilton.android.hhonors:id/tvPriceUnit",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1187,
+            1944,
+            1222,
+            2017
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "234",
+          "resource-id": "com.hilton.android.hhonors:id/tvPrice",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1222,
+            1923,
+            1384,
+            2038
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        2122,
+        1440,
+        2392
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "iconClass": "videocam",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.hilton.android.hhonors:id/imgRoomImage",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            2122,
+            266,
+            2388
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "1 KING BED EXECUTIVE FLOOR CITY VIEW",
+          "resource-id": "com.hilton.android.hhonors:id/tvRoomTypeName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            266,
+            2122,
+            1087,
+            2294
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "From",
+          "resource-id": "com.hilton.android.hhonors:id/tvPriceFrom",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1271,
+            2136,
+            1384,
+            2193
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "per night (USD)",
+          "resource-id": "com.hilton.android.hhonors:id/tvPerNight",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1101,
+            2308,
+            1384,
+            2357
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "$",
+          "resource-id": "com.hilton.android.hhonors:id/tvPriceUnit",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1187,
+            2214,
+            1222,
+            2287
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "244",
+          "resource-id": "com.hilton.android.hhonors:id/tvPrice",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1222,
+            2193,
+            1384,
+            2308
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "Hotel Details",
+      "resource-id": "com.hilton.android.hhonors:id/tvHotelDetails",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        361,
+        441,
+        446
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "expand_more",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.hilton.android.hhonors:id/btnDetailToggle",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageButton",
+      "bounds": [
+        441,
+        369,
+        511,
+        439
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        280,
+        1440,
+        306
+      ],
+      "clickable": true,
+      "class": "com.android.volley.toolbox.NetworkImageView",
+      "componentLabel": "Image"
+    }
+  ]
+}

@@ -1,0 +1,748 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "iconClass": "menu",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.dbs:id/iv_header_menu_icon",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        35,
+        118,
+        127,
+        224
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Edit",
+      "resource-id": "com.dbs:id/ib_edit",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.dbs.yourdbs.view.CustomSubTextTextView",
+      "bounds": [
+        1229,
+        125,
+        1370,
+        217
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "edit"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.dbs:id/iv_header_icon",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        586,
+        133,
+        854,
+        208
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.dbs:id/iv_iwealth_icon",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        18,
+        2100,
+        1422,
+        2374
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Currency Converter",
+      "resource-id": "com.dbs:id/tv_currency_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.dbs.yourdbs.view.CustomTitleTextView",
+      "bounds": [
+        813,
+        1116,
+        1317,
+        1183
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        53,
+        258,
+        372,
+        549
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "iconClass": "date_range",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.dbs:id/iv_mbanking_icon",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            90,
+            258,
+            335,
+            480
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "PayLah!",
+          "resource-id": "com.dbs:id/iv_mbanking_tx",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.dbs.yourdbs.view.CustomTitleTextView",
+          "bounds": [
+            136,
+            498,
+            289,
+            549
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        379,
+        258,
+        698,
+        549
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.dbs:id/iv_mbanking_icon",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            416,
+            258,
+            661,
+            480
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Vickers Trading",
+          "resource-id": "com.dbs:id/iv_mbanking_tx",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.dbs.yourdbs.view.CustomTitleTextView",
+          "bounds": [
+            389,
+            498,
+            687,
+            549
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        705,
+        258,
+        1024,
+        549
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.dbs:id/iv_mbanking_icon",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            742,
+            258,
+            987,
+            480
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "iWealth",
+          "resource-id": "com.dbs:id/iv_mbanking_tx",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.dbs.yourdbs.view.CustomTitleTextView",
+          "bounds": [
+            788,
+            498,
+            941,
+            549
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        1031,
+        258,
+        1350,
+        542
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.dbs:id/iv_mbanking_icon",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            1070,
+            258,
+            1311,
+            473
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Lifestyle",
+          "resource-id": "com.dbs:id/iv_mbanking_tx",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.dbs.yourdbs.view.CustomTitleTextView",
+          "bounds": [
+            1110,
+            491,
+            1270,
+            542
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        1357,
+        258,
+        1387,
+        549
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Home Connect",
+          "resource-id": "com.dbs:id/iv_mbanking_tx",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.dbs.yourdbs.view.CustomTitleTextView",
+          "bounds": [
+            1371,
+            498,
+            1387,
+            549
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "Indices",
+      "resource-id": "com.dbs:id/tv_indices_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.dbs.yourdbs.view.CustomTitleTextView",
+      "bounds": [
+        53,
+        675,
+        255,
+        750
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Currencies",
+      "resource-id": "com.dbs:id/tv_currency_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.dbs.yourdbs.view.CustomTitleTextView",
+      "bounds": [
+        773,
+        675,
+        1081,
+        750
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Get in Touch",
+      "resource-id": "com.dbs:id/tv_get_in_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.dbs.yourdbs.view.CustomTitleTextView",
+      "bounds": [
+        53,
+        1344,
+        426,
+        1419
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "DBS Asian Insights",
+      "resource-id": "com.dbs:id/tv_asian_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.dbs.yourdbs.view.CustomTitleTextView",
+      "bounds": [
+        53,
+        1541,
+        595,
+        1616
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "View all",
+      "resource-id": "com.dbs:id/tv_asian_view_all",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.dbs.yourdbs.view.CustomTitleTextView",
+      "bounds": [
+        1094,
+        1531,
+        1387,
+        1627
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "all"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        53,
+        1662,
+        536,
+        2012
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.dbs:id/iv_insight_icon",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            67,
+            1662,
+            522,
+            2012
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            67,
+            1662,
+            522,
+            2012
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Latest",
+          "resource-id": "com.dbs:id/tv_insight_label",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.dbs.yourdbs.view.CustomSubTextTextView",
+          "bounds": [
+            67,
+            1662,
+            522,
+            2012
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Equity Tactical: Honda Motor",
+          "resource-id": "com.dbs:id/tv_insight_synopsis",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.dbs.yourdbs.view.CustomSubTextTextView",
+          "bounds": [
+            67,
+            1662,
+            522,
+            2012
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        550,
+        1662,
+        1033,
+        2012
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.dbs:id/iv_insight_icon",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            564,
+            1662,
+            1019,
+            2012
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            564,
+            1662,
+            1019,
+            2012
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Flying a Little Lower  ",
+          "resource-id": "com.dbs:id/tv_insight_synopsis",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.dbs.yourdbs.view.CustomSubTextTextView",
+          "bounds": [
+            564,
+            1662,
+            1019,
+            2012
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        1047,
+        1662,
+        1387,
+        2012
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.dbs:id/iv_insight_icon",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            1061,
+            1662,
+            1387,
+            2012
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1061,
+            1662,
+            1387,
+            2012
+          ],
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "An Asian Consumption Story ",
+          "resource-id": "com.dbs:id/tv_insight_synopsis",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.dbs.yourdbs.view.CustomSubTextTextView",
+          "bounds": [
+            1061,
+            1662,
+            1387,
+            2012
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "Nasdaq",
+      "resource-id": "com.dbs:id/tv_share_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.dbs.yourdbs.view.CustomSubTextTextView",
+      "bounds": [
+        53,
+        785,
+        234,
+        849
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "5,715.18 NA",
+      "resource-id": "com.dbs:id/tv_share_values",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.dbs.yourdbs.view.CustomSubTextTextView",
+      "bounds": [
+        53,
+        867,
+        327,
+        926
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "national_flag",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.dbs:id/iv_country_flag",
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        773,
+        785,
+        876,
+        836
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "GBP / SGD",
+      "resource-id": "com.dbs:id/tv_country_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.dbs.yourdbs.view.CustomSubTextTextView",
+      "bounds": [
+        894,
+        785,
+        1141,
+        849
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "1.7763 0.1%",
+      "resource-id": "com.dbs:id/tv_currency_values",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.dbs.yourdbs.view.CustomSubTextTextView",
+      "bounds": [
+        773,
+        854,
+        1053,
+        913
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

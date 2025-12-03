@@ -1,0 +1,611 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.cerminara.yazzy:id/app_bar",
+      "children": [
+        {
+          "text": "Google Translator",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            252,
+            135,
+            813,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "arrow_forward",
+          "resource-id": "com.cerminara.yazzy:id/action_procedi",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        448,
+        1440,
+        535
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Enable WiFi icon",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            448,
+            414,
+            479
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "android:id/checkbox",
+          "ancestors": [
+            "android.widget.CheckBox",
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatCheckBox",
+          "bounds": [
+            1272,
+            448,
+            1384,
+            464
+          ],
+          "componentLabel": "Checkbox"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        539,
+        1440,
+        856
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "WiFi level",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            595,
+            294,
+            671
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "3",
+          "resource-id": "com.cerminara.yazzy:id/seekBarPrefValue",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1319,
+            727,
+            1349,
+            793
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.AbsSeekBar",
+            "android.widget.ProgressBar",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            165,
+            793,
+            1349,
+            856
+          ],
+          "clickable": false,
+          "class": "android.widget.SeekBar",
+          "componentLabel": "Slider"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "Cellular network",
+      "resource-id": "android:id/title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        860,
+        1440,
+        982
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        986,
+        1440,
+        1240
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Enable",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            1042,
+            224,
+            1118
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Enable cellular network icon",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            1118,
+            667,
+            1184
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "android:id/checkbox",
+          "ancestors": [
+            "android.widget.CheckBox",
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatCheckBox",
+          "bounds": [
+            1272,
+            1057,
+            1384,
+            1169
+          ],
+          "componentLabel": "Checkbox"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1244,
+        1440,
+        1561
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Cellular network level",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            1300,
+            587,
+            1376
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "3",
+          "resource-id": "com.cerminara.yazzy:id/seekBarPrefValue",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1319,
+            1432,
+            1349,
+            1498
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.AbsSeekBar",
+            "android.widget.ProgressBar",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            165,
+            1498,
+            1349,
+            1561
+          ],
+          "clickable": false,
+          "class": "android.widget.SeekBar",
+          "componentLabel": "Slider"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "Battery",
+      "resource-id": "android:id/title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        1565,
+        1440,
+        1687
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1691,
+        1440,
+        2008
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Battery level",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            1747,
+            362,
+            1823
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "%",
+          "resource-id": "com.cerminara.yazzy:id/seekBarPrefUnitsRight",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1313,
+            1879,
+            1349,
+            1945
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "70",
+          "resource-id": "com.cerminara.yazzy:id/seekBarPrefValue",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1257,
+            1879,
+            1313,
+            1945
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.AbsSeekBar",
+            "android.widget.ProgressBar",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            165,
+            1945,
+            1349,
+            2008
+          ],
+          "clickable": false,
+          "class": "android.widget.SeekBar",
+          "componentLabel": "Slider"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "Hour",
+      "resource-id": "android:id/title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        2012,
+        1440,
+        2134
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        2138,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Hour",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            2194,
+            178,
+            2270
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "11:26",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            2270,
+            180,
+            2336
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "MAIN",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        63,
+        331,
+        188,
+        397
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "STATUS BAR",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        294,
+        331,
+        580,
+        397
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "IMAGE",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        672,
+        331,
+        823,
+        397
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

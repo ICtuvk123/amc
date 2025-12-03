@@ -1,0 +1,324 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.novagecko.memedroid:id/basic_activity_toolbar",
+      "children": [
+        {
+          "text": "#8 Top Day",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            135,
+            558,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "share",
+          "resource-id": "com.novagecko.memedroid:id/menu_gallery_share",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            936,
+            98,
+            1104,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "chat",
+          "resource-id": "com.novagecko.memedroid:id/menu_gallery_comments",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1104,
+            98,
+            1272,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "dashboard",
+          "resource-id": "com.novagecko.memedroid:id/menu_gallery_more_actions",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.amazon.device.ads.AdContainer",
+      "bounds": [
+        0,
+        2167,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.AbsoluteLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            2167,
+            1440,
+            2392
+          ],
+          "clickable": true,
+          "class": "android.webkit.WebView",
+          "componentLabel": "Web View"
+        }
+      ],
+      "componentLabel": "Advertisement"
+    },
+    {
+      "iconClass": "arrow_backward",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.novagecko.memedroid:id/base_gallery_button_previous_item",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        1978,
+        148,
+        2126
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "arrow_forward",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.novagecko.memedroid:id/base_gallery_button_next_item",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1292,
+        1978,
+        1440,
+        2126
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.novagecko.memedroid:id/base_gallery_button_downvote",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        236,
+        1973,
+        387,
+        2131
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.novagecko.memedroid:id/base_gallery_button_upvote",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1051,
+        1973,
+        1204,
+        2131
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "90%",
+      "resource-id": "com.novagecko.memedroid:id/base_gallery_label_votes_percent",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        648,
+        1963,
+        790,
+        2066
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "1476",
+      "resource-id": "com.novagecko.memedroid:id/base_gallery_label_total_votes",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        657,
+        2066,
+        781,
+        2142
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "com.nvg.memedroid.views.widgets.MultiTouchImageViewForGallery",
+        "com.nvg.memedroid.views.widgets.MultiTouchImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.novagecko.memedroid:id/page_basic_gallery_image_image",
+      "clickable": false,
+      "class": "com.nvg.memedroid.views.widgets.GalleryMultitouchImageView",
+      "bounds": [
+        0,
+        346,
+        1440,
+        1938
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Haha",
+      "resource-id": "com.novagecko.memedroid:id/page_basic_gallery_gallery_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        524,
+        280,
+        640,
+        346
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "by FooDang",
+      "resource-id": "com.novagecko.memedroid:id/page_basic_gallery_uploader",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        658,
+        280,
+        916,
+        346
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

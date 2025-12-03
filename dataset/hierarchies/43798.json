@@ -1,0 +1,125 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "POKEMON GO GUIDE",
+      "resource-id": "com.initial.pokemongo.guide:id/textView1",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        0,
+        119,
+        1440,
+        270
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "INTRO",
+      "resource-id": "com.initial.pokemongo.guide:id/button1",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        457,
+        410,
+        982,
+        585
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "HOW TO PLAY",
+      "resource-id": "com.initial.pokemongo.guide:id/button2",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        457,
+        655,
+        982,
+        830
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "TERMS",
+      "resource-id": "com.initial.pokemongo.guide:id/button3",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        457,
+        900,
+        982,
+        1075
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "TIPS AND TRICKS",
+      "resource-id": "com.initial.pokemongo.guide:id/button4",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        457,
+        1145,
+        982,
+        1320
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "LATEST UPDATE",
+      "resource-id": "com.initial.pokemongo.guide:id/button5",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Button",
+      "bounds": [
+        457,
+        1390,
+        982,
+        1565
+      ],
+      "componentLabel": "Text Button"
+    }
+  ]
+}

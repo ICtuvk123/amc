@@ -1,0 +1,213 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.mobilio.marineforecaster:id/toolbar",
+      "children": [
+        {
+          "text": "Countries",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            135,
+            514,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "search",
+          "resource-id": "com.mobilio.marineforecaster:id/action_search",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1104,
+            98,
+            1272,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "filter",
+          "resource-id": "com.mobilio.marineforecaster:id/filter",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        42,
+        322,
+        1398,
+        471
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "USA",
+          "resource-id": "com.mobilio.marineforecaster:id/tv_country_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            70,
+            322,
+            1258,
+            471
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "send",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1258,
+            322,
+            1398,
+            462
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Icon"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        42,
+        475,
+        1398,
+        624
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "Greece",
+          "resource-id": "com.mobilio.marineforecaster:id/tv_country_name",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            70,
+            475,
+            1258,
+            624
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1258,
+            475,
+            1398,
+            615
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

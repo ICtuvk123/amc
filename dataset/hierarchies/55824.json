@@ -1,0 +1,218 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.touchtalent.bobbleapp:id/toolbar",
+      "children": [
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Settings",
+          "resource-id": "com.touchtalent.bobbleapp:id/tv_header",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            196,
+            139,
+            1265,
+            224
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Version : 4.7.2",
+      "resource-id": "com.touchtalent.bobbleapp:id/appVersion",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.touchtalent.bobbleapp.custom.CustomTextView",
+      "bounds": [
+        511,
+        2240,
+        929,
+        2392
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Share with link",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.touchtalent.bobbleapp.custom.CustomTextView",
+      "bounds": [
+        0,
+        280,
+        1246,
+        476
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "",
+      "resource-id": "com.touchtalent.bobbleapp:id/shareWithLink",
+      "ancestors": [
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.SwitchCompat",
+      "bounds": [
+        1246,
+        330,
+        1412,
+        425
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Notifications",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.touchtalent.bobbleapp.custom.CustomTextView",
+      "bounds": [
+        0,
+        480,
+        1246,
+        676
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "",
+      "resource-id": "com.touchtalent.bobbleapp:id/updateNotifications",
+      "ancestors": [
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.SwitchCompat",
+      "bounds": [
+        1246,
+        534,
+        1412,
+        629
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "",
+      "resource-id": "com.touchtalent.bobbleapp:id/enableAutoExpression",
+      "ancestors": [
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.SwitchCompat",
+      "bounds": [
+        1246,
+        730,
+        1412,
+        825
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Auto-Face Expressions",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.touchtalent.bobbleapp.custom.CustomTextView",
+      "bounds": [
+        0,
+        680,
+        1246,
+        778
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Get your personalized emojis.",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.touchtalent.bobbleapp.custom.CustomTextView",
+      "bounds": [
+        0,
+        778,
+        1246,
+        876
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

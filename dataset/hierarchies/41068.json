@@ -1,0 +1,90 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    56,
+    265,
+    1384,
+    2294
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        56,
+        265,
+        1384,
+        2294
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Permissions",
+          "resource-id": "com.parkwhiz.driverApp:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.parkwhiz.driverApp.ui.widgets.RobotoTextView",
+          "bounds": [
+            112,
+            321,
+            633,
+            489
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "We request the following permissions to make sure the app runs smoothly.\n\nLocation: location is used to determine where you are so that we can search for parking near you.\n\nPhone State: To support our in-car integrations we need to monitor phone state. Specifically we need to be able to tell if you begin or end a call while using the app.\n\nCalendar: If you have upcoming appointments that we can provide parking for we'll show them to you when you search.\n\nCamera: When adding a credit card you'll have the option to scan your card using the device's camera.\n\nContacts: When signing up or signing in we use the READ_ACCOUNTS to auto-complete the accounts on your device as you type.\n\nIf you have any questions or concerns please contact us via phone or email.",
+          "resource-id": "com.parkwhiz.driverApp:id/message",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.parkwhiz.driverApp.ui.widgets.RobotoTextView",
+          "bounds": [
+            126,
+            503,
+            1314,
+            2042
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Ok",
+          "resource-id": "com.parkwhiz.driverApp:id/positive_button",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.parkwhiz.driverApp.ui.widgets.RobotoTextView",
+          "bounds": [
+            1175,
+            2070,
+            1272,
+            2238
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "Modal"
+    }
+  ]
+}

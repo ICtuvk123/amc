@@ -1,0 +1,164 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.quiz.gkquiz:id/toolbar",
+      "children": [
+        {
+          "text": "IBPS CWE Clerk Full Speed Test 1 - 100 Q. 60 Mins",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            135,
+            1272,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1300,
+            98,
+            1440,
+            266
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.ActionMenuPresenter$OverflowMenuButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Aditi | Rank : 1 | Time Taken - 59:58 | Question Attempt - 84",
+      "resource-id": "com.quiz.gkquiz:id/all_india_rank_display",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        18,
+        298,
+        1422,
+        424
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Start",
+      "resource-id": "com.quiz.gkquiz:id/take_quiz_btn",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        566,
+        2206,
+        874,
+        2374
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "go"
+    },
+    {
+      "text": "Reasons to take the All India Test ",
+      "resource-id": "com.quiz.gkquiz:id/instru_txt",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        247,
+        488,
+        1193,
+        573
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "• Can I see All India Rank - Yes \n\n• Can I see my weak and strong areas? Yes \n\n• Can I see my accuracy level? Yes \n\n• Can I see my speed level? Yes \n\n• Can I compare my score with others? Yes \n\n• Can I compare my accuracy level? Yes \n\n• Can I see my Competitiveness Index? Yes \n\n• Can I set my own timer for the test? Yes \n\n• Can I see toppers details as well? Yes \n\n• Am I competing with thousands like real exam? Yes \n\n• Will real exam have questions from this test? Yes \n\n• Will I be able to take exam in real exam like situation? Yes",
+      "resource-id": "com.quiz.gkquiz:id/take_exam_instruction",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        28,
+        591,
+        1412,
+        2160
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

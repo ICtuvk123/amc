@@ -1,0 +1,887 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.slacker.radio.ui.ads.BannerAdView",
+      "bounds": [
+        160,
+        2217,
+        1280,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.google.android.gms.ads.doubleclick.PublisherAdView",
+          "bounds": [
+            160,
+            2217,
+            1280,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.FrameLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "class": "com.google.android.gms.ads.internal.webview.l",
+              "bounds": [
+                160,
+                2217,
+                1280,
+                2392
+              ],
+              "clickable": false,
+              "children": [
+                {
+                  "ancestors": [
+                    "android.webkit.WebView",
+                    "android.widget.AbsoluteLayout",
+                    "android.view.ViewGroup",
+                    "android.view.View",
+                    "java.lang.Object"
+                  ],
+                  "bounds": [
+                    160,
+                    2217,
+                    1280,
+                    2392
+                  ],
+                  "clickable": true,
+                  "class": "com.google.android.gms.ads.internal.webview.m",
+                  "componentLabel": "Web View"
+                }
+              ],
+              "componentLabel": "Web View"
+            }
+          ],
+          "componentLabel": "Advertisement"
+        }
+      ],
+      "componentLabel": "Advertisement"
+    },
+    {
+      "ancestors": [
+        "android.support.v7.widget.AppCompatImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.slacker.radio:id/nowPlayingBarView_miniBar_art",
+      "clickable": false,
+      "class": "com.slacker.radio.coreui.views.TintableImageView",
+      "bounds": [
+        11,
+        2053,
+        165,
+        2206
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.slacker.radio:id/nowPlayingBar_mediaRouteButton",
+      "clickable": true,
+      "class": "android.support.v7.app.MediaRouteButton",
+      "bounds": [
+        1097,
+        2042,
+        1265,
+        2217
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "play",
+      "ancestors": [
+        "com.slacker.radio.coreui.views.MediaButton",
+        "com.slacker.radio.coreui.views.GlyphButton",
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.slacker.radio:id/nowPlayingBarView_miniBar_play",
+      "clickable": true,
+      "class": "com.slacker.radio.ui.sharedviews.LiveMediaButton",
+      "bounds": [
+        1265,
+        2042,
+        1440,
+        2217
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Maroon 5",
+      "resource-id": "com.slacker.radio:id/nowPlayingBarView_miniBar_artist",
+      "ancestors": [
+        "android.support.v7.widget.AppCompatTextView",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.slacker.radio.coreui.views.CustomFontTextView",
+      "bounds": [
+        194,
+        2063,
+        1051,
+        2129
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Don't Wanna Know",
+      "resource-id": "com.slacker.radio:id/nowPlayingBarView_miniBar_track",
+      "ancestors": [
+        "android.support.v7.widget.AppCompatTextView",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.slacker.radio.coreui.views.CustomFontTextView",
+      "bounds": [
+        194,
+        2129,
+        1051,
+        2195
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "java.lang.Object"
+      ],
+      "bounds": [
+        56,
+        84,
+        1384,
+        280
+      ],
+      "clickable": false,
+      "class": "android.view.View",
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "java.lang.Object"
+      ],
+      "bounds": [
+        56,
+        280,
+        1384,
+        308
+      ],
+      "clickable": false,
+      "class": "android.view.View",
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        56,
+        308,
+        1384,
+        533
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "news updates",
+          "resource-id": "com.slacker.radio:id/text",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.slacker.radio.coreui.views.CustomFontTextView",
+          "bounds": [
+            56,
+            392,
+            442,
+            452
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "font",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            692,
+            452,
+            748,
+            505
+          ],
+          "clickable": false,
+          "class": "com.slacker.radio.coreui.views.TintableImageView",
+          "componentLabel": "Icon"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        533,
+        1384,
+        779
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "",
+          "resource-id": "com.slacker.radio:id/settingToggle_switch",
+          "ancestors": [
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.SwitchCompat",
+          "bounds": [
+            1162,
+            595,
+            1384,
+            717
+          ],
+          "componentLabel": "Input"
+        },
+        {
+          "text": "MUSIC NEWS",
+          "resource-id": "com.slacker.radio:id/text_view_1",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.slacker.radio.coreui.views.CustomFontTextView",
+          "bounds": [
+            56,
+            561,
+            1162,
+            621
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "When ON, you'll periodically hear music news on your stations.",
+          "resource-id": "com.slacker.radio:id/text_view_2",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.slacker.radio.coreui.views.CustomFontTextView",
+          "bounds": [
+            56,
+            621,
+            1162,
+            751
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.support.v7.widget.AppCompatImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        56,
+        779,
+        1384,
+        786
+      ],
+      "clickable": false,
+      "class": "com.slacker.radio.coreui.views.TintableImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        786,
+        1384,
+        1032
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "",
+          "resource-id": "com.slacker.radio:id/settingToggle_switch",
+          "ancestors": [
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.SwitchCompat",
+          "bounds": [
+            1162,
+            848,
+            1384,
+            970
+          ],
+          "componentLabel": "Input"
+        },
+        {
+          "text": "ABC NEWS UPDATES",
+          "resource-id": "com.slacker.radio:id/text_view_1",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.slacker.radio.coreui.views.CustomFontTextView",
+          "bounds": [
+            56,
+            814,
+            1162,
+            874
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "When ON, you'll periodically hear ABC news updates on your stations.",
+          "resource-id": "com.slacker.radio:id/text_view_2",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.slacker.radio.coreui.views.CustomFontTextView",
+          "bounds": [
+            56,
+            874,
+            1162,
+            1004
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.support.v7.widget.AppCompatImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        56,
+        1032,
+        1384,
+        1039
+      ],
+      "clickable": false,
+      "class": "com.slacker.radio.coreui.views.TintableImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        1039,
+        1384,
+        1285
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "",
+          "resource-id": "com.slacker.radio:id/settingToggle_switch",
+          "ancestors": [
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.SwitchCompat",
+          "bounds": [
+            1162,
+            1101,
+            1384,
+            1223
+          ],
+          "componentLabel": "Input"
+        },
+        {
+          "text": "ESPN SPORTS UPDATES",
+          "resource-id": "com.slacker.radio:id/text_view_1",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.slacker.radio.coreui.views.CustomFontTextView",
+          "bounds": [
+            56,
+            1067,
+            1162,
+            1127
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "When ON, you'll periodically hear ESPN sports on your stations.",
+          "resource-id": "com.slacker.radio:id/text_view_2",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.slacker.radio.coreui.views.CustomFontTextView",
+          "bounds": [
+            56,
+            1127,
+            1162,
+            1257
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        56,
+        1285,
+        1384,
+        1510
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Playback",
+          "resource-id": "com.slacker.radio:id/text",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.slacker.radio.coreui.views.CustomFontTextView",
+          "bounds": [
+            56,
+            1369,
+            312,
+            1429
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "font",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            692,
+            1429,
+            748,
+            1482
+          ],
+          "clickable": false,
+          "class": "com.slacker.radio.coreui.views.TintableImageView",
+          "componentLabel": "Icon"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        1510,
+        1384,
+        1756
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "",
+          "resource-id": "com.slacker.radio:id/settingToggle_switch",
+          "ancestors": [
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.SwitchCompat",
+          "bounds": [
+            1162,
+            1572,
+            1384,
+            1694
+          ],
+          "componentLabel": "Input"
+        },
+        {
+          "text": "PLAY EXPLICIT CONTENT",
+          "resource-id": "com.slacker.radio:id/text_view_1",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.slacker.radio.coreui.views.CustomFontTextView",
+          "bounds": [
+            56,
+            1538,
+            1162,
+            1598
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "When set to ON, Slacker will allow explicit content on your stations",
+          "resource-id": "com.slacker.radio:id/text_view_2",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.slacker.radio.coreui.views.CustomFontTextView",
+          "bounds": [
+            56,
+            1598,
+            1162,
+            1728
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.support.v7.widget.AppCompatImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        56,
+        1756,
+        1384,
+        1763
+      ],
+      "clickable": false,
+      "class": "com.slacker.radio.coreui.views.TintableImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        1763,
+        1384,
+        2009
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "",
+          "resource-id": "com.slacker.radio:id/settingToggle_switch",
+          "ancestors": [
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.SwitchCompat",
+          "bounds": [
+            1162,
+            1825,
+            1384,
+            1947
+          ],
+          "componentLabel": "Input"
+        },
+        {
+          "text": "VOLUME NORMALIZATION",
+          "resource-id": "com.slacker.radio:id/text_view_1",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.slacker.radio.coreui.views.CustomFontTextView",
+          "bounds": [
+            56,
+            1791,
+            1162,
+            1851
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "When set to ON, volume across songs will remain at a constant level",
+          "resource-id": "com.slacker.radio:id/text_view_2",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.slacker.radio.coreui.views.CustomFontTextView",
+          "bounds": [
+            56,
+            1851,
+            1162,
+            1981
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.support.v7.widget.AppCompatImageView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        56,
+        2009,
+        1384,
+        2016
+      ],
+      "clickable": false,
+      "class": "com.slacker.radio.coreui.views.TintableImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        2016,
+        1384,
+        2042
+      ],
+      "clickable": false,
+      "children": [],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.slacker.radio:id/sharedTitleBar",
+      "children": [
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "com.slacker.radio.coreui.views.GlyphButton",
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.slacker.radio:id/drawerButton",
+          "clickable": true,
+          "class": "com.slacker.radio.coreui.views.DrawerBackButton",
+          "bounds": [
+            0,
+            84,
+            196,
+            277
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "resource-id": "com.slacker.radio:id/titleText",
+          "children": [
+            {
+              "text": "Player Settings",
+              "ancestors": [
+                "android.support.v7.widget.AppCompatTextView",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.slacker.radio.coreui.views.CustomFontTextView",
+              "bounds": [
+                336,
+                137,
+                1104,
+                197
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.widget.ViewSwitcher",
+            "android.widget.ViewAnimator",
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextSwitcher",
+          "bounds": [
+            336,
+            137,
+            1104,
+            197
+          ],
+          "componentLabel": "On/Off Switch"
+        },
+        {
+          "iconClass": "search",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1244,
+            97,
+            1440,
+            265
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "com.slacker.radio.coreui.components.SharedView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.slacker.radio.ui.base.SharedTitleBar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        277
+      ],
+      "componentLabel": "Toolbar"
+    }
+  ]
+}

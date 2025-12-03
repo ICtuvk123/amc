@@ -1,0 +1,493 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.fourtechnologies.mynetdiary.ad:id/toolbar",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.m",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Measurements",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.z",
+          "bounds": [
+            252,
+            135,
+            723,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "resource-id": "com.fourtechnologies.mynetdiary.ad:id/menu_save",
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.widget.LinearLayout",
+          "bounds": [
+            814,
+            84,
+            1104,
+            280
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "save"
+        },
+        {
+          "text": "",
+          "resource-id": "com.fourtechnologies.mynetdiary.ad:id/menu_subscription",
+          "ancestors": [
+            "android.support.v7.widget.z",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1104,
+            98,
+            1272,
+            266
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "more",
+          "resource-id": "com.fourtechnologies.mynetdiary.ad:id/menu_help",
+          "ancestors": [
+            "android.support.v7.widget.z",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.fourtechnologies.mynetdiary.ad:id/navigationBarPreviousDay",
+      "clickable": true,
+      "class": "android.support.v7.widget.o",
+      "bounds": [
+        300,
+        280,
+        440,
+        448
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Wed, Dec 14",
+      "resource-id": "com.fourtechnologies.mynetdiary.ad:id/navigationBarTitle",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.z",
+      "bounds": [
+        440,
+        280,
+        1000,
+        448
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.fourtechnologies.mynetdiary.ad:id/navigationBarNextDay",
+      "clickable": true,
+      "class": "android.support.v7.widget.o",
+      "bounds": [
+        1000,
+        280,
+        1140,
+        448
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        476,
+        1440,
+        676
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Daily Step Count",
+          "resource-id": "com.fourtechnologies.mynetdiary.ad:id/inputTextTitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.z",
+          "bounds": [
+            56,
+            538,
+            711,
+            614
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "com.fourtechnologies.mynetdiary.ad:id/inputTextText",
+          "ancestors": [
+            "android.support.v7.widget.l",
+            "android.widget.EditText",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.mynetdiary.ui.components.EditTextFocusWorkaround",
+          "bounds": [
+            729,
+            501,
+            1384,
+            651
+          ],
+          "componentLabel": "Input"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        676,
+        1440,
+        876
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Hip Size, in",
+          "resource-id": "com.fourtechnologies.mynetdiary.ad:id/inputTextTitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.z",
+          "bounds": [
+            56,
+            738,
+            711,
+            814
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "com.fourtechnologies.mynetdiary.ad:id/inputTextText",
+          "ancestors": [
+            "android.support.v7.widget.l",
+            "android.widget.EditText",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.mynetdiary.ui.components.EditTextFocusWorkaround",
+          "bounds": [
+            729,
+            701,
+            1384,
+            851
+          ],
+          "componentLabel": "Input"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        876,
+        1440,
+        1076
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Waist Size, in",
+          "resource-id": "com.fourtechnologies.mynetdiary.ad:id/inputTextTitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.z",
+          "bounds": [
+            56,
+            938,
+            711,
+            1014
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "com.fourtechnologies.mynetdiary.ad:id/inputTextText",
+          "ancestors": [
+            "android.support.v7.widget.l",
+            "android.widget.EditText",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.mynetdiary.ui.components.EditTextFocusWorkaround",
+          "bounds": [
+            729,
+            901,
+            1384,
+            1051
+          ],
+          "componentLabel": "Input"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1076,
+        1440,
+        1276
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Neck Circumference, in",
+          "resource-id": "com.fourtechnologies.mynetdiary.ad:id/inputTextTitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.z",
+          "bounds": [
+            56,
+            1138,
+            711,
+            1214
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "com.fourtechnologies.mynetdiary.ad:id/inputTextText",
+          "ancestors": [
+            "android.support.v7.widget.l",
+            "android.widget.EditText",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.mynetdiary.ui.components.EditTextFocusWorkaround",
+          "bounds": [
+            729,
+            1101,
+            1384,
+            1251
+          ],
+          "componentLabel": "Input"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1276,
+        1440,
+        1711
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Need to track more? Consider Maximum membership for tracking hours of sleep, body fat, waist, hip, chest and other body metrics. Maximum membership includes Health and Diabetes features. Track and analyze Blood Pressure, Cholesterol, Blood Glucose, A1C and anything else with custom trackers.",
+          "resource-id": "com.fourtechnologies.mynetdiary.ad:id/noteSeparatorTextView",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.z",
+          "bounds": [
+            56,
+            1318,
+            1384,
+            1669
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1711,
+        1440,
+        1879
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.fourtechnologies.mynetdiary.ad:id/ad_cell_icon",
+          "clickable": false,
+          "class": "android.support.v7.widget.o",
+          "bounds": [
+            56,
+            1712,
+            168,
+            1877
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Get Maximum Results",
+          "resource-id": "com.fourtechnologies.mynetdiary.ad:id/ad_cell_with_icon_title",
+          "ancestors": [
+            "android.support.v7.widget.z",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.mynetdiary.ui.components.FadeTextView",
+          "bounds": [
+            210,
+            1757,
+            1384,
+            1833
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

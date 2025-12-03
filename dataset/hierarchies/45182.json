@@ -1,0 +1,430 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.hilton.android.hhonors:id/toolbar",
+      "children": [
+        {
+          "text": "Settings",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            135,
+            469,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        280,
+        1440,
+        435
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "Notifications",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            28,
+            322,
+            1440,
+            407
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        435,
+        1440,
+        690
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "Account Updates",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            84,
+            463,
+            511,
+            539
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Stay up-to-date on account information such as point totals and tier changes.",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            84,
+            539,
+            1211,
+            662
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "com.hilton.android.hhonors:id/switchWidget",
+          "ancestors": [
+            "android.widget.CompoundButton",
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.SwitchCompat",
+          "bounds": [
+            1239,
+            515,
+            1405,
+            610
+          ],
+          "componentLabel": "On/Off Switch"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        689,
+        1440,
+        901
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            717,
+            1440,
+            728
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Documentation",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            28,
+            788,
+            1440,
+            873
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        901,
+        1440,
+        1125
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "Privacy Statement",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            84,
+            975,
+            536,
+            1051
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1124,
+        1440,
+        1348
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "Cookie Statement",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            84,
+            1198,
+            527,
+            1274
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1347,
+        1440,
+        1571
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "Usage Agreement",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            84,
+            1421,
+            528,
+            1497
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1570,
+        1440,
+        1794
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "Open Source Attributions",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            84,
+            1644,
+            708,
+            1720
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        1793,
+        1440,
+        2017
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "Version",
+          "resource-id": "android:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            84,
+            1834,
+            274,
+            1910
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "2.9.3",
+          "resource-id": "android:id/summary",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            84,
+            1910,
+            194,
+            1976
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

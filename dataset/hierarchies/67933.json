@@ -1,0 +1,144 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "net.familo.android:id/toolbar",
+      "children": [
+        {
+          "text": "Location Services",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.aa",
+          "bounds": [
+            252,
+            135,
+            812,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "close",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.o",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Ask me",
+      "resource-id": "net.familo.android:id/activity_location_permission_ask_now",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.i",
+      "bounds": [
+        84,
+        2000,
+        1356,
+        2154
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Not now",
+      "resource-id": "net.familo.android:id/activity_location_permission_not_now",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.i",
+      "bounds": [
+        84,
+        2182,
+        1356,
+        2336
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "not now"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        300,
+        384,
+        1140,
+        1504
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Familonet relies on Location Services. Please allow access to use the app.",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.aa",
+      "bounds": [
+        84,
+        1532,
+        1356,
+        1674
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

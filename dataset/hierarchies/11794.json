@@ -1,0 +1,181 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "net.aljazeera.english:id/article_toolbar",
+      "children": [
+        {
+          "text": "Log In",
+          "resource-id": "net.aljazeera.english:id/titleToolbarTextView",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            193,
+            127,
+            1370,
+            235
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "net.aljazeera.english:id/icon_left_button",
+          "clickable": false,
+          "class": "android.widget.ImageView",
+          "bounds": [
+            35,
+            120,
+            158,
+            243
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Forgot your password?",
+      "resource-id": "net.aljazeera.english:id/forgotPassworTextView",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        375,
+        1722,
+        1065,
+        1812
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        556,
+        336,
+        884,
+        896
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Login with your Al Jazeera account details",
+      "resource-id": "net.aljazeera.english:id/login_title_txt",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        117,
+        896,
+        1323,
+        1064
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "appcrawler2@gmail.com",
+      "resource-id": "net.aljazeera.english:id/username_txt",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        56,
+        1064,
+        1384,
+        1232
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "appcrawler3116",
+      "resource-id": "net.aljazeera.english:id/password_txt",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        56,
+        1260,
+        1384,
+        1428
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Log In",
+      "resource-id": "net.aljazeera.english:id/login_access_btn",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        56,
+        1484,
+        1384,
+        1652
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "login"
+    }
+  ]
+}

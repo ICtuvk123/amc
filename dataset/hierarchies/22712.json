@@ -1,0 +1,212 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.runtastic.android.results.lite:id/activity_material_drawer_toolbar",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Image"
+        },
+        {
+          "text": "News Feed",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            135,
+            598,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "com.runtastic.android.results.lite:id/menu_item_action_show_friend_management",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Check out your and your friends' activities. Like and leave comments to share inspiration and get healthy together!",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.facebook.react.views.text.ReactTextView",
+      "bounds": [
+        56,
+        1431,
+        1384,
+        1642
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Runtastic",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.facebook.react.views.text.ReactTextView",
+      "bounds": [
+        252,
+        1950,
+        519,
+        2035
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "com.facebook.drawee.view.GenericDraweeView",
+        "com.facebook.drawee.view.DraweeView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        308,
+        1440,
+        1375
+      ],
+      "clickable": false,
+      "class": "com.facebook.react.views.image.ReactImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Welcome to Your\nRuntastic News Feed",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.facebook.react.views.text.ReactTextView",
+      "bounds": [
+        56,
+        1091,
+        915,
+        1319
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "FIND FRIENDS",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.facebook.react.views.text.ReactTextView",
+      "bounds": [
+        56,
+        1700,
+        373,
+        1766
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "com.facebook.drawee.view.GenericDraweeView",
+        "com.facebook.drawee.view.DraweeView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        56,
+        1922,
+        196,
+        2062
+      ],
+      "clickable": false,
+      "class": "com.facebook.react.views.image.ReactImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "com.facebook.drawee.view.GenericDraweeView",
+        "com.facebook.drawee.view.DraweeView",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        2118,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "class": "com.facebook.react.views.image.ReactImageView",
+      "componentLabel": "Image"
+    }
+  ]
+}

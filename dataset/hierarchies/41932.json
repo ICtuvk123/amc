@@ -1,0 +1,87 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "iconClass": "arrow_backward",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.zoomer.app:id/restaurantlist_arrow_back",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        84,
+        196,
+        280
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Deliver To",
+      "resource-id": "com.zoomer.app:id/locationbar_current_location",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.z",
+      "bounds": [
+        522,
+        98,
+        917,
+        266
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        296,
+        476,
+        1143,
+        998
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Enter your full address above to check for Zoomer restaurant partners in your area.",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.z",
+      "bounds": [
+        70,
+        1103,
+        1370,
+        1353
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

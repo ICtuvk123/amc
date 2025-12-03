@@ -1,0 +1,216 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "iconClass": "home",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.instagram.android:id/tab_icon",
+      "clickable": false,
+      "class": "com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView",
+      "bounds": [
+        102,
+        2266,
+        186,
+        2350
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "search",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.instagram.android:id/tab_icon",
+      "clickable": false,
+      "class": "com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView",
+      "bounds": [
+        390,
+        2266,
+        474,
+        2350
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "photo",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.instagram.android:id/tab_icon",
+      "clickable": false,
+      "class": "com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView",
+      "bounds": [
+        678,
+        2266,
+        762,
+        2350
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "favorite",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.instagram.android:id/tab_icon",
+      "clickable": false,
+      "class": "com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView",
+      "bounds": [
+        966,
+        2266,
+        1050,
+        2350
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "avatar",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.instagram.android:id/tab_icon",
+      "clickable": false,
+      "class": "com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView",
+      "bounds": [
+        1254,
+        2266,
+        1338,
+        2350
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "arrow_backward",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.instagram.android:id/action_bar_button_back",
+      "clickable": true,
+      "class": "android.widget.ImageView",
+      "bounds": [
+        0,
+        84,
+        168,
+        252
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "",
+      "resource-id": "com.instagram.android:id/action_bar_search_edit_text",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.instagram.ui.widget.searchedittext.SearchEditText",
+      "bounds": [
+        210,
+        105,
+        1398,
+        231
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Top",
+      "resource-id": "com.instagram.android:id/tab_button_name_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.instagram.ui.text.TitleTextView",
+      "bounds": [
+        133,
+        296,
+        227,
+        362
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "People",
+      "resource-id": "com.instagram.android:id/tab_button_name_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.instagram.ui.text.TitleTextView",
+      "bounds": [
+        450,
+        296,
+        629,
+        362
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Tags",
+      "resource-id": "com.instagram.android:id/tab_button_name_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.instagram.ui.text.TitleTextView",
+      "bounds": [
+        838,
+        296,
+        961,
+        362
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Places",
+      "resource-id": "com.instagram.android:id/tab_button_name_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.instagram.ui.text.TitleTextView",
+      "bounds": [
+        1169,
+        296,
+        1350,
+        362
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

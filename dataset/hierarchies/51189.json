@@ -1,0 +1,94 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.grapplemobile.skynewsarabia:id/confirmation_message_image",
+      "clickable": false,
+      "class": "com.skynewsarabia.android.view.OOMImageView",
+      "bounds": [
+        457,
+        783,
+        982,
+        1308
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "تفعيل الاشتراك بخدمة الأخبار العاجلة؟",
+      "resource-id": "com.grapplemobile.skynewsarabia:id/confirmation_message_text",
+      "ancestors": [
+        "com.skynewsarabia.android.view.BaseCustomTextView",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.skynewsarabia.android.view.RegularCustomTextView",
+      "bounds": [
+        0,
+        1308,
+        1440,
+        1528
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "تراجع",
+      "resource-id": "com.grapplemobile.skynewsarabia:id/info_message_button_no",
+      "ancestors": [
+        "com.skynewsarabia.android.view.BaseCustomButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.skynewsarabia.android.view.RegularCustomButton",
+      "bounds": [
+        282,
+        1546,
+        702,
+        1674
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "موافق",
+      "resource-id": "com.grapplemobile.skynewsarabia:id/info_message_button_yes",
+      "ancestors": [
+        "com.skynewsarabia.android.view.BaseCustomButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.skynewsarabia.android.view.RegularCustomButton",
+      "bounds": [
+        738,
+        1546,
+        1158,
+        1674
+      ],
+      "componentLabel": "Text Button"
+    }
+  ]
+}

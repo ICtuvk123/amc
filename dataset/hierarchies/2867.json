@@ -1,0 +1,284 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.zalora.android:id/header_image",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.zalora.android:id/bg_image",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        280,
+        1440,
+        2392
+      ],
+      "componentLabel": "Background Image"
+    },
+    {
+      "text": "Forgot password?",
+      "resource-id": "com.zalora.android:id/forgot_pw",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "pt.rocket.utils.fontutils.ZTextView",
+      "bounds": [
+        496,
+        1739,
+        943,
+        1807
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Skip",
+      "resource-id": "com.zalora.android:id/skip_button",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "pt.rocket.utils.fontutils.ZTextView",
+      "bounds": [
+        667,
+        2024,
+        772,
+        2092
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "skip"
+    },
+    {
+      "text": "Login with Facebook",
+      "resource-id": "com.zalora.android:id/facebook_login",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "pt.rocket.utils.fontutils.ZButton",
+      "bounds": [
+        84,
+        476,
+        1356,
+        644
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "facebook"
+    },
+    {
+      "text": "or",
+      "resource-id": "com.zalora.android:id/or_textview",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "pt.rocket.utils.fontutils.ZTextView",
+      "bounds": [
+        687,
+        784,
+        753,
+        843
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "resource-id": "com.zalora.android:id/float_label",
+      "children": [
+        {
+          "text": "",
+          "resource-id": "com.zalora.android:id/edit_text",
+          "ancestors": [
+            "android.widget.AutoCompleteTextView",
+            "android.widget.EditText",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "pt.rocket.utils.fontutils.ZAutoCompleteTextView",
+          "bounds": [
+            84,
+            941,
+            1356,
+            1081
+          ],
+          "componentLabel": "Input"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "pt.rocket.view.FloatLabeledEditText",
+      "bounds": [
+        84,
+        871,
+        1356,
+        1081
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Login",
+      "resource-id": "com.zalora.android:id/login_button",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "pt.rocket.utils.fontutils.ZButton",
+      "bounds": [
+        84,
+        1515,
+        1356,
+        1683
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "login"
+    },
+    {
+      "resource-id": "com.zalora.android:id/float_label",
+      "children": [
+        {
+          "text": "",
+          "resource-id": "com.zalora.android:id/password_field_id",
+          "ancestors": [
+            "android.widget.EditText",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "pt.rocket.utils.fontutils.ZEditText",
+          "bounds": [
+            84,
+            1179,
+            1356,
+            1319
+          ],
+          "componentLabel": "Input"
+        },
+        {
+          "iconClass": "weather",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.zalora.android:id/show_password_button_id",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "bounds": [
+            1258,
+            1179,
+            1342,
+            1319
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "pt.rocket.view.FloatLabeledEditText",
+      "bounds": [
+        84,
+        1109,
+        1356,
+        1319
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "",
+      "resource-id": "com.zalora.android:id/checkbox_form_id",
+      "ancestors": [
+        "android.widget.CheckBox",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatCheckBox",
+      "bounds": [
+        309,
+        1863,
+        379,
+        1933
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Receive exclusive offers & updates",
+      "resource-id": "com.zalora.android:id/checkbox_label_form_id",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "pt.rocket.utils.fontutils.ZTextView",
+      "bounds": [
+        379,
+        1872,
+        1130,
+        1927
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

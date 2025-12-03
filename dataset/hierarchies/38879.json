@@ -1,0 +1,514 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        84,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.v",
+      "componentLabel": "Background Image"
+    },
+    {
+      "text": "CONTINUE",
+      "resource-id": "com.houzz.app:id/actionButton",
+      "ancestors": [
+        "com.houzz.app.views.MyCheckedTextView",
+        "com.houzz.app.views.MyTextView",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.houzz.app.views.MyButton",
+      "bounds": [
+        0,
+        2217,
+        1440,
+        2392
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "continue"
+    },
+    {
+      "text": "Step 2 of 3",
+      "resource-id": "com.houzz.app:id/wizardTitle",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.houzz.app.views.MyTextView",
+      "bounds": [
+        602,
+        84,
+        837,
+        280
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "SKIP",
+      "resource-id": "com.houzz.app:id/skip",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.houzz.app.views.MyTextView",
+      "bounds": [
+        1222,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "skip"
+    },
+    {
+      "ancestors": [
+        "com.houzz.app.layouts.base.MyLinearLayout",
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.houzz.app.layouts.OnBoardingStylesScreenHeader",
+      "bounds": [
+        1,
+        336,
+        1439,
+        646
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Tell us what you like",
+          "resource-id": "com.houzz.app:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            195,
+            336,
+            1245,
+            429
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Knowing what you like helps us show you better ideas for your home",
+          "resource-id": "com.houzz.app:id/subtitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            195,
+            457,
+            1245,
+            586
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "Styles",
+      "resource-id": "com.houzz.app:id/ideabooksLabel",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.houzz.app.views.MyTextView",
+      "bounds": [
+        42,
+        702,
+        1398,
+        778
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "com.houzz.app.layouts.base.MyCardView",
+        "android.support.v7.widget.CardView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.houzz.app.layouts.CheckableImageAndMarkEntryLayout",
+      "bounds": [
+        60,
+        817,
+        702,
+        1360
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.houzz.app:id/image",
+          "clickable": false,
+          "class": "com.houzz.app.views.MyImageView",
+          "bounds": [
+            67,
+            828,
+            695,
+            1349
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "check",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.houzz.app:id/selectionMarker",
+          "clickable": false,
+          "class": "android.support.v7.widget.v",
+          "bounds": [
+            325,
+            1032,
+            437,
+            1144
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Contemporary",
+          "resource-id": "com.houzz.app:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            67,
+            1172,
+            695,
+            1248
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "com.houzz.app.layouts.base.MyCardView",
+        "android.support.v7.widget.CardView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.houzz.app.layouts.CheckableImageAndMarkEntryLayout",
+      "bounds": [
+        738,
+        817,
+        1380,
+        1360
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.houzz.app:id/image",
+          "clickable": false,
+          "class": "com.houzz.app.views.MyImageView",
+          "bounds": [
+            745,
+            828,
+            1373,
+            1349
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Eclectic",
+          "resource-id": "com.houzz.app:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            745,
+            1050,
+            1373,
+            1126
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "com.houzz.app.layouts.base.MyCardView",
+        "android.support.v7.widget.CardView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.houzz.app.layouts.CheckableImageAndMarkEntryLayout",
+      "bounds": [
+        60,
+        1396,
+        702,
+        1939
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.houzz.app:id/image",
+          "clickable": false,
+          "class": "com.houzz.app.views.MyImageView",
+          "bounds": [
+            67,
+            1407,
+            695,
+            1928
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Modern",
+          "resource-id": "com.houzz.app:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            67,
+            1629,
+            695,
+            1705
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "com.houzz.app.layouts.base.MyCardView",
+        "android.support.v7.widget.CardView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.houzz.app.layouts.CheckableImageAndMarkEntryLayout",
+      "bounds": [
+        738,
+        1396,
+        1380,
+        1939
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.houzz.app:id/image",
+          "clickable": false,
+          "class": "com.houzz.app.views.MyImageView",
+          "bounds": [
+            745,
+            1407,
+            1373,
+            1928
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Traditional",
+          "resource-id": "com.houzz.app:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            745,
+            1629,
+            1373,
+            1705
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "com.houzz.app.layouts.base.MyCardView",
+        "android.support.v7.widget.CardView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.houzz.app.layouts.CheckableImageAndMarkEntryLayout",
+      "bounds": [
+        60,
+        1975,
+        702,
+        2217
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.houzz.app:id/image",
+          "clickable": false,
+          "class": "com.houzz.app.views.MyImageView",
+          "bounds": [
+            67,
+            1986,
+            695,
+            2217
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Asian",
+          "resource-id": "com.houzz.app:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            67,
+            2208,
+            695,
+            2217
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "com.houzz.app.layouts.base.MyCardView",
+        "android.support.v7.widget.CardView",
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.houzz.app.layouts.CheckableImageAndMarkEntryLayout",
+      "bounds": [
+        738,
+        1975,
+        1380,
+        2217
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.houzz.app:id/image",
+          "clickable": false,
+          "class": "com.houzz.app.views.MyImageView",
+          "bounds": [
+            745,
+            1986,
+            1373,
+            2217
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Beach Style",
+          "resource-id": "com.houzz.app:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.houzz.app.views.MyTextView",
+          "bounds": [
+            745,
+            2208,
+            1373,
+            2217
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "br.com.tecnonutri.app:id/toolbar",
+      "children": [
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Feed",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            135,
+            363,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "search",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            936,
+            98,
+            1104,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "notifications",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1104,
+            98,
+            1272,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "filter_list",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "br.com.tecnonutri.app:id/cardMeal",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            21,
+            280,
+            1419,
+            388
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "go"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.CardView",
+      "bounds": [
+        0,
+        280,
+        1440,
+        388
+      ],
+      "componentLabel": "Card"
+    },
+    {
+      "resource-id": "br.com.tecnonutri.app:id/cardMeal",
+      "children": [
+        {
+          "resource-id": "br.com.tecnonutri.app:id/card_header_feed",
+          "children": [
+            {
+              "text": "Follow",
+              "resource-id": "br.com.tecnonutri.app:id/button_follow",
+              "ancestors": [
+                "android.widget.Button",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": true,
+              "class": "android.support.v7.widget.AppCompatButton",
+              "bounds": [
+                1177,
+                466,
+                1405,
+                592
+              ],
+              "componentLabel": "Text Button",
+              "textButtonClass": "follow"
+            },
+            {
+              "iconClass": "avatar",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "br.com.tecnonutri.app:id/image_header_card_feed_profile",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                56,
+                466,
+                182,
+                592
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "text": "Lose weight",
+              "resource-id": "br.com.tecnonutri.app:id/text_goal_header_card_feed_profile",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                210,
+                547,
+                399,
+                594
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            0,
+            424,
+            1440,
+            634
+          ],
+          "componentLabel": "Card"
+        },
+        {
+          "iconClass": "favorite",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "br.com.tecnonutri.app:id/button_like",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1174,
+            1808,
+            1384,
+            2018
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Breakfast",
+          "resource-id": "br.com.tecnonutri.app:id/text_meal",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            2116,
+            293,
+            2192
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "136kcal",
+          "resource-id": "br.com.tecnonutri.app:id/text_meal_energy",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1191,
+            2116,
+            1384,
+            2192
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "0 Likes",
+          "resource-id": "br.com.tecnonutri.app:id/text_likes_number",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            28,
+            2332,
+            216,
+            2392
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "0 Comments",
+          "resource-id": "br.com.tecnonutri.app:id/text_comments_number",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            244,
+            2332,
+            540,
+            2392
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "br.com.tecnonutri.app:id/image_feed",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            634,
+            1440,
+            2074
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "favorite",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "br.com.tecnonutri.app:id/image_like",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            28,
+            2192,
+            168,
+            2332
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "chat",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "br.com.tecnonutri.app:id/image_comment_ic",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            196,
+            2192,
+            336,
+            2332
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "share",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            364,
+            2192,
+            504,
+            2332
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "photo",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            532,
+            2192,
+            672,
+            2332
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "warning",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1272,
+            2192,
+            1412,
+            2332
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.CardView",
+      "bounds": [
+        0,
+        424,
+        1440,
+        2392
+      ],
+      "componentLabel": "Card"
+    }
+  ]
+}

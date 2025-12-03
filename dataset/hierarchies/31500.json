@@ -1,0 +1,287 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.jackthreads.android:id/toolbar",
+      "children": [
+        {
+          "text": "Proceed To Tryout",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            148,
+            675,
+            216
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "help",
+          "resource-id": "com.jackthreads.android:id/actionbar_help",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "What Happens Next?",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        56,
+        336,
+        1384,
+        468
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.jackthreads.android:id/imageWhatHappensNext1",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        84,
+        528,
+        203,
+        647
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Tell us where to send your TryOut.",
+      "resource-id": "com.jackthreads.android:id/textWhatHappensNext1",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        273,
+        559,
+        900,
+        616
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.jackthreads.android:id/imageWhatHappensNext2",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        84,
+        703,
+        196,
+        808
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Try things on at home for free. You'll have a week to decide what to keep.",
+      "resource-id": "com.jackthreads.android:id/textWhatHappensNext2",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        266,
+        703,
+        1356,
+        809
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.jackthreads.android:id/imageWhatHappensNext3",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        84,
+        865,
+        196,
+        991
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Only pay for what works, and send back the rest. (Shipping's on us.)",
+      "resource-id": "com.jackthreads.android:id/textWhatHappensNext3",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        266,
+        875,
+        1356,
+        981
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "NEW CUSTOMER",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        171,
+        1128,
+        548,
+        1194
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "EXISTING CUSTOMER",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        837,
+        1128,
+        1323,
+        1194
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Continue As Guest",
+      "resource-id": "com.jackthreads.android:id/btnContinueAsGuest",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.jackthreads.android.views.CustomButton",
+      "bounds": [
+        63,
+        1588,
+        1377,
+        1756
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "continue"
+    },
+    {
+      "text": "",
+      "resource-id": "com.jackthreads.android:id/txtEmail",
+      "ancestors": [
+        "android.support.v7.widget.AppCompatEditText",
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.jackthreads.android.views.CustomEditText",
+      "bounds": [
+        56,
+        1369,
+        1384,
+        1518
+      ],
+      "componentLabel": "Input"
+    }
+  ]
+}

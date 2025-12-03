@@ -1,0 +1,342 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.paktor:id/store_toolbar",
+      "children": [
+        {
+          "text": "Store",
+          "resource-id": "com.paktor:id/store_toolbar_title",
+          "ancestors": [
+            "com.paktor.views.text.AnyTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.paktor.views.MyTextView",
+          "bounds": [
+            638,
+            135,
+            803,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "350",
+          "resource-id": "com.paktor:id/store_points_text_view",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1209,
+            139,
+            1314,
+            224
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "favorite",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.paktor:id/store_points_image_view",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1328,
+            151,
+            1384,
+            212
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.support.design.widget.TabLayout$SlidingTabStrip",
+      "bounds": [
+        0,
+        280,
+        1440,
+        448
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.widget.TabLayout$TabView",
+          "bounds": [
+            907,
+            280,
+            1218,
+            448
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "rewards"
+        },
+        {
+          "text": "Go Premium",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            210,
+            331,
+            511,
+            397
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "A la carte",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            595,
+            331,
+            865,
+            397
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "Multi-Tab"
+    },
+    {
+      "resource-id": "com.paktor:id/paktorGuaranteeLayout",
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        56,
+        2178,
+        1384,
+        2369
+      ],
+      "componentLabel": "Text Button",
+      "text": "Paktor Date Guarantee! - Learn More"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.paktor:id/indicator",
+      "clickable": false,
+      "class": "com.viewpagerindicator.CirclePageIndicator",
+      "bounds": [
+        370,
+        1301,
+        1070,
+        1323
+      ],
+      "componentLabel": "Pager Indicator"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.paktor:id/image",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        370,
+        518,
+        1070,
+        1043
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Go premium! Get 1000 points reloaded DAILY into your account",
+      "resource-id": "com.paktor:id/text",
+      "ancestors": [
+        "com.paktor.views.text.AnyTextView",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.paktor.views.MyTextView",
+      "bounds": [
+        370,
+        1062,
+        1070,
+        1177
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        1393,
+        1384,
+        1538
+      ],
+      "clickable": true,
+      "componentLabel": "Text Button",
+      "text": "OFFER ends in bla bla bla"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        1573,
+        1384,
+        1718
+      ],
+      "clickable": true,
+      "componentLabel": "Text Button",
+      "text": "OFFER ends in bla bla bla"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        56,
+        1753,
+        1384,
+        1898
+      ],
+      "clickable": true,
+      "componentLabel": "Text Button",
+      "text": "OFFER ends in bla bla bla"
+    },
+    {
+      "text": "",
+      "resource-id": "com.paktor:id/promoCodeEditText",
+      "ancestors": [
+        "com.paktor.views.text.AnyEditText",
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.paktor.views.MyEditText",
+      "bounds": [
+        56,
+        1933,
+        853,
+        2090
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "REDEEM",
+      "resource-id": "com.paktor:id/redeemButton",
+      "ancestors": [
+        "com.paktor.views.text.AnyTextView",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.paktor.views.MyTextView",
+      "bounds": [
+        853,
+        1933,
+        1384,
+        2090
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "redeem"
+    }
+  ]
+}

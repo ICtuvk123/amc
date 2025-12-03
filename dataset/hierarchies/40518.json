@@ -1,0 +1,714 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.iihf.android2016:id/action_bar_container",
+      "children": [
+        {
+          "text": "Game 51",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            135,
+            530,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "date_range",
+          "resource-id": "com.iihf.android2016:id/button_ice_rink",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            882,
+            98,
+            1068,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "notifications",
+          "resource-id": "com.iihf.android2016:id/button_notification",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1068,
+            98,
+            1254,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "date_range",
+          "resource-id": "com.iihf.android2016:id/action_scoreboard",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1254,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "INFO",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        662,
+        667,
+        779,
+        738
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "LINEUPS",
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.TextView",
+      "bounds": [
+        1203,
+        667,
+        1412,
+        738
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "4",
+      "resource-id": "com.iihf.android2016:id/score_left",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+      "bounds": [
+        622,
+        318,
+        705,
+        486
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": ":",
+      "resource-id": "com.iihf.android2016:id/delimiter",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+      "bounds": [
+        705,
+        318,
+        735,
+        486
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "2",
+      "resource-id": "com.iihf.android2016:id/score_right",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+      "bounds": [
+        735,
+        318,
+        815,
+        486
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Game 51",
+      "resource-id": "com.iihf.android2016:id/game_number",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+      "bounds": [
+        56,
+        574,
+        217,
+        625
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Game Completed",
+      "resource-id": "com.iihf.android2016:id/game_period",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+      "bounds": [
+        1059,
+        574,
+        1384,
+        625
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "national_flag",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.iihf.android2016:id/flag_left",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        28,
+        302,
+        203,
+        426
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "SWE",
+      "resource-id": "com.iihf.android2016:id/team_left",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+      "bounds": [
+        56,
+        426,
+        196,
+        502
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "national_flag",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.iihf.android2016:id/flag_right",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1237,
+        302,
+        1412,
+        426
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "SVK",
+      "resource-id": "com.iihf.android2016:id/team_right",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+      "bounds": [
+        1265,
+        426,
+        1412,
+        502
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "resource-id": "com.iihf.android2016:id/contentSL",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.iihf.android2016:id/image",
+          "clickable": false,
+          "class": "com.makeramen.RoundedImageView",
+          "bounds": [
+            32,
+            1562,
+            1408,
+            1953
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "play",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.iihf.android2016:id/play_icon",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            676,
+            1713,
+            764,
+            1801
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1530,
+        1440,
+        1985
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.iihf.android2016:id/player_layout",
+      "children": [
+        {
+          "text": "Best players of the game",
+          "resource-id": "com.iihf.android2016:id/title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+          "bounds": [
+            468,
+            2298,
+            974,
+            2363
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.iihf.android2016:id/photo_left",
+          "clickable": false,
+          "class": "com.makeramen.RoundedImageView",
+          "bounds": [
+            32,
+            2057,
+            256,
+            2281
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Forward",
+          "resource-id": "com.iihf.android2016:id/title_left",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+          "bounds": [
+            256,
+            2059,
+            410,
+            2110
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "EVERBERG",
+          "resource-id": "com.iihf.android2016:id/last_name_left",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+          "bounds": [
+            256,
+            2117,
+            474,
+            2168
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Dennis",
+          "resource-id": "com.iihf.android2016:id/first_name_left",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+          "bounds": [
+            256,
+            2168,
+            387,
+            2219
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "3 pts",
+          "resource-id": "com.iihf.android2016:id/points_left",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+          "bounds": [
+            256,
+            2226,
+            386,
+            2279
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "VS",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+          "bounds": [
+            667,
+            2118,
+            772,
+            2219
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.iihf.android2016:id/photo_right",
+          "clickable": false,
+          "class": "com.makeramen.RoundedImageView",
+          "bounds": [
+            1184,
+            2057,
+            1408,
+            2281
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Forward",
+          "resource-id": "com.iihf.android2016:id/title_right",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+          "bounds": [
+            1030,
+            2059,
+            1184,
+            2110
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "MATOUSEK",
+          "resource-id": "com.iihf.android2016:id/last_name_right",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+          "bounds": [
+            954,
+            2117,
+            1184,
+            2168
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Tomas",
+          "resource-id": "com.iihf.android2016:id/first_name_right",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+          "bounds": [
+            1058,
+            2168,
+            1184,
+            2219
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "2 pts",
+          "resource-id": "com.iihf.android2016:id/points_right",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+          "bounds": [
+            1054,
+            2226,
+            1184,
+            2279
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        1999,
+        1440,
+        2392
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "iconClass": "date_range",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        720,
+        835,
+        790,
+        905
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "5/16/17 / 5:15 AM",
+      "resource-id": "com.iihf.android2016:id/game_date",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+      "bounds": [
+        818,
+        844,
+        1142,
+        895
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "list",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.iihf.android2016:id/game_phase_info_icon",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        720,
+        1047,
+        790,
+        1117
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Preliminary Round",
+      "resource-id": "com.iihf.android2016:id/game_phase_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+      "bounds": [
+        818,
+        1031,
+        1154,
+        1082
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Group A",
+      "resource-id": "com.iihf.android2016:id/game_phase_subtitle",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.iihf.android2016.ui.widget.TypefacedTextView",
+      "bounds": [
+        818,
+        1082,
+        973,
+        1133
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        18,
+        1091,
+        228,
+        1168
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    }
+  ]
+}

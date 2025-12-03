@@ -1,0 +1,278 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "naukriApp.appModules.login:id/n_toolbar",
+      "children": [
+        {
+          "text": "Create Account",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            135,
+            692,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "description",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "All fields are required",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.bs",
+      "bounds": [
+        70,
+        373,
+        460,
+        430
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Mobile Number",
+      "resource-id": "naukriApp.appModules.login:id/phone_label",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.bs",
+      "bounds": [
+        70,
+        1056,
+        337,
+        1109
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "By clicking Register, you agree to Naukri.com's",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.bs",
+      "bounds": [
+        305,
+        1678,
+        1163,
+        1735
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Terms and Conditions",
+      "resource-id": "naukriApp.appModules.login:id/resman_term_and_condition",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.bs",
+      "bounds": [
+        529,
+        1742,
+        938,
+        1799
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Register",
+      "resource-id": "naukriApp.appModules.login:id/resman_next_button",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.an",
+      "bounds": [
+        56,
+        1869,
+        1384,
+        2027
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "register"
+    },
+    {
+      "text": "",
+      "resource-id": "naukriApp.appModules.login:id/resman_fullname_edittext",
+      "ancestors": [
+        "android.support.v7.widget.ax",
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.naukri.widgets.CustomEditText",
+      "bounds": [
+        56,
+        552,
+        1384,
+        701
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "appcrawler3@gmail.com",
+      "resource-id": "naukriApp.appModules.login:id/resman_email_edittext",
+      "ancestors": [
+        "android.support.v7.widget.al",
+        "android.widget.AutoCompleteTextView",
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.naukri.widgets.CustomAutoCompleteEditText",
+      "bounds": [
+        56,
+        823,
+        1384,
+        972
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "",
+      "resource-id": "naukriApp.appModules.login:id/resman_phone_edittext",
+      "ancestors": [
+        "android.support.v7.widget.ax",
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.naukri.widgets.CustomEditText",
+      "bounds": [
+        56,
+        1109,
+        1384,
+        1266
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Hide",
+      "resource-id": "naukriApp.appModules.login:id/resman_hide_txt",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.bs",
+      "bounds": [
+        1212,
+        1375,
+        1359,
+        1495
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "hide"
+    },
+    {
+      "text": "",
+      "resource-id": "naukriApp.appModules.login:id/resman_password_edittext",
+      "ancestors": [
+        "android.support.v7.widget.ax",
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.naukri.widgets.CustomEditText",
+      "bounds": [
+        56,
+        1388,
+        1384,
+        1537
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Minimum 6 Characters",
+      "resource-id": "naukriApp.appModules.login:id/hint_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.bs",
+      "bounds": [
+        63,
+        1537,
+        487,
+        1594
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

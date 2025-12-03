@@ -1,0 +1,74 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "Choose your language",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.gazelle.quest.custom.RobotoTextView",
+      "bounds": [
+        369,
+        920,
+        1070,
+        1014
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "English",
+      "resource-id": "com.myquest:id/btn_english",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.gazelle.quest.custom.RobotoButton",
+      "bounds": [
+        329,
+        1084,
+        1111,
+        1243
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "english"
+    },
+    {
+      "text": "Español",
+      "resource-id": "com.myquest:id/btn_spanish",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.gazelle.quest.custom.RobotoButton",
+      "bounds": [
+        329,
+        1313,
+        1111,
+        1472
+      ],
+      "componentLabel": "Text Button"
+    }
+  ]
+}

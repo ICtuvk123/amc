@@ -1,0 +1,94 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "text": "exit",
+      "resource-id": "nyc.walkandexplore:id/challenge_skip",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        0,
+        2161,
+        308,
+        2391
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "close"
+    },
+    {
+      "text": "Miro",
+      "resource-id": "nyc.walkandexplore:id/challenge_start_title",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        53,
+        872,
+        1387,
+        975
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "1 questions",
+      "resource-id": "nyc.walkandexplore:id/challenge_start_subtitle",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        53,
+        1010,
+        1387,
+        1081
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "start",
+      "resource-id": "nyc.walkandexplore:id/challenge_start_button",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        475,
+        1186,
+        965,
+        1354
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "go"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.webkit.WebView",
+        "android.widget.AbsoluteLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        84,
+        1,
+        85
+      ],
+      "clickable": true,
+      "class": "com.bluekai.sdk.BlueKaiWebView",
+      "componentLabel": "Web View"
+    },
+    {
+      "resource-id": "com.tripit:id/tripit_toolbar",
+      "children": [
+        {
+          "text": "trip",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            115,
+            295,
+            191
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Tue, Dec 6 - Wed, Dec 7, 2016",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            191,
+            754,
+            248
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatImageView",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1300,
+            98,
+            1440,
+            266
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.ActionMenuPresenter$OverflowMenuButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.support.v7.widget.Toolbar",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tripit.view.TripItToolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        817,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "add",
+      "ancestors": [
+        "android.support.design.widget.VisibilityAwareImageButton",
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tripit:id/trip_summary_fab",
+      "clickable": true,
+      "class": "android.support.design.widget.FloatingActionButton",
+      "bounds": [
+        1188,
+        2140,
+        1384,
+        2336
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tripit:id/tripcard_list_header_border",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        280,
+        1440,
+        350
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "No Plans",
+      "resource-id": "com.tripit:id/no_plans",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        0,
+        350,
+        1440,
+        489
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Add plans here or forward confirmation emails to plans@tripit.com",
+      "resource-id": "com.tripit:id/tripcard_no_plans_msg",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        172,
+        489,
+        1268,
+        595
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tripit:id/no_plans_icon",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        172,
+        595,
+        1268,
+        1048
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Add Plans",
+      "resource-id": "com.tripit:id/add_plan_btn",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        172,
+        1048,
+        1268,
+        1216
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        1279,
+        1440,
+        1435
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Image"
+    }
+  ]
+}

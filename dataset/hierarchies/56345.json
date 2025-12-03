@@ -1,0 +1,111 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        0,
+        1440,
+        700
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "componentLabel": "Image"
+    },
+    {
+      "text": "",
+      "resource-id": "com.enjin.mobile:id/al_et_email_address",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        140,
+        700,
+        1300,
+        868
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "",
+      "resource-id": "com.enjin.mobile:id/al_et_password",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        140,
+        868,
+        1300,
+        1036
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "LOG IN",
+      "resource-id": "com.enjin.mobile:id/al_btn_login",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        140,
+        1078,
+        1300,
+        1246
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "login"
+    },
+    {
+      "text": "Forgot Password?",
+      "resource-id": "com.enjin.mobile:id/al_btn_forgot_password",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        0,
+        1351,
+        1440,
+        1519
+      ],
+      "componentLabel": "Text Button"
+    }
+  ]
+}

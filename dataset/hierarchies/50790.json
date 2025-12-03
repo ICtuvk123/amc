@@ -1,0 +1,269 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2392
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "android:id/action_bar_container",
+      "children": [
+        {
+          "text": "SIGN UP",
+          "resource-id": "com.designmantic:id/actionbarTitle",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            632,
+            84,
+            807,
+            252
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "photo",
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "android:id/up",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                0,
+                140,
+                56,
+                196
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "ancestors": [
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "android:id/home",
+              "clickable": false,
+              "class": "android.widget.ImageView",
+              "bounds": [
+                43,
+                112,
+                190,
+                224
+              ],
+              "componentLabel": "Image"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.android.internal.widget.ActionBarView$HomeView",
+          "bounds": [
+            0,
+            84,
+            204,
+            252
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "",
+          "resource-id": "com.designmantic:id/menuBtn",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.android.internal.view.menu.ActionMenuItemView",
+          "bounds": [
+            1244,
+            84,
+            1440,
+            252
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.android.internal.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        252
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "",
+      "resource-id": "com.designmantic:id/reg_fname",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.EditText",
+      "bounds": [
+        381,
+        410,
+        1058,
+        508
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "",
+      "resource-id": "com.designmantic:id/reg_lname",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.EditText",
+      "bounds": [
+        381,
+        578,
+        1058,
+        676
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "",
+      "resource-id": "com.designmantic:id/reg_email",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.EditText",
+      "bounds": [
+        381,
+        746,
+        1058,
+        844
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "",
+      "resource-id": "com.designmantic:id/reg_password",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.EditText",
+      "bounds": [
+        381,
+        1047,
+        1058,
+        1145
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "",
+      "resource-id": "com.designmantic:id/reg_rpassword",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.EditText",
+      "bounds": [
+        381,
+        1215,
+        1058,
+        1313
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "resource-id": "com.designmantic:id/countrySpinner",
+      "ancestors": [
+        "android.widget.AbsSpinner",
+        "android.widget.AdapterView",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.Spinner",
+      "bounds": [
+        381,
+        879,
+        1058,
+        977
+      ],
+      "componentLabel": "Text Button",
+      "text": "Andorra"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.designmantic:id/link_to_login",
+      "clickable": true,
+      "class": "android.widget.ImageButton",
+      "bounds": [
+        160,
+        2275,
+        720,
+        2392
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.designmantic:id/btnRegister",
+      "clickable": true,
+      "class": "android.widget.ImageButton",
+      "bounds": [
+        720,
+        2275,
+        1280,
+        2392
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

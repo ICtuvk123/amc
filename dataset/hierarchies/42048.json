@@ -1,0 +1,562 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        298,
+        1440,
+        543
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Shopping for a Product",
+          "resource-id": "com.bestbuy.android:id/groupName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            84,
+            374,
+            811,
+            467
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_upward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.bestbuy.android:id/groupIcon",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1279,
+            361,
+            1398,
+            480
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.bestbuy.android:id/expandChildMenu",
+      "children": [
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            547,
+            1440,
+            792
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "Appliances",
+              "resource-id": "com.bestbuy.android:id/groupName",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                105,
+                623,
+                450,
+                716
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "iconClass": "expand_more",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.bestbuy.android:id/groupIcon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1279,
+                610,
+                1398,
+                729
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            796,
+            1440,
+            1041
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "Computers",
+              "resource-id": "com.bestbuy.android:id/groupName",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                105,
+                872,
+                450,
+                965
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "iconClass": "expand_more",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.bestbuy.android:id/groupIcon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1279,
+                859,
+                1398,
+                978
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1045,
+            1440,
+            1290
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "Connected Home",
+              "resource-id": "com.bestbuy.android:id/groupName",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                105,
+                1121,
+                647,
+                1214
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "iconClass": "expand_more",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.bestbuy.android:id/groupIcon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1279,
+                1108,
+                1398,
+                1227
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1294,
+            1440,
+            1539
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "Digital Imaging",
+              "resource-id": "com.bestbuy.android:id/groupName",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                105,
+                1370,
+                571,
+                1463
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "iconClass": "expand_more",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.bestbuy.android:id/groupIcon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1279,
+                1357,
+                1398,
+                1476
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1543,
+            1440,
+            1788
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "Home Theater",
+              "resource-id": "com.bestbuy.android:id/groupName",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                105,
+                1619,
+                550,
+                1712
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "iconClass": "expand_more",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.bestbuy.android:id/groupIcon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1279,
+                1606,
+                1398,
+                1725
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            1792,
+            1440,
+            2037
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "Mobile",
+              "resource-id": "com.bestbuy.android:id/groupName",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                105,
+                1868,
+                316,
+                1961
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "iconClass": "expand_more",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.bestbuy.android:id/groupIcon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1279,
+                1855,
+                1398,
+                1974
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "componentLabel": "List Item"
+        },
+        {
+          "ancestors": [
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.widget.RelativeLayout",
+          "bounds": [
+            0,
+            2041,
+            1440,
+            2286
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "text": "All Other Categories",
+              "resource-id": "com.bestbuy.android:id/groupName",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                105,
+                2117,
+                727,
+                2210
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "iconClass": "expand_more",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.bestbuy.android:id/groupIcon",
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatImageView",
+              "bounds": [
+                1279,
+                2104,
+                1398,
+                2223
+              ],
+              "componentLabel": "Icon"
+            }
+          ],
+          "componentLabel": "List Item"
+        }
+      ],
+      "ancestors": [
+        "android.widget.ExpandableListView",
+        "android.widget.ListView",
+        "android.widget.AbsListView",
+        "android.widget.AdapterView",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.bestbuy.android.view.blueassist.CustomGroupExpandableListView",
+      "bounds": [
+        0,
+        547,
+        1440,
+        2286
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        2290,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "An Existing Order",
+          "resource-id": "com.bestbuy.android:id/groupName",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            84,
+            2366,
+            630,
+            2392
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.bestbuy.android:id/groupIcon",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1279,
+            2353,
+            1398,
+            2392
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "text": "How Can We Help?",
+      "resource-id": "com.bestbuy.android:id/blueAssistHelp",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        364,
+        84,
+        1075,
+        294
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "close",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.bestbuy.android:id/close",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1293,
+        136,
+        1398,
+        241
+      ],
+      "componentLabel": "Icon"
+    }
+  ]
+}

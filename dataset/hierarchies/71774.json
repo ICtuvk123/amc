@@ -1,0 +1,508 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.wallapop:id/wp__home__lbv_bubble",
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.wallapop.view.WPLocationBubbleView",
+      "bounds": [
+        220,
+        119,
+        1219,
+        260
+      ],
+      "componentLabel": "Text Button",
+      "text": "Displaying items within 1 mile from you"
+    },
+    {
+      "resource-id": "com.wallapop:id/wp__grid_item_wall_home__rl_base",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__v_mask",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            734,
+            84,
+            1412,
+            1029
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__stgiv_item",
+          "clickable": false,
+          "class": "com.wallapop.view.WPDynamicHeightImageView",
+          "bounds": [
+            734,
+            84,
+            1412,
+            674
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "$90",
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__tv_price",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.wallapop.design.view.WallapopTextView",
+          "bounds": [
+            790,
+            695,
+            1356,
+            821
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "3.5 inch full-size mattress topper",
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__tv_title",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.wallapop.design.view.WallapopTextView",
+          "bounds": [
+            790,
+            821,
+            1356,
+            987
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        734,
+        84,
+        1412,
+        1029
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.wallapop:id/wp__grid_item_wall_home__rl_base",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__v_mask",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            28,
+            84,
+            706,
+            919
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Lo más buscado",
+          "resource-id": "com.wallapop:id/wp__grid_item_generic_box_home__tv_subtitle",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.wallapop.design.view.WallapopTextView",
+          "bounds": [
+            28,
+            784,
+            706,
+            919
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__stgiv_item",
+          "clickable": false,
+          "class": "com.wallapop.view.WPDynamicHeightImageView",
+          "bounds": [
+            28,
+            84,
+            706,
+            784
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "¿Lo tienes?\n¡Lo venderás!",
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__tv_title",
+          "ancestors": [
+            "com.wallapop.design.view.WallapopTextView",
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.wallapop.view.WPScrollingTextView",
+          "bounds": [
+            28,
+            250,
+            706,
+            512
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        28,
+        84,
+        706,
+        919
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.wallapop:id/wp__grid_item_wall_home__rl_base",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__v_mask",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            28,
+            947,
+            706,
+            1878
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__stgiv_item",
+          "clickable": false,
+          "class": "com.wallapop.view.WPDynamicHeightImageView",
+          "bounds": [
+            28,
+            947,
+            706,
+            1523
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "$2,000",
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__tv_price",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.wallapop.design.view.WallapopTextView",
+          "bounds": [
+            84,
+            1544,
+            650,
+            1670
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "1999 Jeep Wrangler SAHARA",
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__tv_title",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.wallapop.design.view.WallapopTextView",
+          "bounds": [
+            84,
+            1670,
+            650,
+            1836
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        28,
+        947,
+        706,
+        1878
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.wallapop:id/wp__grid_item_wall_home__rl_base",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__v_mask",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            734,
+            1057,
+            1412,
+            1988
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__stgiv_item",
+          "clickable": false,
+          "class": "com.wallapop.view.WPDynamicHeightImageView",
+          "bounds": [
+            734,
+            1057,
+            1412,
+            1633
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "$2,000",
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__tv_price",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.wallapop.design.view.WallapopTextView",
+          "bounds": [
+            790,
+            1654,
+            1356,
+            1780
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "2005 Toyota Sienna xle awd",
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__tv_title",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.wallapop.design.view.WallapopTextView",
+          "bounds": [
+            790,
+            1780,
+            1356,
+            1946
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        734,
+        1057,
+        1412,
+        1988
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.wallapop:id/wp__grid_item_wall_home__rl_base",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__v_mask",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            28,
+            1906,
+            706,
+            2392
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__stgiv_item",
+          "clickable": false,
+          "class": "com.wallapop.view.WPDynamicHeightImageView",
+          "bounds": [
+            28,
+            1906,
+            706,
+            2392
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        28,
+        1906,
+        706,
+        2392
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.wallapop:id/wp__grid_item_wall_home__rl_base",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__v_mask",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            734,
+            2016,
+            1412,
+            2392
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.wallapop:id/wp__grid_item_wall_home__stgiv_item",
+          "clickable": false,
+          "class": "com.wallapop.view.WPDynamicHeightImageView",
+          "bounds": [
+            734,
+            2016,
+            1412,
+            2392
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        734,
+        2016,
+        1412,
+        2392
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

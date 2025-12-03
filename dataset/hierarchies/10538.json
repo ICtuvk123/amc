@@ -1,0 +1,335 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.lingualeo.android:id/action_bar_container",
+      "children": [
+        {
+          "text": "Grammar test",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            252,
+            135,
+            684,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Choose the correct answer",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.lingualeo.android.widget.RichTextView",
+      "bounds": [
+        224,
+        441,
+        1216,
+        507
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "My friend has…",
+      "resource-id": "com.lingualeo.android:id/text_question",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.lingualeo.android.widget.RichTextView",
+      "bounds": [
+        224,
+        563,
+        1216,
+        733
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "I don't know",
+      "resource-id": "com.lingualeo.android:id/button_skip",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.lingualeo.android.widget.NoDelayRichTextButton",
+      "bounds": [
+        140,
+        1433,
+        692,
+        1601
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Answer",
+      "resource-id": "com.lingualeo.android:id/button_answer",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.lingualeo.android.widget.NoDelayRichTextButton",
+      "bounds": [
+        748,
+        1433,
+        1300,
+        1601
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.lingualeo.android:id/image_learn",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        318,
+        1713,
+        458,
+        1923
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "We will learn",
+      "resource-id": "com.lingualeo.android:id/text_learn",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.lingualeo.android.widget.RichTextView",
+      "bounds": [
+        262,
+        1951,
+        514,
+        2008
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "×1",
+      "resource-id": "com.lingualeo.android:id/text_learn_count",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.lingualeo.android.widget.RichTextView",
+      "bounds": [
+        486,
+        1810,
+        558,
+        1895
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "check",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.lingualeo.android:id/image_know",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        982,
+        1713,
+        1122,
+        1923
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "I already know",
+      "resource-id": "com.lingualeo.android:id/text_know",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.lingualeo.android.widget.RichTextView",
+      "bounds": [
+        909,
+        1951,
+        1194,
+        2008
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "×1",
+      "resource-id": "com.lingualeo.android:id/text_know_count",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.lingualeo.android.widget.RichTextView",
+      "bounds": [
+        1150,
+        1810,
+        1222,
+        1895
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "dog",
+      "resource-id": "com.lingualeo.android:id/button_answer0",
+      "ancestors": [
+        "android.widget.RadioButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.lingualeo.android.widget.RichTextRadioButton",
+      "bounds": [
+        224,
+        761,
+        1216,
+        908
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "text": "an dog.",
+      "resource-id": "com.lingualeo.android:id/button_answer1",
+      "ancestors": [
+        "android.widget.RadioButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.lingualeo.android.widget.RichTextRadioButton",
+      "bounds": [
+        224,
+        908,
+        1216,
+        1055
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "text": "a dog.",
+      "resource-id": "com.lingualeo.android:id/button_answer2",
+      "ancestors": [
+        "android.widget.RadioButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.lingualeo.android.widget.RichTextRadioButton",
+      "bounds": [
+        224,
+        1055,
+        1216,
+        1202
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "text": "the dog",
+      "resource-id": "com.lingualeo.android:id/button_answer3",
+      "ancestors": [
+        "android.widget.RadioButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.lingualeo.android.widget.RichTextRadioButton",
+      "bounds": [
+        224,
+        1202,
+        1216,
+        1349
+      ],
+      "componentLabel": "Radio Button"
+    }
+  ]
+}

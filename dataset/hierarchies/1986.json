@@ -1,0 +1,490 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.oscardelgado83.easymenuplanner:id/action_bar_container",
+      "children": [
+        {
+          "text": "Week menu",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            252,
+            135,
+            620,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.support.v7.widget.q",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1300,
+            98,
+            1440,
+            266
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.d$d",
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.oscardelgado83.easymenuplanner:id/image",
+          "clickable": false,
+          "class": "android.support.v7.widget.q",
+          "bounds": [
+            946,
+            126,
+            1058,
+            238
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.oscardelgado83.easymenuplanner:id/image",
+          "clickable": false,
+          "class": "android.support.v7.widget.q",
+          "bounds": [
+            1146,
+            126,
+            1258,
+            238
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "resource-id": "com.oscardelgado83.easymenuplanner:id/adView",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.google.android.gms.ads.internal.webview.n",
+          "bounds": [
+            0,
+            2217,
+            1440,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.webkit.WebView",
+                "android.widget.AbsoluteLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "bounds": [
+                0,
+                2217,
+                1440,
+                2392
+              ],
+              "clickable": true,
+              "class": "com.google.android.gms.ads.internal.webview.o",
+              "componentLabel": "Web View"
+            }
+          ],
+          "componentLabel": "Web View"
+        }
+      ],
+      "ancestors": [
+        "com.google.android.gms.ads.a",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.google.android.gms.ads.AdView",
+      "bounds": [
+        0,
+        2217,
+        1440,
+        2392
+      ],
+      "componentLabel": "Advertisement"
+    },
+    {
+      "resource-id": "com.oscardelgado83.easymenuplanner:id/date_card_view",
+      "children": [
+        {
+          "text": "Apr 30  -  May 6",
+          "resource-id": "com.oscardelgado83.easymenuplanner:id/weekIndicatorText",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.ab",
+          "bounds": [
+            550,
+            352,
+            889,
+            418
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": ">",
+          "resource-id": "com.oscardelgado83.easymenuplanner:id/week_indicator_btn_next",
+          "ancestors": [
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.i",
+          "bounds": [
+            924,
+            301,
+            1064,
+            469
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "<",
+          "resource-id": "com.oscardelgado83.easymenuplanner:id/week_indicator_btn_prev",
+          "ancestors": [
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.i",
+          "bounds": [
+            375,
+            301,
+            515,
+            469
+          ],
+          "componentLabel": "Text Button"
+        },
+        {
+          "text": "Today",
+          "resource-id": "com.oscardelgado83.easymenuplanner:id/week_indicator_btn_today",
+          "ancestors": [
+            "android.widget.Button",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.i",
+          "bounds": [
+            0,
+            301,
+            375,
+            469
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "today"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.oscardelgado83.easymenuplanner:id/columns",
+          "clickable": true,
+          "class": "android.support.v7.widget.o",
+          "bounds": [
+            1265,
+            315,
+            1405,
+            455
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.CardView",
+      "bounds": [
+        0,
+        280,
+        1440,
+        490
+      ],
+      "componentLabel": "Card"
+    },
+    {
+      "text": "Dinner: \nEntrée",
+      "resource-id": "com.oscardelgado83.easymenuplanner:id/dinner_header",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ab",
+      "bounds": [
+        196,
+        504,
+        781,
+        613
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Dinner: \nSide 1",
+      "resource-id": "com.oscardelgado83.easymenuplanner:id/dinner_second_header",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ab",
+      "bounds": [
+        823,
+        504,
+        1408,
+        613
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Sun,\nApr 30",
+      "resource-id": "com.oscardelgado83.easymenuplanner:id/week_day_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ab",
+      "bounds": [
+        28,
+        630,
+        182,
+        859
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Mon,\nMay 1",
+      "resource-id": "com.oscardelgado83.easymenuplanner:id/week_day_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ab",
+      "bounds": [
+        28,
+        859,
+        182,
+        1088
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "resource-id": "com.oscardelgado83.easymenuplanner:id/card_view_dinner",
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        224,
+        880,
+        790,
+        1067
+      ],
+      "componentLabel": "Text Button",
+      "text": "Green beans"
+    },
+    {
+      "text": "Tue,\nMay 2",
+      "resource-id": "com.oscardelgado83.easymenuplanner:id/week_day_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ab",
+      "bounds": [
+        28,
+        1088,
+        182,
+        1317
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Wed,\nMay 3",
+      "resource-id": "com.oscardelgado83.easymenuplanner:id/week_day_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ab",
+      "bounds": [
+        28,
+        1317,
+        182,
+        1553
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "resource-id": "com.oscardelgado83.easymenuplanner:id/card_view_dinner",
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        224,
+        1338,
+        790,
+        1532
+      ],
+      "componentLabel": "Text Button",
+      "text": "Macaroni"
+    },
+    {
+      "text": "Thu,\nMay 4",
+      "resource-id": "com.oscardelgado83.easymenuplanner:id/week_day_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ab",
+      "bounds": [
+        28,
+        1553,
+        182,
+        1782
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Fri,\nMay 5",
+      "resource-id": "com.oscardelgado83.easymenuplanner:id/week_day_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ab",
+      "bounds": [
+        28,
+        1782,
+        182,
+        2011
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Sat,\nMay 6",
+      "resource-id": "com.oscardelgado83.easymenuplanner:id/week_day_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ab",
+      "bounds": [
+        28,
+        2011,
+        182,
+        2217
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

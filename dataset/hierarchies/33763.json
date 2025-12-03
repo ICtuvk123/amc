@@ -1,0 +1,486 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.monefy.app.lite:id/toolbar",
+      "children": [
+        {
+          "text": "Monefy",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            120,
+            430,
+            244
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "date_range",
+          "resource-id": "com.monefy.app.lite:id/calendar",
+          "ancestors": [
+            "android.support.v7.widget.aa",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Tuesday, 6 December",
+      "resource-id": "com.monefy.app.lite:id/textViewDate",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.monefy.widget.RamblaTextView",
+      "bounds": [
+        419,
+        322,
+        1020,
+        407
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "0",
+      "resource-id": "com.monefy.app.lite:id/amount_text",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.aa",
+      "bounds": [
+        210,
+        589,
+        1174,
+        767
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "close",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboardClear",
+      "clickable": true,
+      "class": "android.support.v7.widget.n",
+      "bounds": [
+        1188,
+        575,
+        1384,
+        781
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "",
+      "resource-id": "com.monefy.app.lite:id/textViewNote",
+      "ancestors": [
+        "android.widget.AutoCompleteTextView",
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.f",
+      "bounds": [
+        56,
+        837,
+        1384,
+        974
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "1",
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboard1",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.monefy.widget.RamblaButton",
+      "bounds": [
+        14,
+        1142,
+        367,
+        1386
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "2",
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboard2",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.monefy.widget.RamblaButton",
+      "bounds": [
+        367,
+        1142,
+        720,
+        1386
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "3",
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboard3",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.monefy.widget.RamblaButton",
+      "bounds": [
+        720,
+        1142,
+        1073,
+        1386
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "+",
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboardPlus",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.monefy.widget.RamblaButton",
+      "bounds": [
+        1073,
+        1142,
+        1426,
+        1386
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "4",
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboard4",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.monefy.widget.RamblaButton",
+      "bounds": [
+        14,
+        1386,
+        367,
+        1630
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "5",
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboard5",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.monefy.widget.RamblaButton",
+      "bounds": [
+        367,
+        1386,
+        720,
+        1630
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "6",
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboard6",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.monefy.widget.RamblaButton",
+      "bounds": [
+        720,
+        1386,
+        1073,
+        1630
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "-",
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboardMinus",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.monefy.widget.RamblaButton",
+      "bounds": [
+        1073,
+        1386,
+        1426,
+        1630
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "7",
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboard7",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.monefy.widget.RamblaButton",
+      "bounds": [
+        14,
+        1630,
+        367,
+        1874
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "8",
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboard8",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.monefy.widget.RamblaButton",
+      "bounds": [
+        367,
+        1630,
+        720,
+        1874
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "9",
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboard9",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.monefy.widget.RamblaButton",
+      "bounds": [
+        720,
+        1630,
+        1073,
+        1874
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "×",
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboardMultiply",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.monefy.widget.RamblaButton",
+      "bounds": [
+        1073,
+        1630,
+        1426,
+        1874
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": ".",
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboardDot",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.h",
+      "bounds": [
+        14,
+        1874,
+        367,
+        2119
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "0",
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboard0",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.monefy.widget.RamblaButton",
+      "bounds": [
+        367,
+        1874,
+        720,
+        2119
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "=",
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboardEquals",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.monefy.widget.RamblaButton",
+      "bounds": [
+        720,
+        1874,
+        1073,
+        2119
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "÷",
+      "resource-id": "com.monefy.app.lite:id/buttonKeyboardDevide",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.monefy.widget.RamblaButton",
+      "bounds": [
+        1073,
+        1874,
+        1426,
+        2119
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Choose accounts",
+      "resource-id": "com.monefy.app.lite:id/textViewChooseCategory",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.monefy.widget.RamblaTextView",
+      "bounds": [
+        473,
+        2213,
+        967,
+        2298
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

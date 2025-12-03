@@ -1,0 +1,223 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.cbs.app:id/toolbar",
+      "children": [
+        {
+          "iconClass": "close",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.cbs.app:id/imageUpsellBg",
+      "clickable": false,
+      "class": "com.cbs.app.ui.widget.TopCropImageView",
+      "bounds": [
+        0,
+        280,
+        1440,
+        2392
+      ],
+      "componentLabel": "Background Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.cbs.app:id/allAccessLogo",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        200,
+        336,
+        1239,
+        422
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Stream Live TV + 8,500 Episodes On Demand",
+      "resource-id": "com.cbs.app:id/txtUpsellMessage",
+      "ancestors": [
+        "android.support.v7.widget.AppCompatTextView",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.cbs.app.ui.widget.CustomTypefaceTextView",
+      "bounds": [
+        182,
+        422,
+        1258,
+        488
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Take the Tour",
+      "resource-id": "com.cbs.app:id/txtTakeTour",
+      "ancestors": [
+        "android.support.v7.widget.AppCompatTextView",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.cbs.app.ui.widget.CustomTypefaceTextView",
+      "bounds": [
+        524,
+        2104,
+        916,
+        2174
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Live TV includes commercials and select shows have promotional interruptions.",
+      "resource-id": "com.cbs.app:id/txtFinePrint",
+      "ancestors": [
+        "android.support.v7.widget.AppCompatTextView",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.cbs.app.ui.widget.CustomTypefaceTextView",
+      "bounds": [
+        56,
+        2230,
+        1384,
+        2336
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "LIMITED COMMERCIALS\nOnly $5.99/month",
+      "resource-id": "com.cbs.app:id/copy",
+      "ancestors": [
+        "android.support.v7.widget.AppCompatTextView",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.cbs.app.ui.widget.CustomTypefaceTextView",
+      "bounds": [
+        84,
+        1666,
+        692,
+        1898
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "TRY 1 WEEK FREE",
+      "resource-id": "com.cbs.app:id/button",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.cbs.app.ui.widget.CustomTypefaceButton",
+      "bounds": [
+        122,
+        1926,
+        654,
+        2048
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "COMMERCIAL FREE\nOnly $9.99/month",
+      "resource-id": "com.cbs.app:id/copy",
+      "ancestors": [
+        "android.support.v7.widget.AppCompatTextView",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.cbs.app.ui.widget.CustomTypefaceTextView",
+      "bounds": [
+        748,
+        1666,
+        1356,
+        1898
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "GET STARTED",
+      "resource-id": "com.cbs.app:id/button",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.cbs.app.ui.widget.CustomTypefaceButton",
+      "bounds": [
+        786,
+        1926,
+        1318,
+        2048
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "go"
+    }
+  ]
+}

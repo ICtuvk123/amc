@@ -1,0 +1,218 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.taptrip:id/toolbar",
+      "children": [
+        {
+          "text": "Register",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            135,
+            318,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Done",
+          "resource-id": "com.taptrip:id/btn_actionbar",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            1086,
+            84,
+            1440,
+            280
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "finish"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "Email",
+      "resource-id": "com.taptrip:id/text_title_email",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        28,
+        364,
+        1412,
+        430
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "",
+      "resource-id": "com.taptrip:id/edit_email",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        28,
+        444,
+        1412,
+        612
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Password",
+      "resource-id": "com.taptrip:id/text_title_password",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        28,
+        717,
+        1412,
+        783
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "",
+      "resource-id": "com.taptrip:id/edit_password",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatEditText",
+      "bounds": [
+        28,
+        797,
+        1412,
+        965
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "The password has to be at least 8 characters long.",
+      "resource-id": "com.taptrip:id/text_password_error",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        28,
+        979,
+        1412,
+        1045
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "resource-id": "com.taptrip:id/container_btn_facebook",
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.taptrip.ui.FacebookButton",
+      "bounds": [
+        28,
+        1340,
+        1412,
+        1498
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "facebook"
+    },
+    {
+      "text": "By registering, the user agrees to comply with Airtripp's Terms of Use and Privacy Policy.",
+      "resource-id": "com.taptrip:id/text_eula",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        28,
+        1554,
+        1412,
+        1734
+      ],
+      "componentLabel": "Text Button"
+    },
+    {
+      "text": "Or you can sign up with",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        388,
+        1129,
+        1052,
+        1186
+      ],
+      "componentLabel": "Text"
+    }
+  ]
+}

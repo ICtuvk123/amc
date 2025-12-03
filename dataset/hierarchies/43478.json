@@ -1,0 +1,697 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.taptrip:id/toolbar",
+      "children": [
+        {
+          "iconClass": "menu",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            210,
+            140,
+            504,
+            224
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "search",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            908,
+            140,
+            992,
+            224
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "notifications",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.taptrip:id/img_btn",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1289,
+            122,
+            1409,
+            242
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "email",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.taptrip:id/img_btn",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1093,
+            122,
+            1213,
+            242
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "iconClass": "home",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        280,
+        252,
+        448
+      ],
+      "clickable": true,
+      "class": "android.widget.ImageButton",
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        252,
+        280,
+        504,
+        448
+      ],
+      "clickable": true,
+      "class": "android.widget.ImageButton",
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "globe",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        504,
+        280,
+        756,
+        448
+      ],
+      "clickable": true,
+      "class": "android.widget.ImageButton",
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        756,
+        280,
+        1008,
+        448
+      ],
+      "clickable": true,
+      "class": "android.widget.ImageButton",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1008,
+        280,
+        1288,
+        448
+      ],
+      "clickable": true,
+      "class": "android.widget.ImageButton",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1288,
+        280,
+        1440,
+        448
+      ],
+      "clickable": true,
+      "class": "android.widget.ImageButton",
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.taptrip.ui.HomeUserSuggestView",
+      "bounds": [
+        0,
+        448,
+        1440,
+        1496
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Recommended users",
+          "resource-id": "com.taptrip:id/header_recommended_users",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            0,
+            448,
+            1440,
+            608
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "See all",
+          "resource-id": "com.taptrip:id/txt_show_more",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            0,
+            1313,
+            1440,
+            1481
+          ],
+          "componentLabel": "Text Button",
+          "textButtonClass": "all"
+        },
+        {
+          "resource-id": "com.taptrip:id/add_to_friends_button",
+          "children": [],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.taptrip.ui.FriendAddButton",
+          "bounds": [
+            1245,
+            659,
+            1384,
+            791
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "resource-id": "com.taptrip:id/add_to_friends_button",
+          "children": [],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.taptrip.ui.FriendAddButton",
+          "bounds": [
+            1245,
+            894,
+            1384,
+            1026
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "resource-id": "com.taptrip:id/add_to_friends_button",
+          "children": [],
+          "ancestors": [
+            "android.widget.RelativeLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "com.taptrip.ui.FriendAddButton",
+          "bounds": [
+            1245,
+            1129,
+            1384,
+            1261
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.taptrip:id/user_icon",
+          "clickable": false,
+          "class": "com.taptrip.ui.UserIconView",
+          "bounds": [
+            56,
+            650,
+            196,
+            790
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Bastian M.",
+          "resource-id": "com.taptrip:id/txt_user_name",
+          "ancestors": [
+            "com.taptrip.ui.TranslationToggleTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.taptrip.ui.CountryTextView",
+          "bounds": [
+            238,
+            650,
+            1133,
+            716
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.taptrip:id/user_icon",
+          "clickable": false,
+          "class": "com.taptrip.ui.UserIconView",
+          "bounds": [
+            56,
+            885,
+            196,
+            1025
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Bryan Sánchez",
+          "resource-id": "com.taptrip:id/txt_user_name",
+          "ancestors": [
+            "com.taptrip.ui.TranslationToggleTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.taptrip.ui.CountryTextView",
+          "bounds": [
+            238,
+            885,
+            1133,
+            951
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.taptrip:id/user_icon",
+          "clickable": false,
+          "class": "com.taptrip.ui.UserIconView",
+          "bounds": [
+            56,
+            1120,
+            196,
+            1260
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "사디바",
+          "resource-id": "com.taptrip:id/txt_user_name",
+          "ancestors": [
+            "com.taptrip.ui.TranslationToggleTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.taptrip.ui.CountryTextView",
+          "bounds": [
+            238,
+            1120,
+            1133,
+            1186
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Spanish",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.taptrip.ui.UserLanguagesView$UserLanguageTextView",
+          "bounds": [
+            238,
+            730,
+            402,
+            801
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "English",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.taptrip.ui.UserLanguagesView$UserLanguageTextView",
+          "bounds": [
+            238,
+            965,
+            388,
+            1036
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "English",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.taptrip.ui.UserLanguagesView$UserLanguageTextView",
+          "bounds": [
+            238,
+            1200,
+            388,
+            1271
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        1524,
+        1440,
+        1673
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "Friends",
+          "resource-id": "com.taptrip:id/txt_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            56,
+            1580,
+            1384,
+            1673
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1701,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "resource-id": "com.taptrip:id/card_view",
+          "children": [
+            {
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.taptrip:id/img_feed_photo",
+              "clickable": false,
+              "class": "com.taptrip.ui.PhotoView",
+              "bounds": [
+                38,
+                1949,
+                1402,
+                2392
+              ],
+              "componentLabel": "Image"
+            },
+            {
+              "iconClass": "globe",
+              "ancestors": [
+                "android.widget.ImageView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "resource-id": "com.taptrip:id/user_icon",
+              "clickable": false,
+              "class": "com.taptrip.ui.UserIconView",
+              "bounds": [
+                94,
+                1756,
+                234,
+                1896
+              ],
+              "componentLabel": "Icon"
+            },
+            {
+              "text": "[official]Airtripp",
+              "resource-id": "com.taptrip:id/txt_user_name",
+              "ancestors": [
+                "com.taptrip.ui.TranslationToggleTextView",
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.taptrip.ui.CountryTextView",
+              "bounds": [
+                276,
+                1756,
+                679,
+                1822
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "・",
+              "resource-id": "com.taptrip:id/txt_separator",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                693,
+                1763,
+                735,
+                1820
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "13 hours ago",
+              "resource-id": "com.taptrip:id/txt_feed_timestamp",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "android.support.v7.widget.AppCompatTextView",
+              "bounds": [
+                749,
+                1763,
+                994,
+                1820
+              ],
+              "componentLabel": "Text"
+            },
+            {
+              "text": "English",
+              "ancestors": [
+                "android.widget.TextView",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "clickable": false,
+              "class": "com.taptrip.ui.UserLanguagesView$UserLanguageTextView",
+              "bounds": [
+                276,
+                1836,
+                426,
+                1907
+              ],
+              "componentLabel": "Text"
+            }
+          ],
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.CardView",
+          "bounds": [
+            28,
+            1701,
+            1412,
+            2392
+          ],
+          "componentLabel": "Card"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "iconClass": "add",
+      "ancestors": [
+        "android.support.design.widget.VisibilityAwareImageButton",
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.taptrip:id/fab_feed",
+      "clickable": true,
+      "class": "android.support.design.widget.FloatingActionButton",
+      "bounds": [
+        1188,
+        2140,
+        1384,
+        2336
+      ],
+      "componentLabel": "Icon"
+    }
+  ]
+}

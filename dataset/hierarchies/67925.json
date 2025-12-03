@@ -1,0 +1,370 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "net.familo.android:id/toolbar",
+      "children": [
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.o",
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "avatar",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "net.familo.android:id/title_group_image",
+          "clickable": false,
+          "class": "net.familo.android.ui.widget.imageview.RoundImageView",
+          "bounds": [
+            252,
+            119,
+            378,
+            245
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Friends",
+          "resource-id": "net.familo.android:id/title_spinner",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.aa",
+          "bounds": [
+            406,
+            84,
+            612,
+            280
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "",
+          "resource-id": "net.familo.android:id/menu_main_alarm",
+          "ancestors": [
+            "android.support.v7.widget.aa",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.familo.android:id/tab_bar_indicator",
+      "clickable": false,
+      "class": "com.viewpagerindicator.UnderlinePageIndicator",
+      "bounds": [
+        0,
+        427,
+        1440,
+        448
+      ],
+      "componentLabel": "Pager Indicator"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.familo.android:id/tab_bar_button_0",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        0,
+        280,
+        360,
+        448
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.familo.android:id/tab_bar_button_2",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        720,
+        280,
+        1080,
+        448
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.familo.android:id/tab_bar_button_3",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1080,
+        280,
+        1440,
+        448
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.familo.android:id/tab_bar_button_1",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        360,
+        280,
+        720,
+        448
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "java.lang.Object"
+      ],
+      "bounds": [
+        0,
+        2182,
+        1440,
+        2392
+      ],
+      "clickable": false,
+      "class": "android.view.View",
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.familo.android:id/image_avatar_left",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        81,
+        522,
+        235,
+        676
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.familo.android:id/image_message_left",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        260,
+        522,
+        960,
+        862
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "avatar",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.familo.android:id/image_avatar_right",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1202,
+        932,
+        1356,
+        1086
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.familo.android:id/image_message_right",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        687,
+        934,
+        1177,
+        1295
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "Why don't you send the first message here? :)",
+      "resource-id": "net.familo.android:id/textview_empty_message",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.aa",
+      "bounds": [
+        217,
+        1463,
+        1223,
+        1596
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "iconClass": "photo",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.familo.android:id/chat_bottom_message_bar_add_picture",
+      "clickable": true,
+      "class": "android.support.v7.widget.o",
+      "bounds": [
+        14,
+        2210,
+        182,
+        2378
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "",
+      "resource-id": "net.familo.android:id/chat_bottom_message_edittext",
+      "ancestors": [
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.vanniktech.emoji.EmojiEditText",
+      "bounds": [
+        182,
+        2215,
+        1090,
+        2373
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "iconClass": "emoji",
+      "ancestors": [
+        "android.widget.ImageButton",
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.familo.android:id/chat_bottom_message_bar_emoji",
+      "clickable": true,
+      "class": "android.support.v7.widget.o",
+      "bounds": [
+        1090,
+        2210,
+        1258,
+        2378
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "location",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "net.familo.android:id/chat_bottom_message_bar_checkin",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1258,
+        2210,
+        1426,
+        2378
+      ],
+      "componentLabel": "Icon"
+    }
+  ]
+}

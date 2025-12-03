@@ -1,0 +1,450 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.bianor.amspremium:id/main_toolbar",
+      "children": [
+        {
+          "text": "Flipps",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            56,
+            135,
+            244,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "play",
+          "resource-id": "com.bianor.amspremium:id/action_devices",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            768,
+            98,
+            936,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "home",
+          "resource-id": "com.bianor.amspremium:id/action_home",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            936,
+            98,
+            1104,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "search",
+          "resource-id": "com.bianor.amspremium:id/action_search",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1104,
+            98,
+            1272,
+            266
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "avatar",
+          "resource-id": "com.bianor.amspremium:id/action_account",
+          "ancestors": [
+            "android.support.v7.widget.AppCompatTextView",
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": true,
+          "class": "android.support.v7.view.menu.ActionMenuItemView",
+          "bounds": [
+            1272,
+            98,
+            1440,
+            266
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.support.design.widget.TabLayout$SlidingTabStrip",
+      "bounds": [
+        0,
+        280,
+        1440,
+        448
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.widget.TabLayout$TabView",
+          "bounds": [
+            0,
+            280,
+            288,
+            448
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "news"
+        },
+        {
+          "ancestors": [
+            "android.widget.LinearLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "android.support.design.widget.TabLayout$TabView",
+          "bounds": [
+            576,
+            280,
+            864,
+            448
+          ],
+          "clickable": true,
+          "componentLabel": "Text Button",
+          "textButtonClass": "music"
+        },
+        {
+          "text": "CLIPS",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            365,
+            331,
+            499,
+            397
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "MOVIES",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            918,
+            331,
+            1098,
+            397
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            1254,
+            322,
+            1338,
+            406
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "Multi-Tab"
+    },
+    {
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.widget.LinearLayout",
+      "bounds": [
+        0,
+        448,
+        1440,
+        630
+      ],
+      "clickable": false,
+      "children": [
+        {
+          "text": "This December from Magnolia Pictures",
+          "resource-id": "com.bianor.amspremium:id/list_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            0,
+            501,
+            1078,
+            630
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.bianor.amspremium:id/movie_layout_home",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.bianor.amspremium:id/item_icon",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            17,
+            630,
+            703,
+            1710
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "star",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.bianor.amspremium:id/video_item_bookmark",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            563,
+            1570,
+            675,
+            1682
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        17,
+        630,
+        703,
+        1710
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.bianor.amspremium:id/movie_layout_home",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.bianor.amspremium:id/item_icon",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            720,
+            630,
+            1423,
+            1710
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "star",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.bianor.amspremium:id/video_item_bookmark",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1283,
+            1570,
+            1395,
+            1682
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        720,
+        630,
+        1423,
+        1710
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.bianor.amspremium:id/movie_layout_home",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.bianor.amspremium:id/item_icon",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            17,
+            1727,
+            703,
+            2392
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        17,
+        1727,
+        703,
+        2392
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.bianor.amspremium:id/movie_layout_home",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.bianor.amspremium:id/item_icon",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            720,
+            1727,
+            1423,
+            2392
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        720,
+        1727,
+        1423,
+        2392
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

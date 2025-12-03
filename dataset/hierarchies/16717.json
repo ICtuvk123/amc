@@ -1,0 +1,257 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.tmobile.tuesdays:id/toolbar",
+      "children": [
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.tmobile.tuesdays:id/imageViewBack",
+          "clickable": true,
+          "class": "com.tmobile.tuesdays.components.imageview.KyobiImageView",
+          "bounds": [
+            22,
+            77,
+            190,
+            245
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "iconClass": "date_range",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.tmobile.tuesdays:id/imageViewTmobile",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            544,
+            73,
+            953,
+            250
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        64,
+        1419,
+        260
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "text": "CHANGE YOUR SETTINGS FOR\nT-MOBILE TUESDAYS.",
+      "resource-id": "com.tmobile.tuesdays:id/textView3",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tmobile.tuesdays.components.textview.CustomFontTextView",
+      "bounds": [
+        0,
+        716,
+        1440,
+        943
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Version 3.1.0",
+      "resource-id": "com.tmobile.tuesdays:id/tvVersionNumber",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tmobile.tuesdays.components.textview.CustomFontTextView",
+      "bounds": [
+        0,
+        2318,
+        1440,
+        2514
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "SETTINGS",
+      "resource-id": "com.tmobile.tuesdays:id/textView",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tmobile.tuesdays.components.textview.CustomFontTextView",
+      "bounds": [
+        446,
+        284,
+        994,
+        466
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "LOG IN",
+      "resource-id": "com.tmobile.tuesdays:id/view_single_button",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.tmobile.tuesdays.components.CustomFontButton",
+      "bounds": [
+        566,
+        1784,
+        874,
+        1920
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "login"
+    },
+    {
+      "text": "PUSH NOTIFICATIONS:",
+      "resource-id": "com.tmobile.tuesdays:id/textPush",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tmobile.tuesdays.components.textview.CustomFontTextView",
+      "bounds": [
+        144,
+        1147,
+        1008,
+        1315
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "SOUND:",
+      "resource-id": "com.tmobile.tuesdays:id/textSound",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.tmobile.tuesdays.components.textview.CustomFontTextView",
+      "bounds": [
+        144,
+        1374,
+        1008,
+        1542
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tmobile.tuesdays:id/ivBackgroundPush",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1052,
+        1185,
+        1294,
+        1276
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "",
+      "resource-id": "com.tmobile.tuesdays:id/switchPush",
+      "ancestors": [
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.ToggleButton",
+      "bounds": [
+        1019,
+        1147,
+        1327,
+        1315
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.tmobile.tuesdays:id/ivBackgroundSound",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1052,
+        1412,
+        1294,
+        1503
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "",
+      "resource-id": "com.tmobile.tuesdays:id/switchSound",
+      "ancestors": [
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.widget.ToggleButton",
+      "bounds": [
+        1019,
+        1374,
+        1327,
+        1542
+      ],
+      "componentLabel": "Image"
+    }
+  ]
+}

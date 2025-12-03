@@ -1,0 +1,351 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.keyideas.indianrailways:id/adView",
+      "children": [
+        {
+          "ancestors": [
+            "android.widget.FrameLayout",
+            "android.view.ViewGroup",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "class": "com.google.android.gms.ads.internal.webview.l",
+          "bounds": [
+            0,
+            2217,
+            1440,
+            2392
+          ],
+          "clickable": false,
+          "children": [
+            {
+              "ancestors": [
+                "android.webkit.WebView",
+                "android.widget.AbsoluteLayout",
+                "android.view.ViewGroup",
+                "android.view.View",
+                "java.lang.Object"
+              ],
+              "bounds": [
+                0,
+                2217,
+                1440,
+                2392
+              ],
+              "clickable": true,
+              "class": "com.google.android.gms.ads.internal.webview.m",
+              "componentLabel": "Web View"
+            }
+          ],
+          "componentLabel": "Web View"
+        }
+      ],
+      "ancestors": [
+        "com.google.android.gms.ads.f",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.google.android.gms.ads.AdView",
+      "bounds": [
+        0,
+        2217,
+        1440,
+        2392
+      ],
+      "componentLabel": "Advertisement"
+    },
+    {
+      "resource-id": "com.keyideas.indianrailways:id/toolbar",
+      "children": [
+        {
+          "text": "Search Trains",
+          "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.widget.TextView",
+          "bounds": [
+            210,
+            135,
+            640,
+            228
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.widget.ImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.Toolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.LinearLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "android.support.design.widget.TabLayout$e",
+      "bounds": [
+        720,
+        280,
+        1440,
+        448
+      ],
+      "clickable": true,
+      "componentLabel": "Text Button",
+      "textButtonClass": "history"
+    },
+    {
+      "text": "Search Trains",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        173,
+        331,
+        547,
+        397
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "By station name",
+      "resource-id": "com.keyideas.indianrailways:id/stationName",
+      "ancestors": [
+        "android.widget.RadioButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatRadioButton",
+      "bounds": [
+        25,
+        494,
+        489,
+        606
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "text": "By train name",
+      "resource-id": "com.keyideas.indianrailways:id/trainName",
+      "ancestors": [
+        "android.widget.RadioButton",
+        "android.widget.CompoundButton",
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatRadioButton",
+      "bounds": [
+        535,
+        494,
+        946,
+        606
+      ],
+      "componentLabel": "Radio Button"
+    },
+    {
+      "text": "Search",
+      "resource-id": "com.keyideas.indianrailways:id/btnSEARCH_TRAIN",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatButton",
+      "bounds": [
+        503,
+        1530,
+        937,
+        1698
+      ],
+      "componentLabel": "Text Button",
+      "textButtonClass": "search"
+    },
+    {
+      "text": "From",
+      "resource-id": "com.keyideas.indianrailways:id/FROM_NAME",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        56,
+        634,
+        178,
+        705
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "",
+      "resource-id": "com.keyideas.indianrailways:id/edFROM_NAME",
+      "ancestors": [
+        "android.widget.AutoCompleteTextView",
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.keyideasinfotech.notificationlist.utils.ClearableAutoCompleteTextView",
+      "bounds": [
+        56,
+        733,
+        1384,
+        870
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "",
+      "resource-id": "com.keyideas.indianrailways:id/edTO_NAME",
+      "ancestors": [
+        "android.widget.AutoCompleteTextView",
+        "android.widget.EditText",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.keyideasinfotech.notificationlist.utils.ClearableAutoCompleteTextView",
+      "bounds": [
+        56,
+        1045,
+        1384,
+        1182
+      ],
+      "componentLabel": "Input"
+    },
+    {
+      "text": "Journey Date",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        56,
+        1210,
+        373,
+        1281
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "",
+      "resource-id": "com.keyideas.indianrailways:id/dateContainer",
+      "ancestors": [
+        "android.widget.Button",
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": true,
+      "class": "com.keyideasinfotech.notificationlist.utils.ClearableButton",
+      "bounds": [
+        56,
+        1316,
+        1384,
+        1484
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "text": "To",
+      "resource-id": "com.keyideas.indianrailways:id/TO_NAME",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        56,
+        946,
+        1139,
+        1017
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "ancestors": [
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "bounds": [
+        1174,
+        905,
+        1244,
+        982
+      ],
+      "clickable": false,
+      "class": "android.widget.ImageView",
+      "componentLabel": "Image"
+    }
+  ]
+}

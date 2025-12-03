@@ -1,0 +1,1007 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.amp.android:id/find_music_toolbar",
+      "children": [
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Top Hits 2",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            140,
+            567,
+            223
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.support.v7.widget.Toolbar",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "com.amp.android.ui.view.SearchMusicToolbar",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.amp.android:id/iv_mini_cover_player",
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        14,
+        2196,
+        196,
+        2378
+      ],
+      "componentLabel": "Image"
+    },
+    {
+      "iconClass": "share",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.amp.android:id/player_collapsed_share_btn",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1307,
+        2234,
+        1412,
+        2339
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "iconClass": "skip_next",
+      "ancestors": [
+        "android.widget.ImageView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "resource-id": "com.amp.android:id/player_collapsed_next_btn",
+      "clickable": true,
+      "class": "android.support.v7.widget.AppCompatImageView",
+      "bounds": [
+        1162,
+        2235,
+        1265,
+        2338
+      ],
+      "componentLabel": "Icon"
+    },
+    {
+      "text": "Bitch! (prod. Ugly God)",
+      "resource-id": "com.amp.android:id/player_song_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        238,
+        2212,
+        756,
+        2275
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "text": "Ugly God",
+      "resource-id": "com.amp.android:id/player_song_artist_name",
+      "ancestors": [
+        "android.widget.TextView",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.AppCompatTextView",
+      "bounds": [
+        238,
+        2275,
+        439,
+        2333
+      ],
+      "componentLabel": "Text"
+    },
+    {
+      "resource-id": "com.amp.android:id/ll_music_result_row",
+      "children": [
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_more_options",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1286,
+            280,
+            1440,
+            375
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_cover",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            280,
+            294,
+            445
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_cover_play",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            68,
+            280,
+            226,
+            377
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "text": "Niall Horan's new song \"This Town\" is available now on iTunes for only $.69:…",
+          "resource-id": "com.amp.android:id/tv_subtitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            329,
+            280,
+            1251,
+            336
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "play",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/btn_external_service",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            329,
+            347,
+            420,
+            410
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "03:56 - 7.8M plays",
+          "resource-id": "com.amp.android:id/tv_extra_info",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            420,
+            364,
+            767,
+            410
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        280,
+        1440,
+        473
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.amp.android:id/ll_music_result_row",
+      "children": [
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_more_options",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1286,
+            571,
+            1440,
+            725
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_cover",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            501,
+            294,
+            795
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "play",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_cover_play",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            68,
+            569,
+            226,
+            727
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "The Chainsmokers - Paris (Lyric)",
+          "resource-id": "com.amp.android:id/tv_main_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            329,
+            536,
+            1010,
+            594
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "\"Paris\" OUT NOW: http://smarturl.it/Paris\n\nDirected by Rory Kramer\nStarring Alexis Ren…",
+          "resource-id": "com.amp.android:id/tv_subtitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            329,
+            594,
+            1054,
+            686
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "play",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/btn_external_service",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            329,
+            697,
+            420,
+            760
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "03:49 - 67.8M plays",
+          "resource-id": "com.amp.android:id/tv_extra_info",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            420,
+            714,
+            789,
+            760
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        473,
+        1440,
+        823
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.amp.android:id/ll_music_result_row",
+      "children": [
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_more_options",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1286,
+            921,
+            1440,
+            1075
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_cover",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            851,
+            294,
+            1145
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "play",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_cover_play",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            68,
+            919,
+            226,
+            1077
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Stylez Major - Dreams Featuring Tony Sway {Official Music Video}",
+          "resource-id": "com.amp.android:id/tv_main_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            329,
+            886,
+            1251,
+            944
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Stream on Spotify FOR FREE! CLICK HERE! https://play.spotify.com/track/5OZDtsBpOgKd6WqPZmMK5f …",
+          "resource-id": "com.amp.android:id/tv_subtitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            329,
+            944,
+            1251,
+            1036
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "play",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/btn_external_service",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            329,
+            1047,
+            420,
+            1110
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "04:15 - 13.2M plays",
+          "resource-id": "com.amp.android:id/tv_extra_info",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            420,
+            1064,
+            776,
+            1110
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        823,
+        1440,
+        1173
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.amp.android:id/ll_music_result_row",
+      "children": [
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_more_options",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1286,
+            1271,
+            1440,
+            1425
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_cover",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            1201,
+            294,
+            1495
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "play",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_cover_play",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            68,
+            1269,
+            226,
+            1427
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Machine Gun Kelly, Camila Cabello - Bad Things",
+          "resource-id": "com.amp.android:id/tv_main_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            329,
+            1236,
+            1251,
+            1294
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "MGK x Camilla Cabello 'Bad Things' out now!\niTunes: http://smarturl.it/BadThings\nApple:…",
+          "resource-id": "com.amp.android:id/tv_subtitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            329,
+            1294,
+            1145,
+            1386
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "play",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/btn_external_service",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            329,
+            1397,
+            420,
+            1460
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "04:40 - 64.9M plays",
+          "resource-id": "com.amp.android:id/tv_extra_info",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            420,
+            1414,
+            796,
+            1460
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        1173,
+        1440,
+        1523
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.amp.android:id/ll_music_result_row",
+      "children": [
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_more_options",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1286,
+            1621,
+            1440,
+            1775
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_cover",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            1551,
+            294,
+            1845
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "play",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_cover_play",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            68,
+            1619,
+            226,
+            1777
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Stylez Major - Set Me Free {Official Music Video} +Lyrics",
+          "resource-id": "com.amp.android:id/tv_main_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            329,
+            1586,
+            1251,
+            1644
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Stream on SPOTIFY FOR FREE HERE!!https://play.spotify.com/track/7pq7Zw9KezxWBypjLok67W Stylez Major …",
+          "resource-id": "com.amp.android:id/tv_subtitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            329,
+            1644,
+            1251,
+            1736
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "play",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/btn_external_service",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            329,
+            1747,
+            420,
+            1810
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "03:46 - 12.9M plays",
+          "resource-id": "com.amp.android:id/tv_extra_info",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            420,
+            1764,
+            786,
+            1810
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        1523,
+        1440,
+        1873
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "resource-id": "com.amp.android:id/ll_music_result_row",
+      "children": [
+        {
+          "iconClass": "more",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_more_options",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            1286,
+            1971,
+            1440,
+            2125
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_cover",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            0,
+            1901,
+            294,
+            2182
+          ],
+          "componentLabel": "Image"
+        },
+        {
+          "iconClass": "play",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/iv_cover_play",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            68,
+            1969,
+            226,
+            2127
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "Bruno Mars - 24K Magic [Official Video]",
+          "resource-id": "com.amp.android:id/tv_main_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            329,
+            1936,
+            1169,
+            1994
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Get the new album '24K Magic' out now: https://brunom.rs/24kMagic \n\nSee Bruno on the ‘24K Magic…",
+          "resource-id": "com.amp.android:id/tv_subtitle",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            329,
+            1994,
+            1251,
+            2086
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "play",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.amp.android:id/btn_external_service",
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            329,
+            2097,
+            420,
+            2160
+          ],
+          "componentLabel": "Icon"
+        },
+        {
+          "text": "03:47 - 409M plays",
+          "resource-id": "com.amp.android:id/tv_extra_info",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            420,
+            2114,
+            784,
+            2160
+          ],
+          "componentLabel": "Text"
+        }
+      ],
+      "ancestors": [
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.widget.RelativeLayout",
+      "bounds": [
+        0,
+        1873,
+        1440,
+        2182
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}

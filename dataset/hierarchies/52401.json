@@ -1,0 +1,884 @@
+{
+  "ancestors": [
+    "android.widget.FrameLayout",
+    "android.view.ViewGroup",
+    "android.view.View",
+    "java.lang.Object"
+  ],
+  "class": "com.android.internal.policy.PhoneWindow$DecorView",
+  "bounds": [
+    0,
+    0,
+    1440,
+    2560
+  ],
+  "clickable": false,
+  "children": [
+    {
+      "resource-id": "com.sillens.shapeupclub:id/action_bar_container",
+      "children": [
+        {
+          "text": "CRACKERS",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatTextView",
+          "bounds": [
+            252,
+            145,
+            529,
+            218
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "arrow_backward",
+          "ancestors": [
+            "android.widget.ImageButton",
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "bounds": [
+            0,
+            84,
+            196,
+            280
+          ],
+          "clickable": true,
+          "class": "android.support.v7.widget.AppCompatImageButton",
+          "componentLabel": "Icon"
+        }
+      ],
+      "ancestors": [
+        "android.widget.FrameLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "clickable": false,
+      "class": "android.support.v7.widget.ActionBarContainer",
+      "bounds": [
+        0,
+        84,
+        1440,
+        280
+      ],
+      "componentLabel": "Toolbar"
+    },
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.sillens.shapeupclub.widget.FoodRowView",
+      "bounds": [
+        0,
+        280,
+        1440,
+        525
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "E",
+          "resource-id": "com.sillens.shapeupclub:id/textview_food_grade",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            53,
+            345,
+            127,
+            419
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Bread stick",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            345,
+            445,
+            406
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "21 Cal • 1 piece",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_calories",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            406,
+            452,
+            460
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sillens.shapeupclub:id/foodrow_verified_badge",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            470,
+            414,
+            519,
+            460
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.sillens.shapeupclub.widget.FoodRowView",
+      "bounds": [
+        0,
+        525,
+        1440,
+        770
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "D",
+          "resource-id": "com.sillens.shapeupclub:id/textview_food_grade",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            53,
+            590,
+            127,
+            664
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Brown rice cake",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            590,
+            553,
+            651
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "35 Cal • 1 piece",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_calories",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            651,
+            457,
+            705
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sillens.shapeupclub:id/foodrow_verified_badge",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            475,
+            659,
+            524,
+            705
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.sillens.shapeupclub.widget.FoodRowView",
+      "bounds": [
+        0,
+        770,
+        1440,
+        1015
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "E",
+          "resource-id": "com.sillens.shapeupclub:id/textview_food_grade",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            53,
+            835,
+            127,
+            909
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Cheese Cracker",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            835,
+            544,
+            896
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "20 Cal • 1 piece (0.1 oz)",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_calories",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            896,
+            606,
+            950
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sillens.shapeupclub:id/foodrow_verified_badge",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            624,
+            904,
+            673,
+            950
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.sillens.shapeupclub.widget.FoodRowView",
+      "bounds": [
+        0,
+        1015,
+        1440,
+        1260
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "E",
+          "resource-id": "com.sillens.shapeupclub:id/textview_food_grade",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            53,
+            1080,
+            127,
+            1154
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Chex mix",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            1080,
+            399,
+            1141
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "19 Cal • 1 tablespoon (0.2 oz)",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_calories",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            1141,
+            717,
+            1195
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sillens.shapeupclub:id/foodrow_verified_badge",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            735,
+            1149,
+            784,
+            1195
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.sillens.shapeupclub.widget.FoodRowView",
+      "bounds": [
+        0,
+        1260,
+        1440,
+        1505
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "E",
+          "resource-id": "com.sillens.shapeupclub:id/textview_food_grade",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            53,
+            1325,
+            127,
+            1399
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Cracker",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            1325,
+            361,
+            1386
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "29 Cal • 1 bit",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_calories",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            1386,
+            412,
+            1440
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sillens.shapeupclub:id/foodrow_verified_badge",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            430,
+            1394,
+            479,
+            1440
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.sillens.shapeupclub.widget.FoodRowView",
+      "bounds": [
+        0,
+        1505,
+        1440,
+        1750
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "D",
+          "resource-id": "com.sillens.shapeupclub:id/textview_food_grade",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            53,
+            1570,
+            127,
+            1644
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Rice cake",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            1570,
+            401,
+            1631
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "35 Cal • 1 piece (0.3 oz)",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_calories",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            1631,
+            610,
+            1685
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "iconClass": "time",
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sillens.shapeupclub:id/foodrow_verified_badge",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            628,
+            1639,
+            677,
+            1685
+          ],
+          "componentLabel": "Icon"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.sillens.shapeupclub.widget.FoodRowView",
+      "bounds": [
+        0,
+        1750,
+        1440,
+        1995
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "E",
+          "resource-id": "com.sillens.shapeupclub:id/textview_food_grade",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            53,
+            1815,
+            127,
+            1889
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Saltines cracker",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            1815,
+            555,
+            1876
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "21 Cal • 1 piece (0.2 oz)",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_calories",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            1876,
+            605,
+            1930
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sillens.shapeupclub:id/foodrow_verified_badge",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            623,
+            1884,
+            672,
+            1930
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.sillens.shapeupclub.widget.FoodRowView",
+      "bounds": [
+        0,
+        1995,
+        1440,
+        2240
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "E",
+          "resource-id": "com.sillens.shapeupclub:id/textview_food_grade",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            53,
+            2060,
+            127,
+            2134
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Sandwich cracker with filling",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            2060,
+            860,
+            2121
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "35 Cal • 1 piece",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_calories",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            2121,
+            457,
+            2175
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sillens.shapeupclub:id/foodrow_verified_badge",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            475,
+            2129,
+            524,
+            2175
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    },
+    {
+      "ancestors": [
+        "android.widget.RelativeLayout",
+        "android.view.ViewGroup",
+        "android.view.View",
+        "java.lang.Object"
+      ],
+      "class": "com.sillens.shapeupclub.widget.FoodRowView",
+      "bounds": [
+        0,
+        2240,
+        1440,
+        2392
+      ],
+      "clickable": true,
+      "children": [
+        {
+          "text": "E",
+          "resource-id": "com.sillens.shapeupclub:id/textview_food_grade",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            53,
+            2305,
+            127,
+            2379
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "Standard cracker",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_title",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            2305,
+            584,
+            2366
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "text": "20 Cal • 1 piece (0.1 oz)",
+          "resource-id": "com.sillens.shapeupclub:id/relativelayout_textview_calories",
+          "ancestors": [
+            "android.widget.TextView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "clickable": false,
+          "class": "com.sillens.shapeupclub.fonts.MetricAppTextView",
+          "bounds": [
+            180,
+            2366,
+            606,
+            2392
+          ],
+          "componentLabel": "Text"
+        },
+        {
+          "ancestors": [
+            "android.widget.ImageView",
+            "android.view.View",
+            "java.lang.Object"
+          ],
+          "resource-id": "com.sillens.shapeupclub:id/foodrow_verified_badge",
+          "clickable": false,
+          "class": "android.support.v7.widget.AppCompatImageView",
+          "bounds": [
+            624,
+            2374,
+            673,
+            2392
+          ],
+          "componentLabel": "Image"
+        }
+      ],
+      "componentLabel": "List Item"
+    }
+  ]
+}
