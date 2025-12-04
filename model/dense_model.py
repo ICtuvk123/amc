@@ -10,8 +10,8 @@ from model.model_util import Modality
 from model.rotary import apply_rotary_emb
 
 from typing import Iterable, Dict, List
-from scattermoe.mlp import MLP as MoEMLP
-from scattermoe.mlp import GLUMLP
+from scattermoe.scattermoe.mlp import MLP as MoEMLP
+from scattermoe.scattermoe.mlp import GLUMLP
 
 import numpy as np
 
@@ -634,8 +634,14 @@ class SinglemodalTransformer(nn.Module):
         self.latents = nn.Parameter(torch.randn(latent_length, hidden_size))
         self.latents_norm = nn.LayerNorm(self.hidden_size)
         
-        self.input_norm = nn.LayerNorm(self.modality.input_dim)
-        self.input_proj = nn.Linear(self.modality.input_dim, self.hidden_size)
+        # Calculate the actual input dimension after adding positional encodings
+        # For 2D data, we have 2 coordinates, and each coordinate gets freq_bands*2 + 1 features from fourier encoding
+        num_coords = 2  # For 2D image data
+        pos_encoding_dim = num_coords * ((self.modality.freq_bands * 2) + 1)
+        actual_input_dim = self.modality.input_dim + pos_encoding_dim
+
+        self.input_norm = nn.LayerNorm(actual_input_dim)
+        self.input_proj = nn.Linear(actual_input_dim, self.hidden_size)
         self.input_cross_attn = Attention(
             self.hidden_size, 
             n_heads, attn_drop=dropout_rate, proj_drop=dropout_rate
@@ -751,10 +757,16 @@ class MultimodalTransformer(nn.Module):
         # self.input_projector = nn.ModuleDict()
         input_projector = {}
         for kk in self.modalities:
+            # Calculate the actual input dimension after adding positional encodings
+            # For 2D data, we have 2 coordinates, and each coordinate gets freq_bands*2 + 1 features from fourier encoding
+            num_coords = 2  # For 2D image data
+            pos_encoding_dim = num_coords * ((self.modalities[kk].freq_bands * 2) + 1)
+            actual_input_dim = self.modalities[kk].input_dim + pos_encoding_dim
+
             input_projector[kk] = nn.ModuleDict(
                 {
-                    'input_norm': nn.LayerNorm(self.modalities[kk].input_dim),
-                    'input_proj': nn.Linear(self.modalities[kk].input_dim, self.hidden_size)
+                    'input_norm': nn.LayerNorm(actual_input_dim),
+                    'input_proj': nn.Linear(actual_input_dim, self.hidden_size)
                 }
             )
         self.input_projector = nn.ModuleDict(input_projector)
@@ -1039,7 +1051,7 @@ class Custom3DCNN(nn.Module):
 
 class MultimodalTransformerWF(nn.Module):
     def __init__(self, device, modalities: Dict[str, Modality], hidden_size, latent_length, n_heads = 8, n_blocks=4,
-                 dropout_rate = 0.1, pred_dim = 20, 
+                 dropout_rate = 0.1, pred_dim = 20,
                  mlp_ratio = 4, *args, **kwargs) -> None:
         super().__init__(*args, **kwargs)
         self.device = device
@@ -1047,7 +1059,7 @@ class MultimodalTransformerWF(nn.Module):
         # self.max_freq = max_freq
         # self.freq_bands = freq_bands
         # self.freq_base = freq_base
-        
+
         self.hidden_size = hidden_size
         # self.input_dim = input_dim
         self.n_heads = n_heads
@@ -1058,26 +1070,31 @@ class MultimodalTransformerWF(nn.Module):
         # self.latents = nn.Parameter(torch.randn(latent_length, hidden_size))
         self.latents_dict = nn.ParameterDict(self.latents_dict)
         self.latents_norm = nn.LayerNorm(self.hidden_size)
-        
+
         # self.input_projector = nn.ModuleDict()
         input_projector = {}
         for kk in self.modalities:
-            
+            # Calculate the actual input dimension after adding positional encodings
+            # For 2D data, we have 2 coordinates, and each coordinate gets freq_bands*2 + 1 features from fourier encoding
+            num_coords = 2  # For 2D image data
+            pos_encoding_dim = num_coords * ((self.modalities[kk].freq_bands * 2) + 1)
+            actual_input_dim = self.modalities[kk].input_dim + pos_encoding_dim
+
             input_projector[kk] = nn.ModuleDict(
                 {
-                    'input_norm': nn.LayerNorm(self.modalities[kk].input_dim),
-                    'input_proj': nn.Linear(self.modalities[kk].input_dim, self.hidden_size)
+                    'input_norm': nn.LayerNorm(actual_input_dim),
+                    'input_proj': nn.Linear(actual_input_dim, self.hidden_size)
                 }
             )
         self.input_projector = nn.ModuleDict(input_projector)
         # self.input_norm = nn.LayerNorm(self.input_dim)
         # self.input_proj = nn.Linear(self.input_dim, self.hidden_size)
         self.input_cross_attn = Attention(
-            self.hidden_size, 
+            self.hidden_size,
             n_heads, attn_drop=dropout_rate, proj_drop=dropout_rate
         )
         self.n_blocks = n_blocks
-        
+
         self.blocks = nn.ModuleList([
                 VanillaTransformerBlock(hidden_size, n_heads, mlp_ratio, False, dropout_rate, dropout_rate) for i in range(n_blocks)
             ])
@@ -1205,25 +1222,30 @@ class MultimodalTransformerTokenF(nn.Module):
 
         input_projector = {}
         for kk in self.modalities:
-            
+            # Calculate the actual input dimension after adding positional encodings
+            # For 2D data, we have 2 coordinates, and each coordinate gets freq_bands*2 + 1 features from fourier encoding
+            num_coords = 2  # For 2D image data
+            pos_encoding_dim = num_coords * ((self.modalities[kk].freq_bands * 2) + 1)
+            actual_input_dim = self.modalities[kk].input_dim + pos_encoding_dim
+
             input_projector[kk] = nn.ModuleDict(
                 {
-                    'input_norm': nn.LayerNorm(self.modalities[kk].input_dim),
-                    'input_proj': nn.Linear(self.modalities[kk].input_dim, self.hidden_size)
+                    'input_norm': nn.LayerNorm(actual_input_dim),
+                    'input_proj': nn.Linear(actual_input_dim, self.hidden_size)
                 }
             )
         self.input_projector = nn.ModuleDict(input_projector)
 
         self.input_cross_attn = Attention(
-            self.hidden_size, 
+            self.hidden_size,
             n_heads, attn_drop=dropout_rate, proj_drop=dropout_rate
         )
         self.n_blocks = n_blocks
-        
+
         self.blocks = nn.ModuleList([
                 VanillaTransformerBlock(hidden_size, n_heads, mlp_ratio, False, dropout_rate, dropout_rate) for i in range(n_blocks)
             ])
-        
+
         n_modalities = len(self.modalities)
         self.score_predictor = nn.ModuleList(
             [ScorePredictor(n_modalities, self.hidden_size) for i in range(n_blocks)]
@@ -1309,25 +1331,30 @@ class MultimodalTransformerUniTokenFusion(nn.Module):
 
         input_projector = {}
         for kk in self.modalities:
-            
+            # Calculate the actual input dimension after adding positional encodings
+            # For 2D data, we have 2 coordinates, and each coordinate gets freq_bands*2 + 1 features from fourier encoding
+            num_coords = 2  # For 2D image data
+            pos_encoding_dim = num_coords * ((self.modalities[kk].freq_bands * 2) + 1)
+            actual_input_dim = self.modalities[kk].input_dim + pos_encoding_dim
+
             input_projector[kk] = nn.ModuleDict(
                 {
-                    'input_norm': nn.LayerNorm(self.modalities[kk].input_dim),
-                    'input_proj': nn.Linear(self.modalities[kk].input_dim, self.hidden_size)
+                    'input_norm': nn.LayerNorm(actual_input_dim),
+                    'input_proj': nn.Linear(actual_input_dim, self.hidden_size)
                 }
             )
         self.input_projector = nn.ModuleDict(input_projector)
 
         self.input_cross_attn = Attention(
-            self.hidden_size, 
+            self.hidden_size,
             n_heads, attn_drop=dropout_rate, proj_drop=dropout_rate
         )
         self.n_blocks = n_blocks
-        
+
         self.blocks = nn.ModuleList([
                 SparseTransformerBlock(hidden_size, n_heads, mlp_ratio, False, dropout_rate, dropout_rate, num_experts=num_experts, topk=topk) for i in range(n_blocks)
             ])
-        
+
         n_modalities = len(self.modalities)
         self.score_predictor = nn.ModuleList(
             [ScorePredictorv2(n_modalities, self.hidden_size) for i in range(n_blocks)]
@@ -1800,34 +1827,58 @@ class MultimodalTransformerUniTokenFusionV3(nn.Module):
         modality_list.sort()
         for i, kk in enumerate(modality_list):
             data = all_modalities[kk]
-            # batch_size, *axis, _ = data.shape
-            # print(kk, data.shape)
-            x = self.input_projector[kk]['patch_emb'](data.squeeze())
-            # x += self.token_type_embeddings(torch.tensor(i).to(x.device))
+            # Reshape data from [batch, 16, 16, feature_dim] to [batch*16*16, feature_dim]
+            original_shape = data.shape
+            reshaped_data = data.view(-1, data.shape[-1])
+
+            x = self.input_projector[kk]['patch_emb'](reshaped_data)
+            # x now has shape [batch*16*16, num_patches, embed_dim] where num_patches=modality_latent_len=16
+            # Reshape to [batch, 16*16, num_patches, embed_dim]
+            x = x.view(original_shape[0], -1, x.shape[1], x.shape[2])
+            # Now we have [batch, 16*16, 16, embed_dim], need to aggregate spatial dimension
+            # Average pooling across the spatial dimension (16*16) to get [batch, 16, embed_dim]
+            x = x.mean(dim=1)
+
             x = self.pos_embedding(x)
             modality_x[kk] = x
         modality_x = self.mult_align(modality_x)
-        
+
         token_fusion_input = []
         for kk in modality_list:
             x = modality_x[kk]
             token_fusion_input.append(x)
             modality_len.append(x.shape[0])
             token_fusion_ratio.append(self.modalities[kk].token_fusion_topk_ratio)
-            
+
         token_fusion_input = torch.cat(token_fusion_input, dim=0)
         modality_x_feature = token_fusion_input.split(modality_len, dim=0)
-        
-        
+
+
         for i, layer in enumerate(self.blocks):
             
             token_fusion_input = layer(token_fusion_input)
-            
+
             # score = self.score_predictor[i](token_fusion_input, modality_len)
             score = layer.attn.attn_score.split(modality_len, dim=0)
             # mask = [item.softmax(dim=-1) for item in score]
-            score = torch.stack(score).permute(1, 2, 0).softmax(dim=-1)
-            
+            stacked_score = torch.stack(score)
+            original_shape = stacked_score.shape
+            # Handle different dimensional inputs dynamically
+            if stacked_score.dim() == 3:
+                score = stacked_score.permute(1, 2, 0).softmax(dim=-1)
+            elif stacked_score.dim() == 4:
+                # If 4D, squeeze one dimension then permute
+                squeezed_score = stacked_score.squeeze()
+                if squeezed_score.dim() == 3:
+                    score = squeezed_score.permute(1, 2, 0).softmax(dim=-1)
+                else:
+                    # If squeeze didn't reduce to 3D, manually handle the permutation
+                    dims = list(range(1, stacked_score.dim())) + [0]
+                    score = stacked_score.squeeze().permute(*dims).softmax(dim=-1)
+            else:
+                # For other dimensionalities, try to handle generally
+                score = stacked_score.permute(1, 2, 0).softmax(dim=-1)
+
             mask = [score[:,:,i] for i in range(score.shape[-1])]
             modality_score = score.std(dim=1)
             modality_score = modality_score / modality_score.sum(dim=-1,keepdim=True)
@@ -1837,10 +1888,12 @@ class MultimodalTransformerUniTokenFusionV3(nn.Module):
             # print(score.shape, (score[:,:,0].max()-score[:, :, 0].min()).mean().detach().cpu().item())
             # print(score[:,:,0].std(dim=0)[0].detach().item(), score[:,:,1].std(dim=0)[0].detach().item(), score[:,:,2].std(dim=0)[0].detach().item())
             modality_threshold = self.threshold_setting(modality_score)
-            
+
             # print([(mm.min().cpu().item(),mm.max().cpu().item(), mm.std().cpu().item(), mm.mean().cpu().item()) for mm in mask])
             token_fusion_input = token_fusion_input.split(modality_len, dim=0)
-            token_fusion_input = [x_ * mask_.unsqueeze(2) for (x_, mask_) in zip(token_fusion_input, mask)]
+            # Need to handle broadcasting properly - adjust mask dimensions to match x_
+            # Properly expand mask to match x_ dimensions by adding sequence dim and expanding
+            token_fusion_input = [x_ * mask_.unsqueeze(1).unsqueeze(-1).expand_as(x_) for (x_, mask_) in zip(token_fusion_input, mask)]
             if self.fusion_type == 'circle':
                 tmp_modality_x = []
                 for s_id in range(len(modality_list)):

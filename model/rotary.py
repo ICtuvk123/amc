@@ -209,34 +209,78 @@ def apply_rotary(
 
     # Need this, otherwise Triton tries to launch from cuda:0 and we get
     # ValueError: Pointer argument (at 0) cannot be accessed from Triton (cpu tensor?)
-    with torch.cuda.device(x.device.index):
-        rotary_kernel[grid](
-            output,  # data ptrs
-            x,
-            cos,
-            sin,
-            cu_seqlens,
-            seqlen_offsets,
-            seqlen,  # shapes
-            nheads,
-            rotary_dim,
-            seqlen_ro,
-            seqlen // 128,  # key for triton cache (limit number of compilations)
-            output.stride(0) if not is_varlen else 0,  # batch_strides if not varlen else 0
-            output.stride(-3),  # seqlen_stride or total_seqlen_stride
-            output.stride(-2),  # nheads_stride
-            output.stride(-1),  # headdim_stride
-            x.stride(0) if not is_varlen else 0,  # batch_strides if not varlen else 0
-            x.stride(-3),  # seqlen stride or total_seqlen_stride
-            x.stride(-2),  # nheads stride
-            x.stride(-1),  # headdim stride
-            BLOCK_K,
-            isinstance(seqlen_offsets, torch.Tensor),
-            is_varlen,
-            interleaved,
-            conjugate,
-            BLOCK_M,
-        )
+    # Fixed: Use the correct device context and handle potential device index issues
+    if x.is_cuda:
+        device_idx = x.device.index if x.device.index is not None else 0
+        # Ensure CUDA is properly initialized before setting device context
+        torch.cuda.synchronize(device_idx)
+        with torch.cuda.device(device_idx):
+            rotary_kernel[grid](
+                output,  # data ptrs
+                x,
+                cos,
+                sin,
+                cu_seqlens,
+                seqlen_offsets,
+                seqlen,  # shapes
+                nheads,
+                rotary_dim,
+                seqlen_ro,
+                seqlen // 128,  # key for triton cache (limit number of compilations)
+                output.stride(0) if not is_varlen else 0,  # batch_strides if not varlen else 0
+                output.stride(-3),  # seqlen_stride or total_seqlen_stride
+                output.stride(-2),  # nheads_stride
+                output.stride(-1),  # headdim_stride
+                x.stride(0) if not is_varlen else 0,  # batch_strides if not varlen else 0
+                x.stride(-3),  # seqlen stride or total_seqlen_stride
+                x.stride(-2),  # nheads stride
+                x.stride(-1),  # headdim_stride
+                BLOCK_K,
+                isinstance(seqlen_offsets, torch.Tensor),
+                is_varlen,
+                interleaved,
+                conjugate,
+                BLOCK_M,
+            )
+    else:
+        # CPU fallback implementation for rotary embedding
+        # This is a simplified version of the rotary embedding for CPU tensors
+        is_varlen = cu_seqlens is not None
+        if not is_varlen:
+            batch, seqlen, nheads, headdim = x.shape
+        else:
+            total_seqlen, nheads, headdim = x.shape
+            seqlen = max_seqlen
+        rotary_dim = cos.shape[-1] * 2
+
+        # Apply rotary embedding without triton
+        cos = cos.to(x.dtype)
+        sin = sin.to(x.dtype)
+
+        if isinstance(seqlen_offsets, torch.Tensor):
+            seqlen_offsets = seqlen_offsets.to(x.device)
+
+        # Apply rotary to the first rotary_dim dimensions
+        x1, x2 = x[..., :rotary_dim // 2], x[..., rotary_dim // 2:rotary_dim]
+        cos_part = cos[:seqlen].unsqueeze(1)  # [seqlen, 1, rotary_dim//2]
+        sin_part = sin[:seqlen].unsqueeze(1)  # [seqlen, 1, rotary_dim//2]
+
+        if not interleaved:
+            if conjugate:
+                output[..., :rotary_dim // 2] = x1 * cos_part - x2 * sin_part
+                output[..., rotary_dim // 2:rotary_dim] = x1 * sin_part + x2 * cos_part
+            else:
+                output[..., :rotary_dim // 2] = x1 * cos_part + x2 * sin_part
+                output[..., rotary_dim // 2:rotary_dim] = -x1 * sin_part + x2 * cos_part
+        else:
+            # For interleaved, we need to alternate elements
+            x_temp = x[..., :rotary_dim].clone()
+            output[..., :rotary_dim:2] = x_temp[..., ::2] * cos_part - x_temp[..., 1::2] * sin_part
+            output[..., 1:rotary_dim:2] = x_temp[..., 1::2] * cos_part + x_temp[..., ::2] * sin_part
+
+        # Copy remaining dimensions if any
+        if rotary_dim < headdim:
+            output[..., rotary_dim:] = x[..., rotary_dim:]
     return output
 
 class ApplyRotaryEmb(torch.autograd.Function):

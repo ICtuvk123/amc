@@ -22,17 +22,6 @@ class ModelDumper:
 
         self.task_path_str = (root_seed / f"{cpt_name}_{modalities_name}_{args.lr}_{args.batch_size}_{fusion}").__str__()
         self.cross_seeds   = (root       / f"{cpt_name}_{modalities_name}_{args.lr}_{args.batch_size}_{latent}_{fusion}").__str__()
-        self.model_path = self.task_path_str + ".pth"
-
-    def dump(self, model):
-        """Save the model to the specified path"""
-        torch.save(model.state_dict(), self.model_path)
-
-    def dump_json(self, data):
-        """Save data to a JSON file"""
-        json_path = self.model_path.replace('.pth', '.json')
-        with open(json_path, 'w') as f:
-            json.dump(data, f)
 
 
     

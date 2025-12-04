@@ -14,4 +14,4 @@ CUDA_VISIBLE_DEVICES=$gpu_id python -m train.train \
   --path model_ckpt --cpt_name enrico_img_wire \
   --enrico_path /root/amc/data/enrico \
   --model_config config/enrico_config.yml \
-  --num_workers 4
+  --modality all

@@ -12,7 +12,7 @@ from tqdm import tqdm
 
 from dataset.enrico_dataset import get_dataset, EnricoCollect
 
-from model.dense_model import SinglemodalTransformer, MultimodalTransformer, MultimodalTransformerWF, MultimodalTransformerTokenF, MultimodalTransformerUniTokenFusion, MultimodalTransformerUniTokenFusionV2, MultimodalTransformerUniTokenFusionV3, MultimodalTransformerUniTokenFusionV4
+from model.dense_model import SinglemodalTransformer, MultimodalTransformer, MultimodalTransformerWF, MultimodalTransformerTokenF
 from model.model_util import *
 from acm_utilize.yml_parser import YmlConfig
 
@@ -223,14 +223,7 @@ def main(args):
         #     **model_config.obj.network
         # )
     model.to(device)
-    if not hasattr(args, "fusion_type"):
-        try:
-            ft = model_config.obj.fusion_type
-        except Exception:
-            ft = "na"
-        args.fusion_type = ft
-
-    model_dumper = ModelDumper(args.path, args.seed, args.cpt_name, model_config.obj.modality,args)
+    model_dumper = ModelDumper(args.path, args.seed, args.cpt_name, model_config.obj.modality)
     
     optimizer = torch.optim.Adam(model.parameters(), lr = args.lr)
     schedular = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=10000, eta_min=args.lr)
