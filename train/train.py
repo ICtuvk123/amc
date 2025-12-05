@@ -54,6 +54,8 @@ parser.add_argument('--cpt_name', type=str, default="enrico_img")
 parser.add_argument('--enrico_path', type=str, default='data/enrico')
 parser.add_argument('--train', default=True, type=str2bool)
 parser.add_argument('--model_config', default='config/multi_modal_config.yml', type=str)
+parser.add_argument('--fusion_type', default='weighted_fusion', type=str)
+parser.add_argument('--modality_latent_len', type=int, default=16)
 # parser.add_argument('--modality', default='screenImg', type=str, choices=['all', 'screenImg', 'screenWireframeImg'])
 
 args = parser.parse_args()
@@ -223,7 +225,7 @@ def main(args):
         #     **model_config.obj.network
         # )
     model.to(device)
-    model_dumper = ModelDumper(args.path, args.seed, args.cpt_name, model_config.obj.modality)
+    model_dumper = ModelDumper(args.path, args.seed, args.cpt_name, model_config.obj.modality, args)
     
     optimizer = torch.optim.Adam(model.parameters(), lr = args.lr)
     schedular = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=10000, eta_min=args.lr)
